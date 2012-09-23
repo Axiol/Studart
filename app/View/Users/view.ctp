@@ -22,7 +22,7 @@
     </ul>
     <?php if($user["User"]["local"]): ?>
       <?php echo $this->Html->Link(
-        $this->Html->image("http://maps.googleapis.com/maps/api/staticmap?zoom=10&size=170x150&markers=color:green%7C".$user["User"]["local"]."&sensor=true",array("alt" => "Map de localisation")),
+        $this->Html->image("http://maps.googleapis.com/maps/api/staticmap?zoom=11&size=170x150&markers=color:green%7C".$user["User"]["local"]."&sensor=true",array("alt" => "Map de localisation")),
         "https://maps.google.be/maps?q=".$user["User"]["local"],
         array("escape" => false)
       ) ?>
@@ -48,5 +48,27 @@
       </article>
     <?php endforeach; ?>
     </div>
+    <section id="lastPro">
+      <h1>Ses projets</h1>
+      <div class="row">
+      <?php foreach ($user["Project"] as $project): ?>
+        <div class="infoPro">
+          <h1><?php echo $project["title"] ?></h1>
+          <p><?php echo $project["description"] ?></p>
+          <p>
+            <?php foreach ($project["Post"] as $post): ?>
+              <?php 
+                echo $this->Html->link(
+                  $this->Html->image("posts/thumb-".substr($post["image"],0,-4).".jpg", array("alt" => $post["title"],"class" => "img-polaroid")),
+                  array("action" => "view", "controller" => "posts", $post["id"]),
+                  array("escape" => false)
+                );
+              ?>
+            <?php endforeach; ?>
+          </p>
+        </div>
+      <?php endforeach; ?>
+      </div>
+    </section>
   </section>
 </div>

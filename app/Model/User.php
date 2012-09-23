@@ -2,6 +2,8 @@
 class User extends AppModel{
 
   public $hasMany = array("Post", "Comment", "Project");
+
+  public $actsAs = array("Containable");
   
   public $validate = array(
     "username" => array(
