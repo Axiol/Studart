@@ -1,0 +1,317 @@
+/*!
+ * Bootstrap v2.1.0
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+// CSS Reset
+@import "reset.less";
+
+// Core variables and mixins
+@import "variables.less"; // Modify this for custom colors, font-sizes, etc
+@import "mixins.less";
+
+// Grid system and page structure
+@import "scaffolding.less";
+@import "grid.less";
+@import "layouts.less";
+
+// Base CSS
+@import "type.less";
+@import "code.less";
+@import "forms.less";
+@import "tables.less";
+
+// Components: common
+@import "font-awesome.less";
+@import "font-source.less";
+@import "font-signika.less";
+@import "dropdowns.less";
+@import "wells.less";
+@import "component-animations.less";
+@import "close.less";
+
+// Components: Buttons & Alerts
+@import "buttons.less";
+@import "button-groups.less";
+@import "alerts.less"; // Note: alerts share common CSS with buttons and thus have styles in buttons.less
+
+// Components: Nav
+@import "navs.less";
+@import "navbar.less";
+@import "breadcrumbs.less";
+@import "pagination.less";
+@import "pager.less";
+
+// Components: Popovers
+@import "modals.less";
+@import "tooltip.less";
+@import "popovers.less";
+
+// Components: Misc
+@import "thumbnails.less";
+@import "labels-badges.less";
+@import "progress-bars.less";
+@import "accordion.less";
+@import "carousel.less";
+@import "hero-unit.less";
+
+// Utility classes
+@import "utilities.less"; // Has to be last to override when necessary
+
+div.alert {
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+body {
+  background: url("../img/bg.png");
+  background-attachment: fixed;
+  padding-top: 75px;
+  div.navbar {
+    a.brand {
+      background: url("../img/logo.png") no-repeat transparent;
+      background-position: 20px 12px;
+      padding-left: 65px;
+    }
+    ul.pull-right {
+      img {
+        margin-top: -7px;
+        margin-right: 5px;
+        border: 1px solid;
+      }
+      span.alert-msg {
+        background: #f20000;
+        padding: 5px 9px;
+        color: @white;
+        text-shadow: none;
+        .border-radius(4px);
+        border: 1px solid #ff0101;
+      }
+    }
+  }
+  div.container {
+    h1, h2, h3 {
+      font-family: "SignikaRegular";
+      color: #444;
+    }
+    section#last, div#posts {
+      h1 {
+        font-size: 28px;
+        margin-left: 30px;
+      }
+      article.post {
+        margin-top: 30px;
+        .box-shadow(0 1px 5px rgba(0, 0, 0, 0.25));
+        section {
+          background: @white;
+          position: relative;
+          overflow-y: auto;
+          overflow-x: hidden; 
+          min-height: 90px;
+          div.btn-post {
+            width: 45px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            background: @gray;
+            a.love, a.comment {
+              display: inline-block;
+              width: 45px;
+              color: @white;
+              background: @gray;
+              i {
+                margin: 12px 16px;
+              }
+              &:hover {
+                text-decoration: none;
+              }
+            }
+          }
+          h1 {
+            font-size: 18px;
+            line-height: 20px;
+            margin-right: 60px;
+            margin-left: 10px;
+          }
+          p {
+            font-size: 13px;
+            line-height: 14px;
+            margin-right: 60px;
+            margin-left: 10px;
+            margin-bottom: 5px;
+            span.truncate_more, div.clearboth {
+              display: none;
+            }
+          }
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+    div#last {
+      margin-bottom: 50px;
+    }
+    div.pagination {
+      margin-top: 40px;
+    }
+    div#post {
+      margin-top: 20px;
+      section#self {
+        img {
+          width: 100%;
+        }
+        div#navPro {
+          margin-top: 20px;
+          div#prevPro, div#nextPro {
+            div.span2 {
+              a {
+                display: block;
+                height: 42px;
+                padding-top: 20px
+              }
+            }
+          }
+          div#nextPro {
+            div.span2 {
+              text-align: right;
+            }
+          }
+        }
+      }
+      section#info {
+        h1 {
+          font-size: 28px;
+        }
+        ul {
+          a {
+            li {
+              padding: 9px 0;
+              border-bottom: 1px solid @grayLighter;
+              i {
+                margin-right: 15px;
+                color: @grayLight;
+              }
+            }
+            &:hover {
+              text-decoration: none;
+            }
+            &:last-child {
+              li {
+                border-bottom: none;
+              }
+            }
+          }
+        }
+      }
+      section#others {
+        img {
+          width: 100%;
+        }
+        h2 {
+          font-size: 23px;
+        }
+        div.span1 {
+          margin-bottom: 20px;
+        }
+      }
+    }
+    section#comments {
+      margin-top: 30px;
+      h1 {
+        font-size: 23px;
+        margin-bottom: 22px;
+      }
+      div.comment {
+        position: relative;
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        blockquote {
+          margin-left: 50px;
+        }
+      }
+    }
+    form#post-comment {
+      textarea {
+        width: 99%;
+      }
+    }
+    footer {
+      margin-top: 50px;
+      p {
+        text-align: center;
+      }
+    }
+    section#signup {
+      h1 {
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 30px;
+      }
+      div.error-message {
+        margin-left: 160px;
+        color: @red;
+      }
+      div.whatmdp {
+        margin: -15px 0 20px 0;
+      }
+      div.newPro {
+        margin-top: -15px;
+      }
+    }
+    div#profil-intro {
+      section#self {
+        h1 {
+          font-size: 25px;
+        }
+        h2 {
+          color: @grayLight;
+          font-size: 20px;
+          margin-top: -12px;
+          line-height: 20px;
+        }
+        ul {
+          a {
+            li {
+              padding: 9px 0;
+              border-bottom: 1px solid @grayLighter;
+              i {
+                margin-right: 15px;
+                color: @grayLight;
+              }
+            }
+            &:hover {
+              text-decoration: none;
+            }
+            &:last-child {
+              li {
+                border-bottom: none;
+              }
+            }
+          }
+        }
+        a.btn {
+          margin-top: 20px;
+        }
+      }
+      section#last {
+        &>h1 {
+          margin-left: 0;
+        }
+      }
+    }
+  } // container
+  div#projectModal {
+    outline: none;
+  }
+}
