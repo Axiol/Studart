@@ -5270,6 +5270,10 @@ body div.container div#post section#self div#navPro div#nextPro div.span2 {
 }
 body div.container div#post section#info h1 {
   font-size: 28px;
+  margin-bottom: 0;
+}
+body div.container div#post section#info p.whoPost {
+  color: #999999;
 }
 body div.container div#post section#info ul a li {
   padding: 9px 0;

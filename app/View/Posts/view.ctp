@@ -49,6 +49,7 @@
   </section>
   <section id="info" class="span4">
     <h1><?php echo $post['Post']['title'] ?></h1>
+    <p class="whoPost">par <?php echo $this->Html->link($post["User"]["username"],array("action" => "view","controller" => "users",$post["User"]["id"])); ?></p>
     <p><?php echo $post['Post']['description'] ?></p>
     <ul class="unstyled">
       <a href="#"><li><i class="icon-heart icon-large"></i> 26 likes</li></a>
