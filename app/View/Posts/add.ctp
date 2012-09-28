@@ -118,6 +118,8 @@ foreach ($proBrut as $p){
       echo $this->Form->hidden("user_id",array(
         "value" => AuthComponent::user("id")
       ));
+
+      echo $this->Form->end();
     ?>
   </div>
   <div class="modal-footer">

@@ -2,7 +2,7 @@
 
 debug($likeNot);
 
-debug($post); ?>
+//debug($post); ?>
 
 <?php $this->set("title_for_layout", $post["Post"]["title"]); ?>
 
@@ -58,13 +58,19 @@ debug($post); ?>
     <p class="whoPost">par <?php echo $this->Html->link($post["User"]["username"],array("action" => "view","controller" => "users",$post["User"]["id"])); ?></p>
     <p><?php echo $post['Post']['description'] ?></p>
     <ul class="unstyled">
-      <?php 
-        echo $this->Html->link(
-          "<li><i class='icon-heart icon-large'></i> ".count($post["Like"])." likes</li>",
-          array("action" => "like", "controller" => "likes", "?" => array("height" => 400, "width" => 500)),
-          array("escape" => false)
-        );
-      ?>
+      <?php if(AuthComponent::user("id")) {
+        echo $this->Form->create("Like", array("url" => array("controller" => "likes", "action" => "like")));
+        echo $this->Form->hidden("user_id",array(
+          "value" => AuthComponent::user("id")
+        ));
+        echo $this->Form->hidden("post_id",array(
+          "value" => $post["Post"]["id"]
+        ));
+        echo $this->Form->end(); ?>
+        <a href="" onclick="event.preventDefault(); document.getElementById('LikeViewForm').submit();"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
+      <?php } else { ?>
+        <a href="" onclick="event.preventDefault();"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
+      <?php } ?>
       <a href="#"><li><i class="icon-twitter icon-large"></i> Twitter</li></a>
       <a href="#"><li><i class="icon-facebook icon-large"></i> Facebook</li></a>
       <a href="#"><li><i class="icon-envelope-alt icon-large"></i> Mail</li></a>
