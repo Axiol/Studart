@@ -66,8 +66,12 @@ debug($likeNot);
         echo $this->Form->hidden("post_id",array(
           "value" => $post["Post"]["id"]
         ));
-        echo $this->Form->end(); ?>
-        <a href="" onclick="event.preventDefault(); document.getElementById('LikeViewForm').submit();"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
+        echo $this->Form->end();
+        if($likeNot == false) { ?>        
+          <a href="" onclick="event.preventDefault(); document.getElementById('LikeViewForm').submit();"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
+        <?php } else { ?>
+          <a href="<?php echo $this->Html->url(array('controller' => 'likes', 'action' => 'unlike', '?' => array('user_id' => AuthComponent::user("id"), 'post_id' => $post['Post']['id']))) ?>" onclick="event.preventDefault();"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
+        <?php } ?>
       <?php } else { ?>
         <a href="" onclick="event.preventDefault();"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
       <?php } ?>
