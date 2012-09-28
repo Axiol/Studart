@@ -1,3 +1,9 @@
+<?php 
+
+debug($likeNot);
+
+debug($post); ?>
+
 <?php $this->set("title_for_layout", $post["Post"]["title"]); ?>
 
 <?php echo $this->Session->flash(); ?>
@@ -33,7 +39,7 @@
         <?php if(isset($neighbors["next"])){ ?>
           <div class="row">
             <div class="span2">
-              <?php echo $this->Html->link("Post précédent",array("action" => "view","controller" => "posts",$neighbors["prev"]["Post"]["id"])); ?>
+              <?php echo $this->Html->link("Post suivant",array("action" => "view","controller" => "posts",$neighbors["prev"]["Post"]["id"])); ?>
             </div>
             <div class="span1">
               <?php echo $this->Html->link(
@@ -52,7 +58,13 @@
     <p class="whoPost">par <?php echo $this->Html->link($post["User"]["username"],array("action" => "view","controller" => "users",$post["User"]["id"])); ?></p>
     <p><?php echo $post['Post']['description'] ?></p>
     <ul class="unstyled">
-      <a href="#"><li><i class="icon-heart icon-large"></i> 26 likes</li></a>
+      <?php 
+        echo $this->Html->link(
+          "<li><i class='icon-heart icon-large'></i> ".count($post["Like"])." likes</li>",
+          array("action" => "like", "controller" => "likes", "?" => array("height" => 400, "width" => 500)),
+          array("escape" => false)
+        );
+      ?>
       <a href="#"><li><i class="icon-twitter icon-large"></i> Twitter</li></a>
       <a href="#"><li><i class="icon-facebook icon-large"></i> Facebook</li></a>
       <a href="#"><li><i class="icon-envelope-alt icon-large"></i> Mail</li></a>

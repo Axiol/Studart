@@ -2,7 +2,7 @@
 class Post extends AppModel{
   
   public $belongsTo = array("User", "Project");
-  public $hasMany = "Comment";
+  public $hasMany = array("Comment", "Like");
   
   public $actsAs = array("Containable");
   
