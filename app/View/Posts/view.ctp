@@ -1,12 +1,6 @@
-<?php 
+<?php $this->set("title_for_layout", $post["Post"]["title"]);
 
-debug($likeNot);
-
-//debug($post); ?>
-
-<?php $this->set("title_for_layout", $post["Post"]["title"]); ?>
-
-<?php echo $this->Session->flash(); ?>
+echo $this->Session->flash(); ?>
 
 <div id="infoPro" class="row">
   <section class="span12">
@@ -70,7 +64,7 @@ debug($likeNot);
         if($likeNot == false) { ?>        
           <a href="" onclick="event.preventDefault(); document.getElementById('LikeViewForm').submit();"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
         <?php } else { ?>
-          <a href="<?php echo $this->Html->url(array('controller' => 'likes', 'action' => 'unlike', '?' => array('user_id' => AuthComponent::user("id"), 'post_id' => $post['Post']['id']))) ?>" onclick="event.preventDefault();"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
+          <a class="liked" href="<?php echo $this->Html->url(array('controller' => 'likes', 'action' => 'unlike', '?' => array('user_id' => AuthComponent::user("id"), 'post_id' => $post['Post']['id']))) ?>"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
         <?php } ?>
       <?php } else { ?>
         <a href="" onclick="event.preventDefault();"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>

@@ -16,4 +16,16 @@ class LikesController extends AppController{
     }
   }
 
+  function unlike() {
+    $user_id = $this->Auth->user("id");
+    if(!$user_id){
+      $this->redirect("/");
+      die();
+    }
+    if ($this->request->is("get")) {
+      $this->Like->deleteAll(array("Like.user_id" => $this->params["url"]["user_id"], "Like.post_id" => $this->params["url"]["post_id"]), false);
+      $this->redirect($this->referer());
+    }
+  }
+
 }

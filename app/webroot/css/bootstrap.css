@@ -5289,6 +5289,9 @@ body div.container div#post section#info ul a:hover {
 body div.container div#post section#info ul a:last-child li {
   border-bottom: none;
 }
+body div.container div#post section#info ul a.liked li i {
+  color: #9d261d;
+}
 body div.container div#post section#others img {
   width: 100%;
 }
