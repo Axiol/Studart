@@ -5219,6 +5219,14 @@ body div.container section#last article.post section div.btn-post a.comment:hove
 body div.container div#posts article.post section div.btn-post a.comment:hover {
   text-decoration: none;
 }
+body div.container section#last article.post section div.btn-post a.loveOK,
+body div.container div#posts article.post section div.btn-post a.loveOK {
+  background: #9d261d;
+}
+body div.container section#last article.post section div.btn-post form,
+body div.container div#posts article.post section div.btn-post form {
+  display: none;
+}
 body div.container section#last article.post section h1,
 body div.container div#posts article.post section h1 {
   font-size: 18px;

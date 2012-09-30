@@ -9,8 +9,8 @@ class PostsController extends AppController{
     $post = $this->Post->find("first", array("conditions" => array("Post.id" => $id), "contain" => array("User", "User.Post", "Project", "Project.Post", "Comment", "Comment.User", "Comment.User", "Like", "Like.User")));
     $neighbors = $this->Post->find("neighbors", array("field" => "id", "value" => $id, "conditions" => array("Post.project_id" => $post['Post']['project_id'])));
     $likeNot = $this->Post->Like->hasAny(array(
-        "user_id" => $this->Auth->user("id"), 
-        "post_id" => $post["Post"]["id"]
+      "user_id" => $this->Auth->user("id"), 
+      "post_id" => $post["Post"]["id"]
     ));
     $this->set(compact("post", "neighbors", "likeNot"));
   }
