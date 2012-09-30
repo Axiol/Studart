@@ -102,7 +102,7 @@ class UsersController extends AppController{
   
   function view($id = null) {
     $this->User->id = $id;
-    $this->set("user", $this->User->find("first", array("conditions" => array("User.id" => $id), "contain" => array("Post", "Project", "Project.Post"))));
+    $this->set("user", $this->User->find("first", array("conditions" => array("User.id" => $id), "contain" => array("Post", "Post.Like", "Project", "Project.Post"))));
   }
   
   function edit(){
