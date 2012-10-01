@@ -9,7 +9,13 @@ class PostsController extends AppController{
       "conditions" => array("Post.user_id" => 19),
       "contain" => array("User", "Post")
     ));
-    $this->set(compact("posts", "lastComm"));
+    $lastLike = $this->Post->Like->find('all', array(
+      "limit" => 4,
+      "order" => array("Like.created" => 'DESC'),
+      "conditions" => array("Post.user_id" => 19),
+      "contain" => array("User", "Post")
+    ));
+    $this->set(compact("posts", "lastComm", "lastLike"));
   }
   
   function view($id = null) {
