@@ -1,5 +1,7 @@
 <?php $this->set("title_for_layout", "Accueil"); ?>
 
+<?php debug($lastComm); ?>
+
 <?php echo $this->Session->flash(); ?>
 
 <section id="last" class="row">

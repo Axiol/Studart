@@ -2,7 +2,14 @@
 class PostsController extends AppController{
 
   function index(){
-    $this->set("posts", $this->Post->find("all",array("order" => array("Post.created" => "desc"))));
+    $posts = $this->Post->find("all",array("order" => array("Post.created" => "desc")));
+    $lastComm = $this->Post->Comment->find('all', array(
+      "limit" => 4,
+      "order" => array("Comment.created" => 'DESC'),
+      "conditions" => array("Post.user_id" => 19),
+      "contain" => array("User", "Post")
+    ));
+    $this->set(compact("posts", "lastComm"));
   }
   
   function view($id = null) {

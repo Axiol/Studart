@@ -2,6 +2,8 @@
 class Comment extends AppModel{
   
   public $belongsTo = array("User", "Post");
+
+  public $actsAs = array("Containable");
   
   public $validate = array(
     "content" => array(
