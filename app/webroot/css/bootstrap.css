@@ -5139,14 +5139,14 @@ div.alert p:last-child {
   margin-bottom: 0;
 }
 body {
+  padding-top: 75px;
   background: url("../img/bg.png");
   background-attachment: fixed;
-  padding-top: 75px;
 }
 body div.navbar a.brand {
+  padding-left: 65px;
   background: url("../img/logo.png") no-repeat transparent;
   background-position: 20px 12px;
-  padding-left: 65px;
 }
 body div.navbar ul.pull-right img {
   margin-top: -7px;
@@ -5154,25 +5154,40 @@ body div.navbar ul.pull-right img {
   border: 1px solid;
 }
 body div.navbar ul.pull-right span.alert-msg {
-  background: #f20000;
   padding: 5px 9px;
+  border: 1px solid #ff0101;
+  background: #f20000;
   color: #ffffff;
   text-shadow: none;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  border: 1px solid #ff0101;
 }
 body div.container h1,
 body div.container h2,
 body div.container h3 {
-  font-family: "SignikaRegular";
   color: #444;
+  font-family: "SignikaRegular";
+}
+body div.container section#newActi h1 {
+  margin: 30px 0 30px 30px;
+  font-size: 28px;
+}
+body div.container section#newActi div.comment {
+  position: relative;
+}
+body div.container section#newActi div.comment img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body div.container section#newActi div.comment blockquote {
+  margin-left: 50px;
 }
 body div.container section#last h1,
 body div.container div#posts h1 {
-  font-size: 28px;
   margin-left: 30px;
+  font-size: 28px;
 }
 body div.container section#last article.post,
 body div.container div#posts article.post {
@@ -5183,18 +5198,18 @@ body div.container div#posts article.post {
 }
 body div.container section#last article.post section,
 body div.container div#posts article.post section {
-  background: #ffffff;
   position: relative;
-  overflow-y: auto;
   overflow-x: hidden;
+  overflow-y: auto;
   min-height: 90px;
+  background: #ffffff;
 }
 body div.container section#last article.post section div.btn-post,
 body div.container div#posts article.post section div.btn-post {
-  width: 45px;
   position: absolute;
   top: 0;
   right: 0;
+  width: 45px;
   height: 100%;
   background: #555555;
 }
@@ -5204,8 +5219,8 @@ body div.container section#last article.post section div.btn-post a.comment,
 body div.container div#posts article.post section div.btn-post a.comment {
   display: inline-block;
   width: 45px;
-  color: #ffffff;
   background: #555555;
+  color: #ffffff;
 }
 body div.container section#last article.post section div.btn-post a.love i,
 body div.container div#posts article.post section div.btn-post a.love i,
@@ -5229,18 +5244,18 @@ body div.container div#posts article.post section div.btn-post form {
 }
 body div.container section#last article.post section h1,
 body div.container div#posts article.post section h1 {
-  font-size: 18px;
-  line-height: 20px;
   margin-right: 60px;
   margin-left: 10px;
+  font-size: 18px;
+  line-height: 20px;
 }
 body div.container section#last article.post section p,
 body div.container div#posts article.post section p {
+  margin-right: 60px;
+  margin-bottom: 5px;
+  margin-left: 10px;
   font-size: 13px;
   line-height: 14px;
-  margin-right: 60px;
-  margin-left: 10px;
-  margin-bottom: 5px;
 }
 body div.container section#last article.post section p span.truncate_more,
 body div.container div#posts article.post section p span.truncate_more,
@@ -5270,15 +5285,15 @@ body div.container div#post section#self div#navPro {
 body div.container div#post section#self div#navPro div#prevPro div.span2 a,
 body div.container div#post section#self div#navPro div#nextPro div.span2 a {
   display: block;
-  height: 42px;
   padding-top: 20px;
+  height: 42px;
 }
 body div.container div#post section#self div#navPro div#nextPro div.span2 {
   text-align: right;
 }
 body div.container div#post section#info h1 {
-  font-size: 28px;
   margin-bottom: 0;
+  font-size: 28px;
 }
 body div.container div#post section#info p.whoPost {
   color: #999999;
@@ -5313,8 +5328,8 @@ body div.container section#comments {
   margin-top: 30px;
 }
 body div.container section#comments h1 {
-  font-size: 23px;
   margin-bottom: 22px;
+  font-size: 23px;
 }
 body div.container section#comments div.comment {
   position: relative;
@@ -5337,9 +5352,9 @@ body div.container footer p {
   text-align: center;
 }
 body div.container section#signup h1 {
+  margin-bottom: 30px;
   text-align: center;
   font-size: 28px;
-  margin-bottom: 30px;
 }
 body div.container section#signup div.error-message {
   margin-left: 160px;
@@ -5355,9 +5370,9 @@ body div.container div#profil-intro section#self h1 {
   font-size: 25px;
 }
 body div.container div#profil-intro section#self h2 {
+  margin-top: -12px;
   color: #999999;
   font-size: 20px;
-  margin-top: -12px;
   line-height: 20px;
 }
 body div.container div#profil-intro section#self ul a li {
@@ -5387,9 +5402,9 @@ body div.container div#profil-intro section#last section#lastPro > h1 {
   margin-left: 0;
 }
 body div.container div#profil-intro section#last section#lastPro div.row div.infoPro {
-  background: #eeeeee;
   margin-left: 30px;
   padding: 0 0 1px 10px;
+  background: #eeeeee;
 }
 body div.container div#profil-intro section#last section#lastPro div.row div.infoPro > h1 {
   margin-left: 0;

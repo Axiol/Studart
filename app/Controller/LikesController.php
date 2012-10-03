@@ -23,7 +23,9 @@ class LikesController extends AppController{
       die();
     }
     if ($this->request->is("get")) {
-      $this->Like->deleteAll(array("Like.user_id" => $this->params["url"]["user_id"], "Like.post_id" => $this->params["url"]["post_id"]), false);
+      // NOTE: Essayer le mieux lier avec deleteAll
+      $unlikeLike = $this->Like->find("first", array("conditions" => array("Like.user_id" => $this->params["url"]["user_id"], "Like.post_id" => $this->params["url"]["post_id"])));
+      $this->Like->delete($unlikeLike["Like"]["id"]);
       $this->redirect($this->referer());
     }
   }

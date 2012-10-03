@@ -3,6 +3,9 @@
 <div class="row">
   <section id="signup" class="span6 offset3">
     <h1>Se connecter</h1>
+    <!-- 
+    TODO: Autofocus au chargement 
+    -->
     <?php echo $this->Session->flash(); ?>
     <?php
       echo $this->Form->create("User",array("class" => "form-horizontal"));

@@ -70,14 +70,14 @@ div.alert {
 }
 
 body {
+  padding-top: 75px;
   background: url("../img/bg.png");
   background-attachment: fixed;
-  padding-top: 75px;
   div.navbar {
     a.brand {
+      padding-left: 65px;
       background: url("../img/logo.png") no-repeat transparent;
       background-position: 20px 12px;
-      padding-left: 65px;
     }
     ul.pull-right {
       img {
@@ -86,46 +86,62 @@ body {
         border: 1px solid;
       }
       span.alert-msg {
-        background: #f20000;
         padding: 5px 9px;
+        border: 1px solid #ff0101;
+        background: #f20000;
         color: @white;
         text-shadow: none;
         .border-radius(4px);
-        border: 1px solid #ff0101;
       }
     }
   }
   div.container {
     h1, h2, h3 {
-      font-family: "SignikaRegular";
       color: #444;
+      font-family: "SignikaRegular";
+    }
+    section#newActi {
+      h1 {
+        margin: 30px 0 30px 30px;
+        font-size: 28px;
+      }
+      div.comment {
+        position: relative;
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        blockquote {
+          margin-left: 50px;
+        }
+      }
     }
     section#last, div#posts {
       h1 {
-        font-size: 28px;
         margin-left: 30px;
+        font-size: 28px;
       }
       article.post {
         margin-top: 30px;
-        .box-shadow(0 1px 5px rgba(0, 0, 0, 0.25));
         section {
-          background: @white;
           position: relative;
-          overflow-y: auto;
-          overflow-x: hidden; 
+          overflow-x: hidden;
+          overflow-y: auto; 
           min-height: 90px;
+          background: @white;
           div.btn-post {
-            width: 45px;
             position: absolute;
             top: 0;
             right: 0;
+            width: 45px;
             height: 100%;
             background: @gray;
             a.love, a.comment {
               display: inline-block;
               width: 45px;
-              color: @white;
               background: @gray;
+              color: @white;
               i {
                 margin: 12px 16px;
               }
@@ -141,17 +157,17 @@ body {
             }
           }
           h1 {
+            margin-right: 60px;
+            margin-left: 10px;
             font-size: 18px;
             line-height: 20px;
-            margin-right: 60px;
-            margin-left: 10px;
           }
           p {
+            margin-right: 60px;
+            margin-bottom: 5px;
+            margin-left: 10px;
             font-size: 13px;
             line-height: 14px;
-            margin-right: 60px;
-            margin-left: 10px;
-            margin-bottom: 5px;
             span.truncate_more, div.clearboth {
               display: none;
             }
@@ -160,6 +176,7 @@ body {
         img {
           width: 100%;
         }
+        .box-shadow(0 1px 5px rgba(0, 0, 0, 0.25));
       }
     }
     div#last {
@@ -180,8 +197,8 @@ body {
             div.span2 {
               a {
                 display: block;
+                padding-top: 20px;
                 height: 42px;
-                padding-top: 20px
               }
             }
           }
@@ -194,8 +211,8 @@ body {
       }
       section#info {
         h1 {
-          font-size: 28px;
           margin-bottom: 0;
+          font-size: 28px;
         }
         p.whoPost {
           color: @grayLight;
@@ -243,8 +260,8 @@ body {
     section#comments {
       margin-top: 30px;
       h1 {
-        font-size: 23px;
         margin-bottom: 22px;
+        font-size: 23px;
       }
       div.comment {
         position: relative;
@@ -271,9 +288,9 @@ body {
     }
     section#signup {
       h1 {
+        margin-bottom: 30px;
         text-align: center;
         font-size: 28px;
-        margin-bottom: 30px;
       }
       div.error-message {
         margin-left: 160px;
@@ -292,9 +309,9 @@ body {
           font-size: 25px;
         }
         h2 {
+          margin-top: -12px;
           color: @grayLight;
           font-size: 20px;
-          margin-top: -12px;
           line-height: 20px;
         }
         ul {
@@ -332,9 +349,9 @@ body {
           }
           div.row {
             div.infoPro {
-              background: @grayLighter;
               margin-left: 30px;
               padding: 0 0 1px 10px;
+              background: @grayLighter;
               &>h1 {
                 margin-left: 0;
                 font-size: 24px;

@@ -1,8 +1,8 @@
 <?php $this->set("title_for_layout", "Accueil"); ?>
 
-<?php debug($lastComm); ?>
-
 <?php echo $this->Session->flash(); ?>
+
+<?php debug($popu); ?>
 
 <section id="last" class="row">
   <h1>Les derniers posts</h1>
@@ -44,3 +44,31 @@
     </article>
   <?php endforeach; ?>
 </section>
+
+<?php if(AuthComponent::user("id")): ?>
+  <section id="newActi" class="row">
+    <h1>Activités récentes</h1>
+    <div class="span8">
+      <?php foreach ($lastComm as $comment): ?>
+        <div class="comment">
+          <?php
+            $grav_email = $comment["User"]["mail"];
+            $grav_size = 50;
+            $grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $grav_email ) ) ) . "?s=" . $grav_size;
+            
+            echo $this->Html->image($grav_url, array("alt" => "Avatar de ".$comment["User"]["username"]));
+          ?>
+          <blockquote>
+            <p><?php echo $comment["Comment"]["content"] ?></p>
+            <small>par <?php echo $this->Html->link($comment["User"]["username"],array("action" => "view","controller" => "users",$comment["User"]["id"])); ?></small>
+          </blockquote>
+        </div>
+      <?php endforeach; ?>
+    </div>
+    <div class="span4">
+      <?php foreach ($lastLike as $like): ?>
+        <p><?php echo $this->Html->link($like["User"]["username"],array("action" => "view","controller" => "users",$like["User"]["id"])); ?> a aimé votre publication <?php echo $this->Html->link($like["Post"]["title"],array("action" => "view","controller" => "posts",$like["Post"]["id"])); ?></p>
+      <?php endforeach; ?>
+    </div>
+  </section>
+<?php endif; ?>

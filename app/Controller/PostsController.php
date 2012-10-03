@@ -3,19 +3,25 @@ class PostsController extends AppController{
 
   function index(){
     $posts = $this->Post->find("all",array("order" => array("Post.created" => "desc")));
-    $lastComm = $this->Post->Comment->find('all', array(
-      "limit" => 4,
-      "order" => array("Comment.created" => 'DESC'),
-      "conditions" => array("Post.user_id" => 19),
-      "contain" => array("User", "Post")
-    ));
-    $lastLike = $this->Post->Like->find('all', array(
-      "limit" => 4,
-      "order" => array("Like.created" => 'DESC'),
-      "conditions" => array("Post.user_id" => 19),
-      "contain" => array("User", "Post")
-    ));
-    $this->set(compact("posts", "lastComm", "lastLike"));
+
+    $popu = ClassRegistry::init("Post")->topLikePosts();
+
+    $user_id = $this->Auth->user("id");
+    if($user_id){
+      $lastComm = $this->Post->Comment->find('all', array(
+        "limit" => 4,
+        "order" => array("Comment.created" => 'DESC'),
+        "conditions" => array("Post.user_id" => $user_id),
+        "contain" => array("User", "Post")
+      ));
+      $lastLike = $this->Post->Like->find('all', array(
+        "limit" => 8,
+        "order" => array("Like.created" => 'DESC'),
+        "conditions" => array("Post.user_id" => $user_id),
+        "contain" => array("User", "Post")
+      ));
+    }
+    $this->set(compact("posts", "lastComm", "lastLike", "popu"));
   }
   
   function view($id = null) {

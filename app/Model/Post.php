@@ -45,5 +45,12 @@ class Post extends AppModel{
       )
     )
   );
+
+  function topLikePosts($limit = 4) {
+    return $this->find("all", array(
+      "order" => "Post.like_count DESC",
+      "limit" => $limit
+    ));
+  }
   
 }
