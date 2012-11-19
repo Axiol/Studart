@@ -5193,6 +5193,17 @@ body div.container section#popu h1 {
   margin-left: 30px;
   font-size: 28px;
 }
+body div.container section#last h1 span.authPro,
+body div.container div#posts h1 span.authPro,
+body div.container section#popu h1 span.authPro {
+  font-weight: lighter;
+  font-size: 23px;
+}
+body div.container section#last p#descPro,
+body div.container div#posts p#descPro,
+body div.container section#popu p#descPro {
+  margin-left: 30px;
+}
 body div.container section#last article.post,
 body div.container div#posts article.post,
 body div.container section#popu article.post {
@@ -5432,6 +5443,7 @@ body div.container div#profil-intro section#last section#lastPro div.row div.inf
 }
 body div.container div#profil-intro section#last section#lastPro div.row div.infoPro a {
   margin-right: 10px;
+  color: #444;
 }
 body div.container div#profil-intro section#last section#lastPro div.row div.infoPro a img {
   width: 100px;

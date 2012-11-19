@@ -5,7 +5,7 @@ echo $this->Session->flash(); ?>
 <div id="infoPro" class="row">
   <section class="span12">
     <h1><?php echo $post['Project']['title'] ?></h1>
-    <p><?php echo $post['Project']['description'] ?></p>
+    <p><?php echo $post['Project']['description'] ?> (<?php echo $this->Html->link("Voir le projet",array("action" => "view","controller" => "projects",$post["Project"]["id"])); ?>)</p>
   </section>
 </div>
 
@@ -28,6 +28,7 @@ echo $this->Session->flash(); ?>
             </div>
           </div>
         <?php } ?>
+        &nbsp;
       </div>
       <div id="nextPro" class="span3">
         <?php if(isset($neighbors["next"])){ ?>

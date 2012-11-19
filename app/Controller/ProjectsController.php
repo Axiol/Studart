@@ -20,4 +20,9 @@ class ProjectsController extends AppController{
     }
   }
 
+  function view($id = null){
+    $project = $this->Project->find("first", array("conditions" => array("Project.id" => $id), "contain" => array("Post", "Post.Like", "User")));
+    $this->set("project", $project);
+  }
+
 }

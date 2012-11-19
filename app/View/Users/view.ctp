@@ -77,7 +77,7 @@
       <div class="row">
       <?php foreach ($user["Project"] as $project): ?>
         <div class="infoPro">
-          <h1><?php echo $project["title"] ?></h1>
+          <h1><?php echo $this->Html->link($project["title"],array("action" => "view","controller" => "project",$project["id"])); ?></h1>
           <p><?php echo $project["description"] ?></p>
           <p>
             <?php foreach ($project["Post"] as $post): ?>
