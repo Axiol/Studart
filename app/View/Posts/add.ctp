@@ -123,6 +123,7 @@ foreach ($proBrut as $p){
 
       echo $this->Form->end();
     ?>
+    <p id="whatPro">Chaqu'une de vos publications doit être rangée dans un projet. Un peu comme pour organiser vos images par dossier.</p>
   </div>
   <div class="modal-footer">
     <button onclick="document.getElementById('ProjectAddForm').submit();" class="btn btn-primary">Créer</button>

@@ -1,8 +1,16 @@
 <?php
 class PostsController extends AppController{
 
+  public $paginate = array(
+    "limit" => 16,
+    "order" => array(
+     "Post.created" => "desc"
+    )
+  );
+
   function index(){
     $posts = $this->Post->find("all",array("order" => array("Post.created" => "desc")));
+    $posts = $this->paginate();
 
     $popu = ClassRegistry::init("Post")->topLikePosts();
 

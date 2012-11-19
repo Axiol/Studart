@@ -20,12 +20,23 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/TestSuite\/ControllerTestCase.php" : {
+    "\/lib\/Cake\/Console\/Templates\/skel\/webroot\/img\/test-fail-icon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/ControllerTestCase.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/webroot\/img\/test-fail-icon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/webroot\/img\/test-fail-icon.png",
+      "initialSize" : 496,
+      "fileType" : 8192
+    },
+    "\/app\/View\/Layouts\/Emails\/text\/default.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/View\/Layouts\/Emails\/text\/default.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -128,15 +139,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/TestPluginArticleFixture.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/TestPluginArticleFixture.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/test_app\/View\/Themed\/TestTheme\/webroot\/img\/test.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -161,6 +163,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/lib\/Cake\/Test\/Fixture\/TestPluginArticleFixture.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/TestPluginArticleFixture.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/Test\/Fixture\/AfterTreeFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -179,21 +190,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/ItemsPortfolioFixture.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/ItemsPortfolioFixture.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/app\/View\/Layouts\/error.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/View\/Layouts\/error.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/Fixture\/ItemsPortfolioFixture.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/ItemsPortfolioFixture.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -215,21 +226,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/lib\/Cake\/Cache\/Engine\/FileEngine.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Cache\/Engine\/FileEngine.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/Case\/AllConfigureTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/AllConfigureTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Cache\/Engine\/FileEngine.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Cache\/Engine\/FileEngine.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -278,21 +289,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Case\/AllI18nTest.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/AllI18nTest.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/test_app\/Controller\/TestsAppsPostsController.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Controller\/TestsAppsPostsController.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/Case\/AllI18nTest.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/AllI18nTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -314,21 +325,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/View\/Posts\/xml\/index.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Posts\/xml\/index.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/test_app\/View\/Elements\/session_helper.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Elements\/session_helper.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/test_app\/View\/Posts\/xml\/index.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Posts\/xml\/index.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -350,30 +361,23 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/app\/webroot\/img\/posts\/43-b4a0c002.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/43-b4a0c002.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/43-b4a0c002.jpg",
+      "initialSize" : 22125,
+      "fileType" : 4096
+    },
     "\/lib\/Cake\/Model\/Datasource\/Database\/Sqlite.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Model\/Datasource\/Database\/Sqlite.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Test\/Fixture\/CounterCachePostFixture.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/CounterCachePostFixture.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/View\/Scaffolds\/form.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/View\/Scaffolds\/form.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -386,6 +390,24 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/lib\/Cake\/View\/Scaffolds\/form.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/View\/Scaffolds\/form.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/Fixture\/CounterCachePostFixture.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/CounterCachePostFixture.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/Test\/Fixture\/FixturizedTestCase.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -395,12 +417,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/UuidFixture.php" : {
+    "\/lib\/Cake\/Model\/Datasource\/Session\/CakeSessionHandlerInterface.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/UuidFixture.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Model\/Datasource\/Session\/CakeSessionHandlerInterface.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -413,21 +435,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/lib\/Cake\/Test\/Fixture\/UuidFixture.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/UuidFixture.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Config\/bootstrap.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Config\/bootstrap.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Model\/Datasource\/Session\/CakeSessionHandlerInterface.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Model\/Datasource\/Session\/CakeSessionHandlerInterface.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -503,6 +525,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/lib\/Cake\/Test\/Fixture\/ProductUpdateAllFixture.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/ProductUpdateAllFixture.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/app\/webroot\/js\/tests\/unit\/bootstrap-button.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -514,12 +545,12 @@
       "outputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/unit\/bootstrap-button-ck.js",
       "fileType" : 64
     },
-    "\/lib\/Cake\/Test\/Fixture\/ProductUpdateAllFixture.php" : {
+    "\/lib\/Cake\/Console\/Templates\/skel\/webroot\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/ProductUpdateAllFixture.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/webroot\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -529,15 +560,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Config\/Schema\/schema.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Console\/Templates\/skel\/webroot\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/webroot\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -556,15 +578,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Network\/Http\/BasicAuthentication.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/View\/JsonView.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/View\/JsonView.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -601,6 +614,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/MyCategoryFixture.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/View\/JsonView.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/View\/JsonView.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -824,21 +846,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/bootstrap.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/bootstrap.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/Case\/Controller\/Component\/EmailComponentTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Controller\/Component\/EmailComponentTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/test_app\/Controller\/TestsAppsController.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Controller\/TestsAppsController.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -855,21 +877,12 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/Cake\/Test\/test_app\/Controller\/TestsAppsController.php" : {
+    "\/lib\/Cake\/bootstrap.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Controller\/TestsAppsController.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Test\/Fixture\/DataTestFixture.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/DataTestFixture.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/bootstrap.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -886,6 +899,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/lib\/Cake\/Test\/Fixture\/DataTestFixture.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/DataTestFixture.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/View\/Helper\/JsBaseEngineHelper.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -894,6 +916,17 @@
       "inputAbbreviatedPath" : "\/lib\/Cake\/View\/Helper\/JsBaseEngineHelper.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/app\/webroot\/img\/posts\/thumb-41-678a0afa.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-41-678a0afa.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-41-678a0afa.jpg",
+      "initialSize" : 26359,
+      "fileType" : 4096
     },
     "\/lib\/Cake\/Test\/test_app\/View\/Elements\/type_check.ctp" : {
       "ignoreWasSetByUser" : 0,
@@ -922,21 +955,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/TestSuite\/templates\/missing_connection.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/templates\/missing_connection.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Model\/TestPluginAuthors.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Model\/TestPluginAuthors.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/TestSuite\/templates\/missing_connection.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/templates\/missing_connection.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1070,14 +1103,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/Vendor\/css\/test_asset.css" : {
+    "\/lib\/Cake\/Test\/Case\/Model\/Datasource\/Session\/DatabaseSessionTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Vendor\/css\/test_asset.css",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Model\/Datasource\/Session\/DatabaseSessionTest.php",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
     },
     "\/lib\/Cake\/Test\/Fixture\/FruitsUuidTagFixture.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1088,14 +1121,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Case\/Console\/ShellTest.php" : {
+    "\/lib\/Cake\/Test\/test_app\/Vendor\/css\/test_asset.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Console\/ShellTest.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Vendor\/css\/test_asset.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
     },
     "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Model\/TestPluginAuthUser.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1137,12 +1170,12 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/Cake\/Test\/Case\/Model\/Datasource\/Session\/DatabaseSessionTest.php" : {
+    "\/lib\/Cake\/Test\/Case\/Console\/ShellTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Model\/Datasource\/Session\/DatabaseSessionTest.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Console\/ShellTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1191,15 +1224,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Console\/ConsoleInput.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/ConsoleInput.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/Case\/I18n\/I18nTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1209,12 +1233,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Case\/View\/Helper\/JqueryEngineHelperTest.php" : {
+    "\/lib\/Cake\/Console\/ConsoleInput.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/View\/Helper\/JqueryEngineHelperTest.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/ConsoleInput.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1237,6 +1261,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Console\/Templates\/test\/views\/admin_edit.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Model\/Behavior\/TestPluginPersisterTwoBehavior.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Model\/Behavior\/TestPluginPersisterTwoBehavior.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1285,12 +1318,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Network\/Email\/DebugTransport.php" : {
+    "\/lib\/Cake\/Test\/Fixture\/ContentFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Network\/Email\/DebugTransport.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/ContentFixture.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1303,12 +1336,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/ContentFixture.php" : {
+    "\/lib\/Cake\/Network\/Email\/DebugTransport.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/ContentFixture.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Network\/Email\/DebugTransport.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1330,21 +1363,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Model\/Behavior\/TestPluginPersisterTwoBehavior.php" : {
+    "\/lib\/Cake\/Test\/Case\/View\/Helper\/JqueryEngineHelperTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Model\/Behavior\/TestPluginPersisterTwoBehavior.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Network\/CakeRequest.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Network\/CakeRequest.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/View\/Helper\/JqueryEngineHelperTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1357,12 +1381,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/Model\/Datasource\/Database\/TestLocalDriver.php" : {
+    "\/lib\/Cake\/Utility\/Security.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Model\/Datasource\/Database\/TestLocalDriver.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Utility\/Security.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1372,6 +1396,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Network\/Email\/SmtpTransportTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Network\/CakeRequest.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Network\/CakeRequest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1406,12 +1439,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Utility\/Security.php" : {
+    "\/lib\/Cake\/Test\/test_app\/Model\/Datasource\/Database\/TestLocalDriver.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Utility\/Security.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Model\/Datasource\/Database\/TestLocalDriver.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1435,15 +1468,6 @@
       "initialSize" : 12799,
       "fileType" : 8192
     },
-    "\/lib\/Cake\/Console\/Templates\/default\/classes\/model.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/default\/classes\/model.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/test_app\/View\/Emails\/text\/custom.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1459,6 +1483,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/TestSuite\/HtmlCoverageReportTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Console\/Templates\/default\/classes\/model.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/default\/classes\/model.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1583,6 +1616,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/app\/webroot\/img\/posts\/thumb-36-5276dcd0.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-36-5276dcd0.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-36-5276dcd0.jpg",
+      "initialSize" : 12387,
+      "fileType" : 4096
+    },
     "\/lib\/Cake\/Test\/Fixture\/ArticleFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1619,15 +1663,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Console\/Templates\/skel\/View\/Emails\/text\/default.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/View\/Emails\/text\/default.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/app\/webroot\/less\/wells.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1647,6 +1682,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/default\/views\/index.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Console\/Templates\/skel\/View\/Emails\/text\/default.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/View\/Emails\/text\/default.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1686,12 +1730,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Console\/Command\/UpgradeShell.php" : {
+    "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/View\/Helper\/PluggedHelperHelper.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Command\/UpgradeShell.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/View\/Helper\/PluggedHelperHelper.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1704,12 +1748,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/View\/Helper\/PluggedHelperHelper.php" : {
+    "\/lib\/Cake\/Console\/Command\/UpgradeShell.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/View\/Helper\/PluggedHelperHelper.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Command\/UpgradeShell.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1874,15 +1918,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/Cake\/Controller\/Component\/RequestHandlerComponent.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Controller\/Component\/RequestHandlerComponent.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Console\/Templates\/skel\/webroot\/img\/test-skip-icon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1893,6 +1928,15 @@
       "outputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/webroot\/img\/test-skip-icon.png",
       "initialSize" : 1207,
       "fileType" : 8192
+    },
+    "\/lib\/Cake\/Controller\/Component\/RequestHandlerComponent.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Controller\/Component\/RequestHandlerComponent.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/Cake\/Console\/Templates\/skel\/View\/Errors\/error400.ctp" : {
       "ignoreWasSetByUser" : 0,
@@ -1966,21 +2010,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Routing\/Route\/CakeRoute.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Routing\/Route\/CakeRoute.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/Case\/Model\/Datasource\/DboSourceTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Model\/Datasource\/DboSourceTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Routing\/Route\/CakeRoute.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Routing\/Route\/CakeRoute.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2074,6 +2118,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/lib\/Cake\/Console\/Command\/Task\/ModelTask.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Command\/Task\/ModelTask.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/app\/webroot\/less\/close.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2086,15 +2139,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/lib\/Cake\/Console\/Command\/Task\/ModelTask.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Command\/Task\/ModelTask.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/multi_cache.ctp" : {
       "ignoreWasSetByUser" : 0,
@@ -2186,6 +2230,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/app\/webroot\/img\/posts\/40-59a98ac8.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/40-59a98ac8.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/40-59a98ac8.jpg",
+      "initialSize" : 32160,
+      "fileType" : 4096
+    },
     "\/lib\/Cake\/Test\/Fixture\/MyUserFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2213,21 +2268,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Console\/Templates\/skel\/View\/Emails\/html\/default.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/View\/Emails\/html\/default.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/Fixture\/CallbackFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/CallbackFixture.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Console\/Templates\/skel\/View\/Emails\/html\/default.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/View\/Emails\/html\/default.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2249,12 +2304,30 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/lib\/Cake\/Test\/Case\/Model\/ModelIntegrationTest.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Model\/ModelIntegrationTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/cache_empty_sections.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/cache_empty_sections.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Console\/Templates\/default\/views\/view.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/default\/views\/view.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2273,24 +2346,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Utility\/String.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Console\/Templates\/default\/views\/view.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/default\/views\/view.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Test\/Case\/Model\/ModelIntegrationTest.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Model\/ModelIntegrationTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2330,12 +2385,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/SomethingFixture.php" : {
+    "\/lib\/Cake\/Test\/test_app\/View\/Errors\/error400.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/SomethingFixture.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Errors\/error400.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2352,12 +2407,12 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/Cake\/Test\/test_app\/View\/Errors\/error400.ctp" : {
+    "\/lib\/Cake\/Test\/Fixture\/SomethingFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Errors\/error400.ctp",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/SomethingFixture.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2397,21 +2452,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Controller\/Component\/AclComponent.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Controller\/Component\/AclComponent.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Cache\/Engine\/MemcacheEngine.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Cache\/Engine\/MemcacheEngine.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Controller\/Component\/AclComponent.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Controller\/Component\/AclComponent.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2446,12 +2501,12 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/Cake\/Test\/test_app\/Controller\/PagesController.php" : {
+    "\/lib\/Cake\/Config\/unicode\/casefolding\/0400_04ff.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Controller\/PagesController.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Config\/unicode\/casefolding\/0400_04ff.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2464,12 +2519,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Console\/Command\/Task\/PluginTask.php" : {
+    "\/lib\/Cake\/View\/Scaffolds\/index.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Command\/Task\/PluginTask.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/View\/Scaffolds\/index.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2482,21 +2537,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/View\/Scaffolds\/index.ctp" : {
+    "\/lib\/Cake\/Console\/Command\/Task\/PluginTask.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/View\/Scaffolds\/index.ctp",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Command\/Task\/PluginTask.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Config\/unicode\/casefolding\/0400_04ff.php" : {
+    "\/lib\/Cake\/Test\/test_app\/Controller\/PagesController.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Config\/unicode\/casefolding\/0400_04ff.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Controller\/PagesController.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2639,14 +2694,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Console\/Templates\/skel\/View\/Layouts\/ajax.ctp" : {
+    "\/app\/webroot\/img\/posts\/36-5276dcd0.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/View\/Layouts\/ajax.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/36-5276dcd0.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/36-5276dcd0.jpg",
+      "initialSize" : 32160,
+      "fileType" : 4096
     },
     "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Controller\/Component\/TestPluginComponent.php" : {
       "ignoreWasSetByUser" : 0,
@@ -2666,16 +2723,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/app\/webroot\/js\/tests\/vendor\/qunit.js" : {
+    "\/lib\/Cake\/Console\/Templates\/skel\/View\/Layouts\/ajax.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/vendor\/qunit.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/vendor\/qunit-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/View\/Layouts\/ajax.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/Cake\/Test\/test_app\/View\/TestsApps\/json\/index.ctp" : {
       "ignoreWasSetByUser" : 0,
@@ -2683,6 +2738,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/TestsApps\/json\/index.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Console\/Templates\/skel\/View\/Layouts\/Emails\/html\/default.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/View\/Layouts\/Emails\/html\/default.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2695,15 +2759,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Console\/Templates\/skel\/View\/Layouts\/error.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/View\/Layouts\/error.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Model\/Datasource\/DboSource.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2713,14 +2768,25 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Console\/Templates\/skel\/View\/Layouts\/Emails\/html\/default.ctp" : {
+    "\/lib\/Cake\/Console\/Templates\/skel\/View\/Layouts\/error.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/View\/Layouts\/Emails\/html\/default.ctp",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/View\/Layouts\/error.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/app\/webroot\/js\/tests\/vendor\/qunit.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/vendor\/qunit.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/vendor\/qunit-ck.js",
+      "fileType" : 64
     },
     "\/lib\/Cake\/Utility\/Debugger.php" : {
       "ignoreWasSetByUser" : 0,
@@ -2881,21 +2947,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/View\/Helper\/JsHelper.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/View\/Helper\/JsHelper.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Cache\/Cache.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Cache\/Cache.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/View\/Helper\/JsHelper.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/View\/Helper\/JsHelper.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3072,12 +3138,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Case\/Utility\/ValidationTest.php" : {
+    "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/View\/Tests\/scaffold.form.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Utility\/ValidationTest.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/View\/Tests\/scaffold.form.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3099,12 +3165,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/View\/Tests\/scaffold.form.ctp" : {
+    "\/lib\/Cake\/Test\/Case\/Utility\/ValidationTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/View\/Tests\/scaffold.form.ctp",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Utility\/ValidationTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3355,21 +3421,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Config\/unicode\/casefolding\/0100_017f.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Config\/unicode\/casefolding\/0100_017f.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Utility\/Xml.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Utility\/Xml.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Config\/unicode\/casefolding\/0100_017f.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Config\/unicode\/casefolding\/0100_017f.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3561,24 +3627,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/I18n\/I18n.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/I18n\/I18n.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Config\/unicode\/casefolding\/ff00_ffef.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Config\/unicode\/casefolding\/ff00_ffef.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/app\/webroot\/js\/tests\/unit\/bootstrap-tab.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3589,6 +3637,24 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/unit\/bootstrap-tab-ck.js",
       "fileType" : 64
+    },
+    "\/lib\/Cake\/Config\/unicode\/casefolding\/ff00_ffef.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Config\/unicode\/casefolding\/ff00_ffef.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/I18n\/I18n.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/I18n\/I18n.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Config\/acl.ini.php" : {
       "ignoreWasSetByUser" : 0,
@@ -3653,12 +3719,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Error\/ErrorHandler.php" : {
+    "\/lib\/Cake\/Test\/Case\/AllRoutingTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Error\/ErrorHandler.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/AllRoutingTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3680,24 +3746,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/app\/Model\/Post.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/Model\/Post.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Test\/Case\/AllRoutingTest.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/AllRoutingTest.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/View\/Elements\/sub_dir\/sub_element.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3707,12 +3755,30 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/app\/Model\/Post.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/Model\/Post.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/Cache\/CacheEngine.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Cache\/CacheEngine.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Error\/ErrorHandler.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Error\/ErrorHandler.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3839,6 +3905,33 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/lib\/Cake\/Test\/test_app\/Lib\/Log\/Engine\/TestAppLog.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Lib\/Log\/Engine\/TestAppLog.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/Case\/Model\/Behavior\/AclBehaviorTest.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Model\/Behavior\/AclBehaviorTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/TestSuite\/CakeTestLoader.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/CakeTestLoader.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/app\/webroot\/less\/tooltip.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -3852,30 +3945,12 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/Cake\/Test\/Case\/Model\/Behavior\/AclBehaviorTest.php" : {
+    "\/lib\/Cake\/Test\/test_app\/Model\/Datasource\/Test2OtherSource.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Model\/Behavior\/AclBehaviorTest.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Test\/test_app\/Lib\/Log\/Engine\/TestAppLog.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Lib\/Log\/Engine\/TestAppLog.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/TestSuite\/CakeTestLoader.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/CakeTestLoader.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Model\/Datasource\/Test2OtherSource.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3892,24 +3967,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/Cake\/Console\/Command\/Task\/ViewTask.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Command\/Task\/ViewTask.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Test\/test_app\/Model\/Datasource\/Test2OtherSource.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Model\/Datasource\/Test2OtherSource.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/app\/webroot\/less\/tables.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -3922,6 +3979,15 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/lib\/Cake\/Console\/Command\/Task\/ViewTask.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Command\/Task\/ViewTask.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/Cake\/I18n\/L10n.php" : {
       "ignoreWasSetByUser" : 0,
@@ -3972,12 +4038,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/View\/TestsApps\/index.ctp" : {
+    "\/lib\/Cake\/Test\/Case\/Console\/TaskCollectionTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/TestsApps\/index.ctp",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Console\/TaskCollectionTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3990,21 +4056,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/lib\/Cake\/Test\/test_app\/View\/TestsApps\/index.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/TestsApps\/index.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/Console\/Templates\/default\/actions\/controller_actions.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/default\/actions\/controller_actions.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Test\/Case\/Console\/TaskCollectionTest.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Console\/TaskCollectionTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4079,6 +4145,17 @@
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Model\/Datasource\/Database\/TestDriver.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/app\/webroot\/img\/posts\/thumb-40-59a98ac8.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-40-59a98ac8.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-40-59a98ac8.jpg",
+      "initialSize" : 12387,
+      "fileType" : 4096
     },
     "\/lib\/Cake\/Test\/Fixture\/BookFixture.php" : {
       "ignoreWasSetByUser" : 0,
@@ -4170,21 +4247,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Case\/Utility\/SecurityTest.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Utility\/SecurityTest.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/Fixture\/DeviceTypeCategoryFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/DeviceTypeCategoryFixture.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/app\/View\/Layouts\/default.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/View\/Layouts\/default.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4197,12 +4274,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/app\/View\/Layouts\/default.ctp" : {
+    "\/lib\/Cake\/Test\/Case\/Utility\/SecurityTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/View\/Layouts\/default.ctp",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Utility\/SecurityTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4298,21 +4375,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/View\/Errors\/missing_plugin.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/View\/Errors\/missing_plugin.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/test_app\/View\/Posts\/sequencial_nocache.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Posts\/sequencial_nocache.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/View\/Errors\/missing_plugin.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/View\/Errors\/missing_plugin.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4361,15 +4438,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Model\/Datasource\/DataSource.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Model\/Datasource\/DataSource.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/test_app\/Plugin\/PluginJs\/webroot\/js\/plugin_js.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4380,6 +4448,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/PluginJs\/webroot\/js\/plugin_js-ck.js",
       "fileType" : 64
+    },
+    "\/lib\/Cake\/Model\/Datasource\/DataSource.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Model\/Datasource\/DataSource.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/Cake\/Core\/App.php" : {
       "ignoreWasSetByUser" : 0,
@@ -4398,6 +4475,17 @@
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/JoinThingFixture.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/app\/webroot\/img\/posts\/39-510c3d3b.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/39-510c3d3b.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/39-510c3d3b.jpg",
+      "initialSize" : 22125,
+      "fileType" : 4096
     },
     "\/lib\/Cake\/Network\/Email\/MailTransport.php" : {
       "ignoreWasSetByUser" : 0,
@@ -4426,21 +4514,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/BinaryTestFixture.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/BinaryTestFixture.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/Emails\/text\/japanese.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/Emails\/text\/japanese.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/Fixture\/BinaryTestFixture.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/BinaryTestFixture.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4495,15 +4583,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/View\/Emails\/text\/custom_helper.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Emails\/text\/custom_helper.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/Case\/AllViewTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4541,6 +4620,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Utility\/DebuggerTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/test_app\/View\/Emails\/text\/custom_helper.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Emails\/text\/custom_helper.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4614,6 +4702,17 @@
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Posts\/extend_self.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/app\/webroot\/img\/posts\/38-03bd3f78.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/38-03bd3f78.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/38-03bd3f78.jpg",
+      "initialSize" : 32160,
+      "fileType" : 4096
     },
     "\/lib\/Cake\/Test\/Fixture\/DomainFixture.php" : {
       "ignoreWasSetByUser" : 0,
@@ -4955,17 +5054,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/app\/webroot\/js\/tests\/unit\/bootstrap-carousel.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/unit\/bootstrap-carousel.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/unit\/bootstrap-carousel-ck.js",
-      "fileType" : 64
-    },
     "\/app\/webroot\/less\/responsive-utilities.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -4978,6 +5066,17 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/app\/webroot\/js\/tests\/unit\/bootstrap-carousel.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/unit\/bootstrap-carousel.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/unit\/bootstrap-carousel-ck.js",
+      "fileType" : 64
     },
     "\/lib\/Cake\/View\/Helper\/PaginatorHelper.php" : {
       "ignoreWasSetByUser" : 0,
@@ -5026,21 +5125,23 @@
       "initialSize" : 3358,
       "fileType" : 8192
     },
+    "\/app\/webroot\/img\/posts\/41-678a0afa.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/41-678a0afa.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/41-678a0afa.jpg",
+      "initialSize" : 1995924,
+      "fileType" : 4096
+    },
     "\/lib\/Cake\/Console\/Command\/AclShell.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Command\/AclShell.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/app\/Controller\/PostsController.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/Controller\/PostsController.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5056,6 +5157,15 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/app\/Controller\/PostsController.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/Controller\/PostsController.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/Cake\/View\/Helper\/TextHelper.php" : {
       "ignoreWasSetByUser" : 0,
@@ -5093,17 +5203,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/app\/webroot\/js\/tests\/unit\/bootstrap-typeahead.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/unit\/bootstrap-typeahead.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/unit\/bootstrap-typeahead-ck.js",
-      "fileType" : 64
-    },
     "\/lib\/Cake\/TestSuite\/Fixture\/CakeTestModel.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -5121,6 +5220,17 @@
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/View\/Elements\/test_plugin_element.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/app\/webroot\/js\/tests\/unit\/bootstrap-typeahead.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/unit\/bootstrap-typeahead.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/unit\/bootstrap-typeahead-ck.js",
+      "fileType" : 64
     },
     "\/lib\/Cake\/Test\/Fixture\/ArosAcoFixture.php" : {
       "ignoreWasSetByUser" : 0,
@@ -5245,12 +5355,12 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/Cake\/Console\/Templates\/skel\/webroot\/test.php" : {
+    "\/lib\/Cake\/Console\/Command\/I18nShell.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/webroot\/test.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Command\/I18nShell.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5272,12 +5382,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Case\/Console\/Command\/Task\/DbConfigTaskTest.php" : {
+    "\/lib\/Cake\/Console\/Templates\/skel\/webroot\/test.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Console\/Command\/Task\/DbConfigTaskTest.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/webroot\/test.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5299,21 +5409,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/lib\/Cake\/Test\/Case\/Console\/Command\/Task\/DbConfigTaskTest.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Console\/Command\/Task\/DbConfigTaskTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/TestSuite\/templates\/xdebug.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/templates\/xdebug.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Console\/Command\/I18nShell.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Command\/I18nShell.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5344,15 +5454,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Console\/Command\/Task\/BakeTask.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Command\/Task\/BakeTask.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/Case\/AllEventTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -5362,12 +5463,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPluginTwo\/Config\/bootstrap.php" : {
+    "\/lib\/Cake\/Console\/Command\/Task\/BakeTask.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPluginTwo\/Config\/bootstrap.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Command\/Task\/BakeTask.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5377,6 +5478,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Model\/Datasource\/TestSource.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPluginTwo\/Config\/bootstrap.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPluginTwo\/Config\/bootstrap.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5467,12 +5577,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/ProductFixture.php" : {
+    "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/Emails\/html\/default.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/ProductFixture.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/Emails\/html\/default.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5507,30 +5617,32 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/Emails\/html\/default.ctp" : {
+    "\/lib\/Cake\/Test\/Fixture\/ProductFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/Emails\/html\/default.ctp",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/ProductFixture.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/CampaignFixture.php" : {
+    "\/app\/webroot\/img\/posts\/thumb-39-510c3d3b.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/CampaignFixture.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-39-510c3d3b.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-39-510c3d3b.jpg",
+      "initialSize" : 9982,
+      "fileType" : 4096
     },
-    "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Vendor\/Example\/ExampleExample.php" : {
+    "\/lib\/Cake\/Test\/Case\/Network\/Http\/DigestAuthenticationTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Vendor\/Example\/ExampleExample.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Network\/Http\/DigestAuthenticationTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5543,12 +5655,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Case\/Network\/Http\/DigestAuthenticationTest.php" : {
+    "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Vendor\/Example\/ExampleExample.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Network\/Http\/DigestAuthenticationTest.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Vendor\/Example\/ExampleExample.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/Fixture\/CampaignFixture.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/CampaignFixture.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5691,6 +5812,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/lib\/Cake\/Test\/Fixture\/ImageFixture.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/ImageFixture.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Lib\/TestPluginLibrary.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -5700,12 +5830,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/Lib\/Cache\/Engine\/TestAppCacheEngine.php" : {
+    "\/lib\/Cake\/Utility\/CakeNumber.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Lib\/Cache\/Engine\/TestAppCacheEngine.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Utility\/CakeNumber.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5715,15 +5845,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/ArticleFeaturedFixture.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Utility\/CakeNumber.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Utility\/CakeNumber.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5754,14 +5875,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/ImageFixture.php" : {
+    "\/app\/webroot\/img\/posts\/thumb-42-312c92a2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/ImageFixture.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-42-312c92a2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-42-312c92a2.jpg",
+      "initialSize" : 12387,
+      "fileType" : 4096
     },
     "\/lib\/Cake\/Console\/Templates\/skel\/Config\/core.php" : {
       "ignoreWasSetByUser" : 0,
@@ -5769,6 +5892,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/Config\/core.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/test_app\/Lib\/Cache\/Engine\/TestAppCacheEngine.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Lib\/Cache\/Engine\/TestAppCacheEngine.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5864,21 +5996,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Case\/Core\/CakePluginTest.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Core\/CakePluginTest.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/Case\/Model\/Datasource\/CakeSessionTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Model\/Datasource\/CakeSessionTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/Case\/Core\/CakePluginTest.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Core\/CakePluginTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6085,15 +6217,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Model\/Aro.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Model\/Aro.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/app\/webroot\/img\/logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6105,6 +6228,15 @@
       "initialSize" : 2238,
       "fileType" : 8192
     },
+    "\/lib\/Cake\/Model\/Aro.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Model\/Aro.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/Test\/Case\/Model\/ModelValidationTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6114,12 +6246,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/TestSuite\/templates\/menu.php" : {
+    "\/lib\/Cake\/Test\/Case\/Network\/Email\/CakeEmailTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/templates\/menu.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Network\/Email\/CakeEmailTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/View\/Errors\/missing_datasource.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/View\/Errors\/missing_datasource.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6129,6 +6270,24 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/View\/MediaViewTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/Case\/Cache\/Engine\/MemcacheEngineTest.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Cache\/Engine\/MemcacheEngineTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/TestSuite\/templates\/menu.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/templates\/menu.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6154,39 +6313,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Case\/Cache\/Engine\/MemcacheEngineTest.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Cache\/Engine\/MemcacheEngineTest.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Model\/Datasource\/Database\/Mysql.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Model\/Datasource\/Database\/Mysql.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/View\/Errors\/missing_datasource.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/View\/Errors\/missing_datasource.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Test\/Case\/Network\/Email\/CakeEmailTest.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Network\/Email\/CakeEmailTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6216,6 +6348,17 @@
       "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Command\/Task\/TemplateTask.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/app\/webroot\/img\/posts\/thumb-43-b4a0c002.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-43-b4a0c002.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-43-b4a0c002.jpg",
+      "initialSize" : 9982,
+      "fileType" : 4096
     },
     "\/app\/webroot\/less\/hero-unit.less" : {
       "ignoreWasSetByUser" : 0,
@@ -6440,17 +6583,6 @@
       "initialSize" : 18180,
       "fileType" : 4096
     },
-    "\/app\/webroot\/js\/bootstrap-transition.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/webroot\/js\/bootstrap-transition.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/app\/webroot\/js\/bootstrap-transition-ck.js",
-      "fileType" : 64
-    },
     "\/lib\/Cake\/Test\/Case\/Configure\/IniReaderTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6469,41 +6601,23 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/app\/webroot\/js\/bootstrap-transition.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/js\/bootstrap-transition.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/app\/webroot\/js\/bootstrap-transition-ck.js",
+      "fileType" : 64
+    },
     "\/lib\/Cake\/Test\/Fixture\/FeatureSetFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/FeatureSetFixture.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Network\/Email\/CakeEmail.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Network\/Email\/CakeEmail.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/app\/webroot\/js\/tests\/vendor\/jquery.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/vendor\/jquery.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/vendor\/jquery-ck.js",
-      "fileType" : 64
-    },
-    "\/lib\/Cake\/Utility\/Validation.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Utility\/Validation.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6516,21 +6630,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Case\/Model\/Datasource\/Database\/MysqlTest.php" : {
+    "\/lib\/Cake\/Utility\/Validation.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Model\/Datasource\/Database\/MysqlTest.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Config\/unicode\/casefolding\/2150_218f.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Config\/unicode\/casefolding\/2150_218f.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Utility\/Validation.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6543,12 +6648,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Case\/Model\/Datasource\/Database\/PostgresTest.php" : {
+    "\/lib\/Cake\/Test\/Case\/Utility\/InflectorTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Model\/Datasource\/Database\/PostgresTest.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Utility\/InflectorTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6558,6 +6663,42 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Console\/Command\/ApiShellTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Config\/unicode\/casefolding\/2150_218f.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Config\/unicode\/casefolding\/2150_218f.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/TestSuite\/templates\/header.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/templates\/header.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/Case\/Model\/Datasource\/Database\/PostgresTest.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Model\/Datasource\/Database\/PostgresTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/js\/default.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/js\/default.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6590,12 +6731,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Case\/Utility\/InflectorTest.php" : {
+    "\/lib\/Cake\/Test\/Case\/Model\/Datasource\/Database\/MysqlTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Utility\/InflectorTest.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Model\/Datasource\/Database\/MysqlTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6621,21 +6762,23 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/js\/default.ctp" : {
+    "\/app\/webroot\/js\/tests\/vendor\/jquery.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/js\/default.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/vendor\/jquery.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/vendor\/jquery-ck.js",
+      "fileType" : 64
     },
-    "\/lib\/Cake\/Console\/Command\/TestShell.php" : {
+    "\/lib\/Cake\/Controller\/Component\/Auth\/BasicAuthenticate.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Command\/TestShell.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Controller\/Component\/Auth\/BasicAuthenticate.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6650,21 +6793,21 @@
       "initialSize" : 12056,
       "fileType" : 4096
     },
+    "\/lib\/Cake\/Test\/Fixture\/JoinBFixture.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/JoinBFixture.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/Test\/test_app\/View\/Elements\/test_element.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Elements\/test_element.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/app\/View\/Posts\/index.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/View\/Posts\/index.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6677,21 +6820,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/lib\/Cake\/Test\/Fixture\/PostFixture.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/PostFixture.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/TestSuite\/Reporter\/CakeBaseReporter.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/Reporter\/CakeBaseReporter.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Test\/Fixture\/JoinBFixture.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/JoinBFixture.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6704,12 +6847,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/TestSuite\/templates\/header.php" : {
+    "\/lib\/Cake\/Console\/Command\/TestShell.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/templates\/header.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Command\/TestShell.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6722,12 +6865,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/PostFixture.php" : {
+    "\/app\/View\/Posts\/index.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/PostFixture.php",
+      "inputAbbreviatedPath" : "\/app\/View\/Posts\/index.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6740,12 +6883,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Controller\/Component\/Auth\/BasicAuthenticate.php" : {
+    "\/lib\/Cake\/Network\/Email\/CakeEmail.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Controller\/Component\/Auth\/BasicAuthenticate.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Network\/Email\/CakeEmail.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6767,12 +6910,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Case\/Model\/Behavior\/TreeBehaviorScopedTest.php" : {
+    "\/lib\/Cake\/Test\/Fixture\/JoinAFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Model\/Behavior\/TreeBehaviorScopedTest.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/JoinAFixture.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6785,12 +6928,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/JoinAFixture.php" : {
+    "\/lib\/Cake\/Test\/Case\/Model\/Behavior\/TreeBehaviorScopedTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/JoinAFixture.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Model\/Behavior\/TreeBehaviorScopedTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6874,21 +7017,21 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/Cake\/Routing\/Filter\/AssetDispatcher.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Routing\/Filter\/AssetDispatcher.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/test_app\/View\/Pages\/home.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Pages\/home.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Routing\/Filter\/AssetDispatcher.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Routing\/Filter\/AssetDispatcher.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6928,14 +7071,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/CacheTestModelFixture.php" : {
+    "\/app\/webroot\/img\/posts\/42-312c92a2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/CacheTestModelFixture.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/42-312c92a2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/42-312c92a2.jpg",
+      "initialSize" : 32160,
+      "fileType" : 4096
     },
     "\/lib\/Cake\/View\/Helper\/RssHelper.php" : {
       "ignoreWasSetByUser" : 0,
@@ -6946,12 +7091,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/UuiditemFixture.php" : {
+    "\/lib\/Cake\/Test\/Fixture\/CacheTestModelFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/UuiditemFixture.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/CacheTestModelFixture.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6961,6 +7106,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Model\/Datasource\/Session\/TestPluginSession.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/Fixture\/UuiditemFixture.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/UuiditemFixture.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -7055,12 +7209,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/AcoTwoFixture.php" : {
+    "\/lib\/Cake\/Test\/Fixture\/ArmorsPlayerFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/AcoTwoFixture.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/ArmorsPlayerFixture.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -7073,21 +7227,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/ArmorsPlayerFixture.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/ArmorsPlayerFixture.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/Case\/Network\/CakeRequestTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Network\/CakeRequestTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/Fixture\/AcoTwoFixture.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/AcoTwoFixture.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -7111,15 +7265,6 @@
       "initialSize" : 783,
       "fileType" : 8192
     },
-    "\/lib\/Cake\/Test\/test_app\/View\/Posts\/extend_missing_element.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Posts\/extend_missing_element.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/app\/webroot\/img\/posts\/34-6ac86033.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -7131,12 +7276,30 @@
       "initialSize" : 104513,
       "fileType" : 4096
     },
+    "\/lib\/Cake\/Test\/test_app\/View\/Posts\/extend_missing_element.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Posts\/extend_missing_element.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/Controller\/Component\/SecurityComponent.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Controller\/Component\/SecurityComponent.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/Fixture\/BakeArticleFixture.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/BakeArticleFixture.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -7151,15 +7314,6 @@
       "outputAbbreviatedPath" : "\/app\/webroot\/js\/jquery-ck.js",
       "fileType" : 64
     },
-    "\/lib\/Cake\/Test\/Fixture\/BakeArticleFixture.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/BakeArticleFixture.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/Fixture\/TranslateArticleFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -7169,12 +7323,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/View\/Helper\/FormHelper.php" : {
+    "\/lib\/Cake\/Log\/LogEngineCollection.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/View\/Helper\/FormHelper.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Log\/LogEngineCollection.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -7187,12 +7341,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Log\/LogEngineCollection.php" : {
+    "\/lib\/Cake\/View\/Helper\/FormHelper.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Log\/LogEngineCollection.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/View\/Helper\/FormHelper.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -7214,15 +7368,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPluginTwo\/Console\/Command\/ExampleShell.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPluginTwo\/Console\/Command\/ExampleShell.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/app\/webroot\/js\/isotope.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -7233,6 +7378,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/app\/webroot\/js\/isotope-ck.js",
       "fileType" : 64
+    },
+    "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPluginTwo\/Console\/Command\/ExampleShell.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPluginTwo\/Console\/Command\/ExampleShell.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/app\/Controller\/CommentsController.php" : {
       "ignoreWasSetByUser" : 0,
@@ -7364,15 +7518,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/Model\/Behavior\/PersisterOneBehaviorBehavior.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Model\/Behavior\/PersisterOneBehaviorBehavior.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/Fixture\/MyCategoriesMyUsersFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -7382,21 +7527,30 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/TestSuite\/CakeTestSuite.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/CakeTestSuite.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Model\/Validator\/CakeValidationSet.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Model\/Validator\/CakeValidationSet.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/test_app\/Model\/Behavior\/PersisterOneBehaviorBehavior.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Model\/Behavior\/PersisterOneBehaviorBehavior.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/TestSuite\/CakeTestSuite.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/CakeTestSuite.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -7417,6 +7571,17 @@
       "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/CakeTestSuiteCommand.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/app\/webroot\/img\/posts\/37-a1e7561e.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/37-a1e7561e.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/37-a1e7561e.jpg",
+      "initialSize" : 1995924,
+      "fileType" : 4096
     },
     "\/app\/webroot\/index.php" : {
       "ignoreWasSetByUser" : 0,
@@ -7474,21 +7639,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/app\/webroot\/less\/tests\/css-tests.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/webroot\/less\/tests\/css-tests.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/View\/Helper\/SessionHelper.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/View\/Helper\/SessionHelper.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/app\/webroot\/less\/tests\/css-tests.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/less\/tests\/css-tests.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -7510,14 +7675,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/View\/Errors\/private_action.ctp" : {
+    "\/app\/webroot\/js\/bootstrap-collapse.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/View\/Errors\/private_action.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/app\/webroot\/js\/bootstrap-collapse.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/app\/webroot\/js\/bootstrap-collapse-ck.js",
+      "fileType" : 64
     },
     "\/lib\/Cake\/Test\/Fixture\/TranslateTableFixture.php" : {
       "ignoreWasSetByUser" : 0,
@@ -7539,6 +7706,15 @@
       "initialSize" : 240,
       "fileType" : 8192
     },
+    "\/lib\/Cake\/View\/Errors\/private_action.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/View\/Errors\/private_action.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/View\/XmlView.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -7548,34 +7724,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/app\/webroot\/js\/tests\/unit\/bootstrap-alert.js" : {
+    "\/lib\/Cake\/TestSuite\/CakeTestSuiteDispatcher.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/unit\/bootstrap-alert.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/unit\/bootstrap-alert-ck.js",
-      "fileType" : 64
-    },
-    "\/app\/webroot\/js\/bootstrap-collapse.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/webroot\/js\/bootstrap-collapse.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/app\/webroot\/js\/bootstrap-collapse-ck.js",
-      "fileType" : 64
-    },
-    "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/xml\/default.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/xml\/default.ctp",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/CakeTestSuiteDispatcher.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -7592,14 +7746,25 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/Cake\/TestSuite\/CakeTestSuiteDispatcher.php" : {
+    "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/xml\/default.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/CakeTestSuiteDispatcher.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Layouts\/xml\/default.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/app\/webroot\/js\/tests\/unit\/bootstrap-alert.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/unit\/bootstrap-alert.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/app\/webroot\/js\/tests\/unit\/bootstrap-alert-ck.js",
+      "fileType" : 64
     },
     "\/app\/webroot\/js\/tests\/unit\/bootstrap-dropdown.js" : {
       "ignoreWasSetByUser" : 0,
@@ -7749,6 +7914,26 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/lib\/Cake\/Console\/Templates\/skel\/Config\/routes.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/Config\/routes.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/app\/webroot\/img\/posts\/thumb-37-a1e7561e.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-37-a1e7561e.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-37-a1e7561e.jpg",
+      "initialSize" : 26359,
+      "fileType" : 4096
+    },
     "\/app\/webroot\/img\/bg.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -7759,15 +7944,6 @@
       "outputAbbreviatedPath" : "\/app\/webroot\/img\/bg.png",
       "initialSize" : 27279,
       "fileType" : 8192
-    },
-    "\/lib\/Cake\/Console\/Templates\/skel\/Config\/routes.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/Config\/routes.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/lib\/Cake\/Console\/Templates\/skel\/Config\/acl.ini.php" : {
       "ignoreWasSetByUser" : 0,
@@ -7904,21 +8080,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Case\/Controller\/Component\/Auth\/FormAuthenticateTest.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Controller\/Component\/Auth\/FormAuthenticateTest.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Controller\/Component\/CookieComponent.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Controller\/Component\/CookieComponent.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Test\/Case\/Controller\/Component\/Auth\/FormAuthenticateTest.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Controller\/Component\/Auth\/FormAuthenticateTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -8007,12 +8183,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/UuiditemsUuidportfolioNumericidFixture.php" : {
+    "\/lib\/Cake\/Core\/CakePlugin.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/UuiditemsUuidportfolioNumericidFixture.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Core\/CakePlugin.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -8025,21 +8201,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Core\/CakePlugin.php" : {
+    "\/lib\/Cake\/Test\/Fixture\/UuiditemsUuidportfolioNumericidFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Core\/CakePlugin.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Test\/test_app\/View\/Themed\/TestTheme\/Elements\/test_element.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Themed\/TestTheme\/Elements\/test_element.ctp",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/UuiditemsUuidportfolioNumericidFixture.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -8053,6 +8220,15 @@
       "outputAbbreviatedPath" : "\/app\/webroot\/img\/test-pass-icon.png",
       "initialSize" : 783,
       "fileType" : 8192
+    },
+    "\/lib\/Cake\/Test\/test_app\/View\/Themed\/TestTheme\/Elements\/test_element.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Themed\/TestTheme\/Elements\/test_element.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/Cake\/basics.php" : {
       "ignoreWasSetByUser" : 0,
@@ -8108,16 +8284,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/app\/webroot\/img\/posts\/thumb-30-ad2885d9.jpg" : {
+    "\/lib\/Cake\/Config\/unicode\/casefolding\/0530_058f.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-30-ad2885d9.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-30-ad2885d9.jpg",
-      "initialSize" : 9048,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Config\/unicode\/casefolding\/0530_058f.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/Cake\/Test\/test_app\/View\/Errors\/error500.ctp" : {
       "ignoreWasSetByUser" : 0,
@@ -8128,12 +8302,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Config\/unicode\/casefolding\/0530_058f.php" : {
+    "\/lib\/Cake\/Console\/TaskCollection.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Config\/unicode\/casefolding\/0530_058f.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/TaskCollection.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -8148,33 +8322,6 @@
       "outputAbbreviatedPath" : "\/app\/webroot\/js\/bootstrap-popover-ck.js",
       "fileType" : 64
     },
-    "\/lib\/Cake\/Console\/TaskCollection.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/TaskCollection.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/TestSuite\/Fixture\/CakeTestFixture.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/Fixture\/CakeTestFixture.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Test\/Case\/AllComponentsTest.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/AllComponentsTest.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/app\/webroot\/js\/bootstrap-alert.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -8185,6 +8332,35 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/app\/webroot\/js\/bootstrap-alert-ck.js",
       "fileType" : 64
+    },
+    "\/lib\/Cake\/TestSuite\/Fixture\/CakeTestFixture.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/Fixture\/CakeTestFixture.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/app\/webroot\/img\/posts\/thumb-30-ad2885d9.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-30-ad2885d9.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-30-ad2885d9.jpg",
+      "initialSize" : 9048,
+      "fileType" : 4096
+    },
+    "\/lib\/Cake\/Test\/Case\/AllComponentsTest.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/AllComponentsTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/webroot\/root.js" : {
       "ignoreWasSetByUser" : 0,
@@ -8248,15 +8424,6 @@
       "outputAbbreviatedPath" : "\/app\/webroot\/js\/jtruncate-ck.js",
       "fileType" : 64
     },
-    "\/lib\/Cake\/TestSuite\/Coverage\/TextCoverageReport.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/Coverage\/TextCoverageReport.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/test_app\/webroot\/theme\/test_theme\/img\/test.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -8267,6 +8434,15 @@
       "outputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/webroot\/theme\/test_theme\/img\/test.jpg",
       "initialSize" : 5308,
       "fileType" : 4096
+    },
+    "\/lib\/Cake\/TestSuite\/Coverage\/TextCoverageReport.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/Coverage\/TextCoverageReport.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/Cake\/Test\/test_app\/View\/Posts\/extend_loop.ctp" : {
       "ignoreWasSetByUser" : 0,
@@ -8340,12 +8516,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Controller\/Component\/Acl\/AclInterface.php" : {
+    "\/lib\/Cake\/Test\/test_app\/View\/Posts\/parent_view.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Controller\/Component\/Acl\/AclInterface.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Posts\/parent_view.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -8378,12 +8554,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/View\/Posts\/parent_view.ctp" : {
+    "\/lib\/Cake\/Controller\/Component\/Acl\/AclInterface.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Posts\/parent_view.ctp",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Controller\/Component\/Acl\/AclInterface.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -8499,6 +8675,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/lib\/Cake\/Test\/test_app\/View\/Pages\/page.home.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Pages\/page.home.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/Test\/Fixture\/FilmFileFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -8517,12 +8702,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/View\/Pages\/page.home.ctp" : {
+    "\/lib\/Cake\/Console\/Templates\/skel\/View\/Pages\/home.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Pages\/page.home.ctp",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/View\/Pages\/home.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -8532,15 +8717,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Core\/Configure.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Console\/Templates\/skel\/View\/Pages\/home.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/View\/Pages\/home.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -8611,21 +8787,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Model\/BehaviorCollection.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Model\/BehaviorCollection.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Test\/test_app\/View\/Themed\/TestTheme\/Plugin\/TestPlugin\/Tests\/index.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Themed\/TestTheme\/Plugin\/TestPlugin\/Tests\/index.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/Model\/BehaviorCollection.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Model\/BehaviorCollection.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -8665,15 +8841,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Log\/Engine\/FileLog.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Log\/Engine\/FileLog.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/app\/webroot\/less\/navbar.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -8686,6 +8853,15 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/lib\/Cake\/Log\/Engine\/FileLog.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Log\/Engine\/FileLog.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/Cake\/Test\/test_app\/View\/Themed\/TestTheme\/Emails\/text\/themed.ctp" : {
       "ignoreWasSetByUser" : 0,
@@ -8732,15 +8908,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/app\/View\/Users\/edit.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/View\/Users\/edit.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/Cake\/Controller\/Component\/Auth\/DigestAuthenticate.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -8756,6 +8923,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Model\/ModelBehavior.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/app\/View\/Users\/edit.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/View\/Users\/edit.ctp",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -8777,6 +8953,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/lib\/Cake\/Test\/Case\/Utility\/SanitizeTest.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Utility\/SanitizeTest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/Test\/Case\/Network\/CakeResponseTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -8786,21 +8971,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/test_app\/View\/Posts\/cache_form.ctp" : {
+    "\/lib\/Cake\/Test\/Fixture\/NumberTreeTwoFixture.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Posts\/cache_form.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/app\/View\/Layouts\/Emails\/text\/default.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/View\/Layouts\/Emails\/text\/default.ctp",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/NumberTreeTwoFixture.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -8813,39 +8989,41 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/lib\/Cake\/Network\/CakeSocket.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Network\/CakeSocket.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/app\/webroot\/img\/posts\/thumb-38-03bd3f78.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-38-03bd3f78.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/webroot\/img\/posts\/thumb-38-03bd3f78.jpg",
+      "initialSize" : 12387,
+      "fileType" : 4096
+    },
+    "\/lib\/Cake\/Test\/test_app\/View\/Posts\/cache_form.ctp" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/View\/Posts\/cache_form.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Controller\/Component\/OtherComponent.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/test_app\/Plugin\/TestPlugin\/Controller\/Component\/OtherComponent.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Test\/Case\/Utility\/SanitizeTest.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Utility\/SanitizeTest.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/app\/View\/Elements\/notif.ctp" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/View\/Elements\/notif.ctp",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/Cake\/Test\/Case\/Controller\/PagesControllerTest.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Controller\/PagesControllerTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -8876,21 +9054,30 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Network\/CakeSocket.php" : {
+    "\/lib\/Cake\/Test\/Case\/Controller\/PagesControllerTest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Network\/CakeSocket.php",
+      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Case\/Controller\/PagesControllerTest.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/Cake\/Test\/Fixture\/NumberTreeTwoFixture.php" : {
+    "\/app\/View\/Elements\/notif.ctp" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Test\/Fixture\/NumberTreeTwoFixture.php",
+      "inputAbbreviatedPath" : "\/app\/View\/Elements\/notif.ctp",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/Cake\/TestSuite\/ControllerTestCase.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/Cake\/TestSuite\/ControllerTestCase.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -8906,17 +9093,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/lib\/Cake\/Console\/Templates\/skel\/webroot\/img\/test-fail-icon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/webroot\/img\/test-fail-icon.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/Cake\/Console\/Templates\/skel\/webroot\/img\/test-fail-icon.png",
-      "initialSize" : 496,
-      "fileType" : 8192
     },
     "\/lib\/Cake\/Test\/Fixture\/PortfolioFixture.php" : {
       "ignoreWasSetByUser" : 0,

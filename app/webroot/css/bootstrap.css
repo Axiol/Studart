@@ -5199,6 +5199,16 @@ body div.container section#popu h1 span.authPro {
   font-weight: lighter;
   font-size: 23px;
 }
+body div.container section#last div#lastWrap,
+body div.container div#posts div#lastWrap,
+body div.container section#popu div#lastWrap {
+  overflow: visible !important;
+}
+body div.container section#last div.pagination,
+body div.container div#posts div.pagination,
+body div.container section#popu div.pagination {
+  text-align: center;
+}
 body div.container section#last p#descPro,
 body div.container div#posts p#descPro,
 body div.container section#popu p#descPro {
@@ -5454,4 +5464,7 @@ body div.container form#PostAddForm div#visuForm img {
 }
 body div#projectModal {
   outline: none;
+}
+body div#projectModal p#whatPro {
+  color: #999999;
 }
