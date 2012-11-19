@@ -33,7 +33,7 @@
   </section>
   <section id="last" class="span9 offset1">
     <h1>Ses derniers posts</h1>
-    <div class="row">
+    <div id="lastWrap" class="row">
     <?php foreach ($user["Post"] as $post): ?>
       <article class="post span3">
         <section>

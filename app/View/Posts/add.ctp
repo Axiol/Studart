@@ -35,6 +35,7 @@ foreach ($proBrut as $p){
         <?php echo $this->Form->input("title",array(
           "div" => "control-group",
           "class" => "input-xlarge",
+          "autofocus" => "autofocus",
           "label" => array(
             "class" => "control-label",
             "text" => "Titre : "
@@ -57,12 +58,13 @@ foreach ($proBrut as $p){
         
         echo $this->Form->input("visuel",array(
           "div" => "control-group",
+          "onchange" => "readURL(this);",
           "label" => array(
             "class" => "control-label",
             "text" => "Image : "
           ),
           "between" => "<div class='controls'>",
-          "after" => "</div>",
+          "after" => "<div id='visuForm'></div></div>",
           "type" => "file"
         ));
         

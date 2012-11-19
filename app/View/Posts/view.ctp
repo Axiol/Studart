@@ -69,16 +69,16 @@ echo $this->Session->flash(); ?>
       <?php } else { ?>
         <a href="" onclick="event.preventDefault();"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
       <?php } ?>
-      <a href="#"><li><i class="icon-twitter icon-large"></i> Twitter</li></a>
-      <a href="#"><li><i class="icon-facebook icon-large"></i> Facebook</li></a>
-      <a href="#"><li><i class="icon-envelope-alt icon-large"></i> Mail</li></a>
+      <a href="https://twitter.com/intent/tweet?url=<?php echo $this->Html->url(array('action' => 'view','controller' => 'posts',$post['Post']['id']),true); ?>&text=<?php echo $post['Post']['title'] ?>&via=StudartNews"><li><i class="icon-twitter icon-large"></i> Twitter</li></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $this->Html->url(array('action' => 'view','controller' => 'posts',$post['Post']['id']),true); ?>"><li><i class="icon-facebook icon-large"></i> Facebook</li></a>
+      <a href="mailto:?subject=<?php echo $post['Post']['title'] ?> sur StudArt&body=Viens jetter un oeil à mon post <?php echo $post['Post']['title'] ?> sur StudArt <?php echo $this->Html->url(array('action' => 'view','controller' => 'posts',$post['Post']['id']),true); ?>"><li><i class="icon-envelope-alt icon-large"></i> Mail</li></a>
       <?php if($post['Post']['user_id'] == AuthComponent::user("id")){ ?>
         <a href="<?php echo $this->Html->url(array('action' => 'edit', $post['Post']['id'])); ?>"><li><i class="icon-pencil icon-large"></i> Editer</li></a>
         <a href="<?php echo $this->Html->url(array('action' => 'delete', $post['Post']['id'])); ?>"><li><i class="icon-remove icon-large"></i> Supprimer</li></a>
       <?php } ?>
   </section>
   <section id="others" class="span2">
-    <h2>Autre post de Axiol</h2>
+    <h2>Autre post de <?php echo $post["User"]["username"] ?></h2>
     <div class="row">
       <?php for ($i = 0; $i <= 3; $i++) {
         if(isset($post["User"]["Post"][$i])){ ?>

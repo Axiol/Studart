@@ -68,14 +68,41 @@
     </div>
      
     <?php
-      echo $this->Html->script(array('jquery', 'jtruncate', 'bootstrap-transition', 'bootstrap-alert', 'bootstrap-modal', 'bootstrap-dropdown', 'bootstrap-scrollspy', 'bootstrap-tab', 'bootstrap-tooltip', 'bootstrap-popover', 'bootstrap-button', 'bootstrap-collapse', 'bootstrap-carousel', 'bootstrap-typeahead'));
+      echo $this->Html->script(array('jquery', 'jtruncate', 'isotope', 'bootstrap-transition', 'bootstrap-alert', 'bootstrap-modal', 'bootstrap-dropdown', 'bootstrap-scrollspy', 'bootstrap-tab', 'bootstrap-tooltip', 'bootstrap-popover', 'bootstrap-button', 'bootstrap-collapse', 'bootstrap-carousel', 'bootstrap-typeahead'));
     ?>
 
     <script type="text/javascript">
       $("#projectModal").modal({
         backdrop: false
       });
-      $("#projectModal").modal("hide")
+      $("#projectModal").modal("hide");
+
+      $(window).load(function(){
+        // $('#last .post').wookmark({
+        //   container: $('#last'),
+        //   offset: 30
+        // });
+        $('#lastWrap').isotope({
+          itemSelector : '.post',
+          layoutMode : 'fitRows'
+        });
+      });
+
+      // $(function(){
+      //   $("form#PostAddForm input#PostVisuel").change(function(){
+      //     $("div#visuForm").html(this.value);
+      //   });
+      // });
+
+      function readURL(input) {
+        if (input.files && input.files[0]) {
+          var reader = new FileReader();
+          reader.onload = function(e){
+            $("div#visuForm").html("<img class='img-polaroid' src='" + e.target.result + "' alt='Preview du visuel'>");
+          };
+          reader.readAsDataURL(input.files[0]);
+        }
+      }
     </script>
     
     <?php echo $this->element('debug'); ?>
