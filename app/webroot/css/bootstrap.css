@@ -5344,6 +5344,13 @@ body div.container div#posts article.post img,
 body div.container section#popu article.post img {
   width: 100%;
 }
+body div.container section#last article.post:hover,
+body div.container div#posts article.post:hover,
+body div.container section#popu article.post:hover {
+  -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.5);
+}
 body div.container div#last {
   margin-bottom: 50px;
 }
