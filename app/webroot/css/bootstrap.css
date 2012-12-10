@@ -5307,7 +5307,7 @@ body div.container section#popu article.post section div.btn-post p.comment:hove
 body div.container section#last article.post section div.btn-post p.loveOK,
 body div.container div#posts article.post section div.btn-post p.loveOK,
 body div.container section#popu article.post section div.btn-post p.loveOK {
-  background: #9d261d;
+  background: #E0584E;
 }
 body div.container section#last article.post section div.btn-post form,
 body div.container div#posts article.post section div.btn-post form,
@@ -5390,7 +5390,7 @@ body div.container div#post section#info ul a:last-child li {
   border-bottom: none;
 }
 body div.container div#post section#info ul a.liked li i {
-  color: #9d261d;
+  color: #E0584E;
 }
 body div.container div#post section#others img {
   width: 100%;

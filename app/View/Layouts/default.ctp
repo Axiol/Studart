@@ -45,7 +45,7 @@
                   $grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $grav_email ) ) ) . "?s=" . $grav_size;
                 ?>
                 <li><a href="<?php echo $this->Html->url(array("action" => "view","controller" => "users",AuthComponent::user("id"))); ?>"><img src="<?php echo $grav_url ?>" width="25"> <?php echo AuthComponent::user("username") ?></a></li>
-                <li><?php echo $this->Html->link("Poster",array("action" => "add","controller" => "posts")); ?></li>
+                <li><?php echo $this->Html->link("Ajouter",array("action" => "add","controller" => "posts")); ?></li>
                 <li><?php echo $this->Html->link("Se déconnecter",array("action" => "logout","controller" => "users")); ?></li>
               <?php else: ?>
                 <li><?php echo $this->Html->link("S'inscrire",array("action" => "signup","controller" => "users")); ?></li>
