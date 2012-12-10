@@ -33,7 +33,7 @@ class PostsController extends AppController{
   }
   
   function view($id = null) {
-    $post = $this->Post->find("first", array("conditions" => array("Post.id" => $id), "contain" => array("User", "User.Post", "Project", "Project.Post", "Comment", "Comment.User", "Comment.User", "Like", "Like.User")));
+    $post = $this->Post->find("first", array("conditions" => array("Post.id" => $id), "contain" => array("User", "User.Post", "Project", "Project.Post", "Comment", "Comment.User", "Comment.User", "Like", "Like.User", "Tag")));
     $neighbors = $this->Post->find("neighbors", array("field" => "id", "value" => $id, "conditions" => array("Post.project_id" => $post['Post']['project_id'])));
     $likeNot = $this->Post->Like->hasAny(array(
       "user_id" => $this->Auth->user("id"), 
