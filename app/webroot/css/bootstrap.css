@@ -5214,6 +5214,17 @@ body div.container div#posts p#descPro,
 body div.container section#popu p#descPro {
   margin-left: 30px;
 }
+body div.container section#last a.linkWrap,
+body div.container div#posts a.linkWrap,
+body div.container section#popu a.linkWrap {
+  display: block;
+  color: #444;
+}
+body div.container section#last a.linkWrap:hover,
+body div.container div#posts a.linkWrap:hover,
+body div.container section#popu a.linkWrap:hover {
+  text-decoration: none;
+}
 body div.container section#last article.post,
 body div.container div#posts article.post,
 body div.container section#popu article.post {
@@ -5241,36 +5252,49 @@ body div.container section#popu article.post section div.btn-post {
   height: 100%;
   background: #555555;
 }
-body div.container section#last article.post section div.btn-post a.love,
-body div.container div#posts article.post section div.btn-post a.love,
-body div.container section#popu article.post section div.btn-post a.love,
-body div.container section#last article.post section div.btn-post a.comment,
-body div.container div#posts article.post section div.btn-post a.comment,
-body div.container section#popu article.post section div.btn-post a.comment {
+body div.container section#last article.post section div.btn-post p.love,
+body div.container div#posts article.post section div.btn-post p.love,
+body div.container section#popu article.post section div.btn-post p.love {
+  text-align: center;
+  padding: 14px 0;
+}
+body div.container section#last article.post section div.btn-post p.comment,
+body div.container div#posts article.post section div.btn-post p.comment,
+body div.container section#popu article.post section div.btn-post p.comment {
+  padding-top: 6px;
+}
+body div.container section#last article.post section div.btn-post p.love,
+body div.container div#posts article.post section div.btn-post p.love,
+body div.container section#popu article.post section div.btn-post p.love,
+body div.container section#last article.post section div.btn-post p.comment,
+body div.container div#posts article.post section div.btn-post p.comment,
+body div.container section#popu article.post section div.btn-post p.comment {
+  margin: 0;
+  font-size: 18px;
   display: inline-block;
   width: 45px;
   background: #555555;
   color: #ffffff;
 }
-body div.container section#last article.post section div.btn-post a.love i,
-body div.container div#posts article.post section div.btn-post a.love i,
-body div.container section#popu article.post section div.btn-post a.love i,
-body div.container section#last article.post section div.btn-post a.comment i,
-body div.container div#posts article.post section div.btn-post a.comment i,
-body div.container section#popu article.post section div.btn-post a.comment i {
+body div.container section#last article.post section div.btn-post p.love i,
+body div.container div#posts article.post section div.btn-post p.love i,
+body div.container section#popu article.post section div.btn-post p.love i,
+body div.container section#last article.post section div.btn-post p.comment i,
+body div.container div#posts article.post section div.btn-post p.comment i,
+body div.container section#popu article.post section div.btn-post p.comment i {
   margin: 12px 16px;
 }
-body div.container section#last article.post section div.btn-post a.love:hover,
-body div.container div#posts article.post section div.btn-post a.love:hover,
-body div.container section#popu article.post section div.btn-post a.love:hover,
-body div.container section#last article.post section div.btn-post a.comment:hover,
-body div.container div#posts article.post section div.btn-post a.comment:hover,
-body div.container section#popu article.post section div.btn-post a.comment:hover {
+body div.container section#last article.post section div.btn-post p.love:hover,
+body div.container div#posts article.post section div.btn-post p.love:hover,
+body div.container section#popu article.post section div.btn-post p.love:hover,
+body div.container section#last article.post section div.btn-post p.comment:hover,
+body div.container div#posts article.post section div.btn-post p.comment:hover,
+body div.container section#popu article.post section div.btn-post p.comment:hover {
   text-decoration: none;
 }
-body div.container section#last article.post section div.btn-post a.loveOK,
-body div.container div#posts article.post section div.btn-post a.loveOK,
-body div.container section#popu article.post section div.btn-post a.loveOK {
+body div.container section#last article.post section div.btn-post p.loveOK,
+body div.container div#posts article.post section div.btn-post p.loveOK,
+body div.container section#popu article.post section div.btn-post p.loveOK {
   background: #9d261d;
 }
 body div.container section#last article.post section div.btn-post form,

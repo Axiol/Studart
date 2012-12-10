@@ -62,7 +62,7 @@
       <?php echo $this->fetch('content'); ?>
   
       <footer>
-        <p>&copy; Studart 2012</p>
+        <p>&copy; StudArt 2012</p>
       </footer>
       
     </div>
@@ -94,7 +94,7 @@
       //   });
       // });
 
-      function readURL(input) {
+      function prevVisu(input) {
         if (input.files && input.files[0]) {
           var reader = new FileReader();
           reader.onload = function(e){
@@ -103,16 +103,14 @@
           reader.readAsDataURL(input.files[0]);
         }
       }
-    </script>
 
-    <script type="text/javascript">
-  var uvOptions = {};
-  (function() {
-    var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
-    uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/OhK0RfUhGvMIRwKYbLSw.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
-  })();
-</script>
+      var uvOptions = {};
+      (function() {
+        var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
+        uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/OhK0RfUhGvMIRwKYbLSw.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
+      })();
+    </script>
     
     <?php echo $this->element('debug'); ?>
     

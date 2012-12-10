@@ -58,7 +58,7 @@ foreach ($proBrut as $p){
         
         echo $this->Form->input("visuel",array(
           "div" => "control-group",
-          "onchange" => "readURL(this);",
+          "onchange" => "prevVisu(this);",
           "label" => array(
             "class" => "control-label",
             "text" => "Image : "

@@ -138,6 +138,13 @@ body {
       p#descPro {
         margin-left: 30px;
       }
+      a.linkWrap {
+        display: block;
+        color: #444;
+        &:hover {
+          text-decoration: none;
+        }
+      }
       article.post {
         margin-top: 30px;
         section {
@@ -153,7 +160,16 @@ body {
             width: 45px;
             height: 100%;
             background: @gray;
-            a.love, a.comment {
+            p.love {
+              text-align: center;
+              padding: 14px 0;
+            }
+            p.comment {
+              padding-top: 6px;
+            }
+            p.love, p.comment {
+              margin: 0;
+              font-size: 18px;
               display: inline-block;
               width: 45px;
               background: @gray;
@@ -165,7 +181,7 @@ body {
                 text-decoration: none;
               }
             }
-            a.loveOK {
+            p.loveOK {
               background: @red;
             }
             form {
