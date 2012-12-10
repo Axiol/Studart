@@ -7,8 +7,9 @@
   <p id="descPro"><?php echo $project["Project"]["description"] ?></p>
 
   <?php foreach ($project["Post"] as $post): ?>
-    <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['id']), true); ?>">
-      <article class="post span3">
+    <article class="post span3">
+      <a class="commLink" href="#">&nbsp;</a>
+      <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['id']), true); ?>">
         <section>
           <h1><?php echo $post["title"]; ?></h1>
           <p><?php echo substr($post["description"],0,75); ?>...</p>
@@ -32,7 +33,7 @@
           </div>
         </section>
         <?php echo $this->Html->image("posts/thumb-".substr($post["image"],0,-4).".jpg", array("alt" => $post["title"])); ?>
-      </article>
-    </a>
+      </a>
+    </article>
   <?php endforeach; ?>
 </section>

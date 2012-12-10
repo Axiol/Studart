@@ -5,8 +5,9 @@
 <section id="popu" class="row">
   <h1>Les populaires du mois</h1>
   <?php foreach ($popu as $post): ?>
-    <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['Post']['id']), true); ?>">
-      <article class="post span3">
+    <article class="post span3">
+      <a class="commLink" href="#">&nbsp;</a>
+      <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['Post']['id']), true); ?>">
         <section>
           <h1><?php echo $post["Post"]["title"]; ?></h1>
           <p><?php echo substr($post["Post"]["description"],0,75); ?>...</p>
@@ -30,8 +31,8 @@
           </div>
         </section>
         <?php echo $this->Html->image("posts/thumb-".substr($post["Post"]["image"],0,-4).".jpg", array("alt" => $post["Post"]["title"])); ?>
-      </article>
-    </a>
+      </a>
+    </article>
   <?php endforeach; ?>
 </section>
 
@@ -39,8 +40,9 @@
   <h1>Les derniers posts</h1>
   <div id="lastWrap">
     <?php foreach ($posts as $post): ?>
-      <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['Post']['id']), true); ?>">
-        <article class="post span3">
+      <article class="post span3">
+        <a class="commLink" href="#">&nbsp;</a>
+        <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['Post']['id']), true); ?>">
           <section>
             <h1><?php echo $post["Post"]["title"]; ?></h1>
             <p><?php echo substr($post["Post"]["description"],0,75); ?>...</p>
@@ -64,8 +66,8 @@
             </div>
           </section>
           <section><?php echo $this->Html->image("posts/thumb-".substr($post["Post"]["image"],0,-4).".jpg", array("alt" => $post["Post"]["title"])); ?></section>
-        </article>
-      </a>
+        </a>
+      </article>
     <?php endforeach; ?>
   </div>
   <?php $span = isset($span) ? $span : 8; ?>

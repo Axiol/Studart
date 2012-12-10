@@ -35,8 +35,9 @@
     <h1>Ses derniers posts</h1>
     <div id="lastWrap" class="row">
     <?php foreach ($user["Post"] as $post): ?>
-      <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['id']), true); ?>">
-        <article class="post span3">
+      <article class="post span3">
+        <a class="commLink" href="#">&nbsp;</a>
+        <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['id']), true); ?>">
           <section>
             <h1><?php echo substr($post["title"],0,20); ?></h1>
             <p><?php echo substr($post["description"],0,75); ?>...</p>
@@ -60,8 +61,8 @@
             </div>
           </section>
           <?php echo $this->Html->image("posts/thumb-".substr($post["image"],0,-4).".jpg", array("alt" => $post["title"])); ?>
-        </article>
-      </a>
+        </a>
+      </article>
     <?php endforeach; ?>
     </div>
     <section id="lastPro">

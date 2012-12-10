@@ -5229,9 +5229,21 @@ body div.container section#last article.post,
 body div.container div#posts article.post,
 body div.container section#popu article.post {
   margin-top: 30px;
+  position: relative;
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+body div.container section#last article.post a.commLink,
+body div.container div#posts article.post a.commLink,
+body div.container section#popu article.post a.commLink {
+  position: absolute;
+  z-index: 10;
+  top: 45px;
+  right: 0;
+  display: block;
+  width: 45px;
+  height: 45px;
 }
 body div.container section#last article.post section,
 body div.container div#posts article.post section,
