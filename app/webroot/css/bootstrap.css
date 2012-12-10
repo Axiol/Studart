@@ -5367,7 +5367,9 @@ body div.container div#post section#self div#navPro {
   margin-top: 20px;
 }
 body div.container div#post section#self div#navPro div#prevPro div.span2 a,
-body div.container div#post section#self div#navPro div#nextPro div.span2 a {
+body div.container div#post section#self div#navPro div#nextPro div.span2 a,
+body div.container div#post section#self div#navPro div#prevPro div.span2 p,
+body div.container div#post section#self div#navPro div#nextPro div.span2 p {
   display: block;
   padding-top: 20px;
   height: 42px;

@@ -12,39 +12,45 @@ echo $this->Session->flash(); ?>
 <div id="post" class="row">
   <section id="self" class="span6">
     <?php echo $this->Html->image("posts/".$post["Post"]["image"], array("alt" => $post["Post"]["title"],"class" => "img-polaroid")); ?>
+
+    <?php 
+      // echo $this->Html->link(
+      //   $this->Html->image("posts/thumb-".substr($neighbors["prev"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["prev"]["Post"]["title"],"class" => "img-polaroid")),
+      //   array("action" => "view", "controller" => "posts", $neighbors["prev"]["Post"]["id"]),
+      //   array("escape" => false)
+      // );
+    ?>
+
     <div id="navPro" class="row">
       <div id="prevPro" class="span3">
         <?php if(isset($neighbors["prev"])){ ?>
-          <div class="row">
-            <div class="span1">
-              <?php echo $this->Html->link(
-                $this->Html->image("posts/thumb-".substr($neighbors["prev"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["prev"]["Post"]["title"],"class" => "img-polaroid")),
-                array("action" => "view", "controller" => "posts", $neighbors["prev"]["Post"]["id"]),
-                array("escape" => false)
-              ); ?>
+          <a href="<?php echo $this->Html->url(array("action" => "view", "controller" => "posts", $neighbors["prev"]["Post"]["id"])); ?>" title="Voir le post précédent du projet">
+            <div class="row">
+              <div class="span1">
+                <?php echo $this->Html->image("posts/thumb-".substr($neighbors["prev"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["prev"]["Post"]["title"],"class" => "img-polaroid"))?>
+              </div>
+              <div class="span2">
+                <p>Post précédent</p>
+              </div>
             </div>
-            <div class="span2">
-              <?php echo $this->Html->link("Post précédent",array("action" => "view","controller" => "posts",$neighbors["prev"]["Post"]["id"])); ?>
-            </div>
-          </div>
+          </a>
         <?php } ?>
         &nbsp;
       </div>
       <div id="nextPro" class="span3">
         <?php if(isset($neighbors["next"])){ ?>
-          <div class="row">
-            <div class="span2">
-              <?php echo $this->Html->link("Post suivant",array("action" => "view","controller" => "posts",$neighbors["prev"]["Post"]["id"])); ?>
+          <a href="<?php echo $this->Html->url(array("action" => "view", "controller" => "posts", $neighbors["next"]["Post"]["id"])); ?>" title="Voir le post suivant du projet">
+            <div class="row">
+              <div class="span2">
+                <p>Post suivant</p>
+              </div>
+              <div class="span1">
+                <?php echo $this->Html->image("posts/thumb-".substr($neighbors["next"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["next"]["Post"]["title"],"class" => "img-polaroid"))?>
+              </div>
             </div>
-            <div class="span1">
-              <?php echo $this->Html->link(
-                $this->Html->image("posts/thumb-".substr($neighbors["next"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["next"]["Post"]["title"],"class" => "img-polaroid")),
-                array("action" => "view", "controller" => "posts", $neighbors["next"]["Post"]["id"]),
-                array("escape" => false)
-              ); ?>
-            </div>
-          </div>
+          </a>
         <?php } ?>
+        &nbsp;
       </div>
     </div>
   </section>
