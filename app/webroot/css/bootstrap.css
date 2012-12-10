@@ -5428,6 +5428,27 @@ body div.container footer {
 body div.container footer p {
   text-align: center;
 }
+body div.container section#signup section#modifAva {
+  overflow: auto;
+  margin-bottom: 20px;
+  background: #eeeeee;
+  padding: 10px;
+}
+body div.container section#signup section#modifAva p {
+  padding-top: 5px;
+}
+body div.container section#signup section#modifAva img {
+  float: left;
+  margin-right: 20px;
+}
+body div.container section#signup section#modifPass {
+  background: #eeeeee;
+  padding: 10px 0 5px 0;
+  margin: 15px 0 30px 0;
+}
+body div.container section#signup section#modifPass p {
+  margin: 0 10px 25px 10px;
+}
 body div.container section#signup h1 {
   margin-bottom: 30px;
   text-align: center;

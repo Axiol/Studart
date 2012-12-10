@@ -28,7 +28,7 @@
       ) ?>
     <?php endif; ?>
     <?php if(AuthComponent::user("id") == $user["User"]["id"]) {
-      echo $this->Html->link("Editer mon profile",array("controller" => "users", "action" => "edit"),array("class" => "btn"));
+      echo $this->Html->link("Editer mon profil",array("controller" => "users", "action" => "edit"),array("class" => "btn"));
     } ?>
   </section>
   <section id="last" class="span9 offset1">

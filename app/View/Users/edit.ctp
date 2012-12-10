@@ -1,9 +1,17 @@
-<?php $this->set("title_for_layout", "Editer son compte"); ?>
+<?php $this->set("title_for_layout", "Modifier son compte"); ?>
 
 <div class="row">
   <section id="signup" class="span6 offset3">
     <h1>Modifier son compte</h1>
     <?php echo $this->Session->flash(); ?>
+
+    <?php
+      $grav_email = AuthComponent::user("mail");
+      $grav_size = 100;
+      $grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $grav_email ) ) ) . "?s=" . $grav_size;
+    ?>
+    <section id="modifAva"><img class="img-polaroid" src="<?php echo $grav_url ?>" width="100"><p>Votre avatar est géré par le service Gravatar. Pour le modifier, rendez vous <a href="https://fr.gravatar.com/" title="Se rendre sur le site de Gravatar">à cette adresse</a>.</p></section>
+    
     <?php
       echo $this->Form->create("User",array("class" => "form-horizontal"));
       
@@ -101,6 +109,8 @@
           "after" => "</div>"
         ));
         
+        ?><section id="modifPass">
+        <p>Si vous souhaitez modifier votre mot de passe, remplissez ces deux champs, sinon, laissez les vide.</p><?php
         echo $this->Form->input("pass1",array(
           "div" => "control-group",
           "class" => "input-xlarge",
@@ -121,12 +131,13 @@
           "between" => "<div class='controls'>",
           "after" => "</div>"
         ));
+        ?></section><?php
     ?>
     <div class="controls">
       <?php
         echo $this->Form->end(
           array(
-            "label" => "Modifier",
+            "label" => "Enregistrer",
             "class" => "btn"
           )
         );
