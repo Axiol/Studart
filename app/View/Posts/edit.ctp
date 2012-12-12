@@ -2,7 +2,7 @@
 
 <div class="row">
   <section id="signup" class="span6 offset3">
-    <h1>Poster une contribution</h1>
+    <h1>Editer la publication</h1>
     <?php echo $this->Session->flash(); ?>
     <?php
       echo $this->Form->create("Post",array("class" => "form-horizontal","enctype" => "multipart/form-data"));
@@ -29,7 +29,35 @@
           "after" => "</div>",
           "type" => "textarea"
         ));
+
+        echo $this->Form->input("tags",array(
+          "div" => "control-group",
+          "class" => "input-xlarge",
+          "label" => array(
+            "class" => "control-label",
+            "text" => "Tags : "
+          ),
+          "between" => "<div class='controls'>",
+          "after" => "</div>"
+        ));
     ?>
+
+    <div class="control-group newPro">
+      <div class="controls">
+        <p>Séparés les par une virgule</p>
+        <p>
+          <?php foreach ($this->data["Tag"] as $tag): ?>
+            <span class="tags delAja"><?php echo $tag["name"]; ?>
+              <?php echo $this->Html->link('x', array(
+                'action' => 'deltag',
+                '?' => array('post_id' => $this->data["Post"]["id"], 'tag_id' => $tag["id"]))
+              ); ?>
+            </span>
+          <?php endforeach; ?>
+        </p>
+      </div>
+    </div>
+
     <div class="controls">
       <?php
         echo $this->Form->end(

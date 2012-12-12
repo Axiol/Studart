@@ -60,7 +60,7 @@ echo $this->Session->flash(); ?>
     <p><?php echo $post['Post']['description'] ?></p>
     <p id="tags">
       <?php foreach ($post["Tag"] as $tag): ?>
-        <span><?php echo $tag["name"]; ?></span>
+        <a class="tagsWrap" href="<?php echo $this->Html->url(array('action' => 'tag', $tag['name'])) ?>" title="Voir les autres posts ayant ce tag"><span class="tags"><?php echo $tag["name"]; ?></span></a>
       <?php endforeach; ?>
     </p>
     <ul class="unstyled">

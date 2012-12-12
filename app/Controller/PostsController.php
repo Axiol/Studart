@@ -96,5 +96,19 @@ class PostsController extends AppController{
       $this->redirect("/");
     }
   }
+
+  function delTag() {
+    $this->Post->PostTag->deleteAll(array(
+      "post_id" => $this->params['url']['post_id'],
+      "tag_id" => $this->params['url']['tag_id']
+    ));
+  }
+
+  function tag($name) {
+    $this->loadModel("PostTag");
+    $this->PostTag->recursive = 2;
+    $posts = $this->paginate("PostTag", array("Tag.name" => $name));
+    $this->set(compact("posts"));
+  }
   
 }
