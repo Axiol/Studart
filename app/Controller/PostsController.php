@@ -33,7 +33,7 @@ class PostsController extends AppController{
   }
   
   function view($id = null) {
-    $post = $this->Post->find("first", array("conditions" => array("Post.id" => $id), "contain" => array("User", "User.Post", "Project", "Project.Post", "Comment", "Comment.User", "Comment.User", "Like", "Like.User")));
+    $post = $this->Post->find("first", array("conditions" => array("Post.id" => $id), "contain" => array("User", "User.Post", "Project", "Project.Post", "Comment", "Comment.User", "Comment.User", "Like", "Like.User", "Tag")));
     $neighbors = $this->Post->find("neighbors", array("field" => "id", "value" => $id, "conditions" => array("Post.project_id" => $post['Post']['project_id'])));
     $likeNot = $this->Post->Like->hasAny(array(
       "user_id" => $this->Auth->user("id"), 
@@ -95,6 +95,18 @@ class PostsController extends AppController{
       $this->Session->setFlash("Votre post a bien été supprimé","notif",array("type" => "alert-success"));
       $this->redirect("/");
     }
+  }
+
+  function delTag($id) {
+    $this->autoRender = false;
+    $this->Post->PostTag->delete($id);
+  }
+
+  function tag($name) {
+    $this->loadModel("PostTag");
+    $this->PostTag->recursive = 2;
+    $posts = $this->paginate("PostTag", array("Tag.name" => $name));
+    $this->set(compact("posts"));
   }
   
 }

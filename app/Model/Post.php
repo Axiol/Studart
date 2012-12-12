@@ -2,7 +2,8 @@
 class Post extends AppModel{
   
   public $belongsTo = array("User", "Project");
-  public $hasMany = array("Comment", "Like");
+  public $hasMany = array("Comment", "Like", "PostTag");
+  public $hasAndBelongsToMany = array("Tag");
   
   public $actsAs = array("Containable");
   
@@ -45,6 +46,32 @@ class Post extends AppModel{
       )
     )
   );
+
+  public function afterSave($created){
+    if(!empty($this->data["Post"]["tags"])){
+      $tags = explode(",", $this->data["Post"]["tags"]);
+      foreach ($tags as $tag) {
+        $tag = trim($tag);
+        if(!empty($tag)){
+          $d = ($this->Tag->findByName($tag));
+          if ($d != false) {
+            $this->Tag->id = $d["Tag"]["id"];
+          } else {
+            $this->Tag->create();
+            $this->Tag->save(array(
+              "name" => $tag
+            ));
+          }
+          $this->PostTag->create();
+          $this->PostTag->save(array(
+            "post_id" => $this->id,
+            "tag_id" => $this->Tag->id
+          ));
+        }
+      }
+      return true;
+    }
+  }
 
   function topLikePosts($limit = 4) {
     return $this->find("all", array(

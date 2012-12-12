@@ -58,6 +58,11 @@ echo $this->Session->flash(); ?>
     <h1><?php echo $post['Post']['title'] ?></h1>
     <p class="whoPost">par <?php echo $this->Html->link($post["User"]["username"],array("action" => "view","controller" => "users",$post["User"]["id"])); ?></p>
     <p><?php echo $post['Post']['description'] ?></p>
+    <p id="tags">
+      <?php foreach ($post["Tag"] as $tag): ?>
+        <a class="tagsWrap" href="<?php echo $this->Html->url(array('action' => 'tag', $tag['name'])) ?>" title="Voir les autres posts ayant ce tag"><span class="tags"><?php echo $tag["name"]; ?></span></a>
+      <?php endforeach; ?>
+    </p>
     <ul class="unstyled">
       <?php if(AuthComponent::user("id")) {
         echo $this->Form->create("Like", array("url" => array("controller" => "likes", "action" => "like")));

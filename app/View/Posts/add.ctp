@@ -55,8 +55,26 @@ foreach ($proBrut as $p){
           "after" => "</div>",
           "type" => "textarea"
         ));
+
+        echo $this->Form->input("tags",array(
+          "div" => "control-group",
+          "class" => "input-xlarge",
+          "autofocus" => "autofocus",
+          "label" => array(
+            "class" => "control-label",
+            "text" => "Tags : "
+          ),
+          "between" => "<div class='controls'>",
+          "after" => "</div>"
+        )); ?>
+
+        <div class="control-group newPro">
+          <div class="controls">
+            <p>Séparés les par une virgule</p>
+          </div>
+        </div>
         
-        echo $this->Form->input("visuel",array(
+        <?php echo $this->Form->input("visuel",array(
           "div" => "control-group",
           "onchange" => "prevVisu(this);",
           "label" => array(

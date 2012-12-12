@@ -78,21 +78,19 @@
       $("#projectModal").modal("hide");
 
       $(window).load(function(){
-        // $('#last .post').wookmark({
-        //   container: $('#last'),
-        //   offset: 30
-        // });
         $('#lastWrap').isotope({
           itemSelector : '.post',
           layoutMode : 'fitRows'
         });
       });
 
-      // $(function(){
-      //   $("form#PostAddForm input#PostVisuel").change(function(){
-      //     $("div#visuForm").html(this.value);
-      //   });
-      // });
+      $(function(){
+        $("span.delAja a").click(function(){
+          $.get($(this).attr("href"));
+          $(this).parent().fadeOut();
+          return false;
+        })
+      });
 
       function prevVisu(input) {
         if (input.files && input.files[0]) {
