@@ -59,7 +59,7 @@ class PostsController extends AppController{
         $this->Post->saveField("image",$filename);
         Img::creerMin(IMAGES."posts".DS.$filename,IMAGES."posts","thumb-".$filename,270,202);
         $this->Session->setFlash("Votre publication a bien été postée","notif",array("type" => "alert-success"));
-        $this->redirect(array('action' => 'index'));
+        $this->redirect(array('action' => 'view', $this->Post->id));
       }else{
         $this->Session->setFlash("Merci de corriger les erreurs","notif",array("type" => "alert-error"));
       }
