@@ -50,7 +50,7 @@
             <span class="tags delAja"><?php echo $tag["name"]; ?>
               <?php echo $this->Html->link('x', array(
                 'action' => 'deltag',
-                '?' => array('post_id' => $this->data["Post"]["id"], 'tag_id' => $tag["id"]))
+                $tag["PostsTag"]["id"])
               ); ?>
             </span>
           <?php endforeach; ?>

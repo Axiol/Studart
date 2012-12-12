@@ -97,11 +97,9 @@ class PostsController extends AppController{
     }
   }
 
-  function delTag() {
-    $this->Post->PostTag->deleteAll(array(
-      "post_id" => $this->params['url']['post_id'],
-      "tag_id" => $this->params['url']['tag_id']
-    ));
+  function delTag($id) {
+    $this->autoRender = false;
+    $this->Post->PostTag->delete($id);
   }
 
   function tag($name) {
