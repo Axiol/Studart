@@ -78,7 +78,7 @@ class PostsController extends AppController{
     }else{
       if($this->Post->save($this->request->data,true,array("title","description"))) {
         $this->Session->setFlash("Votre publication a bien été mise à jour","notif",array("type" => "alert-success"));
-        $this->redirect(array("action" => "index"));
+        $this->redirect(array("action" => "view", $id));
       }else{
         $this->Session->setFlash("Impossible de mettre à jour votre post","notif",array("type" => "alert-error"));
       }
