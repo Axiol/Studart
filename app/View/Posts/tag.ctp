@@ -3,7 +3,7 @@
 <?php echo $this->Session->flash(); ?>
 
 <section id="last" class="row">
-  <h1>Les posts taggés avec <?php echo $posts[0]["Tag"]["name"] ?></h1>
+  <h1>Les posts taggés avec "<?php echo $posts[0]["Tag"]["name"] ?>"</h1>
   <div id="lastWrap">
     <?php foreach ($posts as $post): ?>
       <article class="post span3">

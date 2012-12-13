@@ -38,6 +38,13 @@
 
 <section id="last" class="row">
   <h1>Les derniers posts</h1>
+  <?php echo $this->Form->create("Post",array("action" => "search", "id" => "searchForm"));
+  echo $this->Form->input("keyword",array(
+    "label" => "",
+    "type" => "search",
+    "placeholder" => "Recherche..."
+  ));
+  echo $this->Form->end(); ?>
   <div id="lastWrap">
     <?php foreach ($posts as $post): ?>
       <article class="post span3">

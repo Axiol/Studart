@@ -5215,6 +5215,34 @@ body div.container section#popu h1 span.authPro {
   font-weight: lighter;
   font-size: 23px;
 }
+body div.container section#last form#searchForm,
+body div.container div#posts form#searchForm,
+body div.container section#popu form#searchForm {
+  float: right;
+  margin-top: -47px;
+}
+body div.container section#last form#searchForm input,
+body div.container div#posts form#searchForm input,
+body div.container section#popu form#searchForm input {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+body div.container section#last section#noResult,
+body div.container div#posts section#noResult,
+body div.container section#popu section#noResult {
+  margin: 50px 0 0 0;
+}
+body div.container section#last section#noResult p,
+body div.container div#posts section#noResult p,
+body div.container section#popu section#noResult p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+body div.container section#last section#noResult div,
+body div.container div#posts section#noResult div,
+body div.container section#popu section#noResult div {
+  text-align: center;
+  margin: 20px 0;
+}
 body div.container section#last div#lastWrap,
 body div.container div#posts div#lastWrap,
 body div.container section#popu div#lastWrap {

@@ -108,5 +108,24 @@ class PostsController extends AppController{
     $posts = $this->paginate("PostTag", array("Tag.name" => $name));
     $this->set(compact("posts"));
   }
+
+  function search() {
+    $keyword = $this->request->data;
+    $keyword = $keyword["Post"]["keyword"];
+    // $cond=array("OR"=>array("Post.title LIKE '%$keyword%'","Post.description LIKE '%$keyword%'"));
+    $posts = $this->paginate('Post', array(
+      'OR' => array(
+          'Post.title LIKE' => "%$keyword%",
+          'Post.description LIKE' => "%$keyword%"
+      )
+    ));
+    if(count($posts) == 0) {
+          $this->loadModel("PostTag");
+          $tags = $this->PostTag->Tag->find("all");
+          $this->set(compact("posts", "keyword", "tags"));
+    } else {
+      $this->set(compact("posts", "keyword"));
+    }
+  }
   
 }
