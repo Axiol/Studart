@@ -2,6 +2,7 @@
 
 <?php echo $this->Session->flash(); ?>
 
+<?php if(isset($this->request->params['named']['page']) == false) { ?>
 <section id="popu" class="row">
   <h1>Les populaires du mois</h1>
   <?php foreach ($popu as $post): ?>
@@ -35,6 +36,7 @@
     </article>
   <?php endforeach; ?>
 </section>
+<?php } ?>
 
 <section id="last" class="row">
   <h1>Les derniers posts</h1>
