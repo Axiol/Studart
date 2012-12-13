@@ -3,39 +3,39 @@
 <?php echo $this->Session->flash(); ?>
 
 <?php if(isset($this->request->params['named']['page']) == false) { ?>
-<section id="popu" class="row">
-  <h1>Les populaires du mois</h1>
-  <?php foreach ($popu as $post): ?>
-    <article class="post span3">
-      <a class="commLink" href="#">&nbsp;</a>
-      <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['Post']['id']), true); ?>">
-        <section>
-          <h1><?php echo $post["Post"]["title"]; ?></h1>
-          <p><?php echo substr($post["Post"]["description"],0,75); ?>...</p>
-          <div class="btn-post">
-            <?php $likeNot = false;
-            if(AuthComponent::user("id")){
-              foreach($post["Like"] as $like):
-                if ($like["user_id"] == AuthComponent::user("id")){
-                  $likeNot = true;
-                }
-              endforeach;
-              if($likeNot == true) { ?>
-                <p class="love loveOK"><?php echo $post["Post"]["like_count"]; ?></p>
-              <?php } else { ?>
+  <section id="popu" class="row">
+    <h1>Les populaires du mois</h1>
+    <?php foreach ($popu as $post): ?>
+      <article class="post span3">
+        <a class="commLink" href="#">&nbsp;</a>
+        <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['Post']['id']), true); ?>">
+          <section>
+            <h1><?php echo $post["Post"]["title"]; ?></h1>
+            <p><?php echo substr($post["Post"]["description"],0,75); ?>...</p>
+            <div class="btn-post">
+              <?php $likeNot = false;
+              if(AuthComponent::user("id")){
+                foreach($post["Like"] as $like):
+                  if ($like["user_id"] == AuthComponent::user("id")){
+                    $likeNot = true;
+                  }
+                endforeach;
+                if($likeNot == true) { ?>
+                  <p class="love loveOK"><?php echo $post["Post"]["like_count"]; ?></p>
+                <?php } else { ?>
+                  <p class="love"><?php echo $post["Post"]["like_count"]; ?></p>
+                <?php }
+              } else { ?>
                 <p class="love"><?php echo $post["Post"]["like_count"]; ?></p>
-              <?php }
-            } else { ?>
-              <p class="love"><?php echo $post["Post"]["like_count"]; ?></p>
-            <?php } ?>
-            <p class="comment"><i class="icon-comment icon-white"></i></p>
-          </div>
-        </section>
-        <?php echo $this->Html->image("posts/thumb-".substr($post["Post"]["image"],0,-4).".jpg", array("alt" => $post["Post"]["title"])); ?>
-      </a>
-    </article>
-  <?php endforeach; ?>
-</section>
+              <?php } ?>
+              <p class="comment"><i class="icon-comment icon-white"></i></p>
+            </div>
+          </section>
+          <?php echo $this->Html->image("posts/thumb-".substr($post["Post"]["image"],0,-4).".jpg", array("alt" => $post["Post"]["title"])); ?>
+        </a>
+      </article>
+    <?php endforeach; ?>
+  </section>
 <?php } ?>
 
 <section id="last" class="row">
@@ -128,29 +128,31 @@
 </section>
 
 <?php if(AuthComponent::user("id")): ?>
-  <section id="newActi" class="row">
-    <h1>Activités récentes</h1>
-    <div class="span8">
-      <?php foreach ($lastComm as $comment): ?>
-        <div class="comment">
-          <?php
-            $grav_email = $comment["User"]["mail"];
-            $grav_size = 50;
-            $grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $grav_email ) ) ) . "?s=" . $grav_size;
-            
-            echo $this->Html->image($grav_url, array("alt" => "Avatar de ".$comment["User"]["username"]));
-          ?>
-          <blockquote>
-            <p><?php echo $comment["Comment"]["content"] ?></p>
-            <small>par <?php echo $this->Html->link($comment["User"]["username"],array("action" => "view","controller" => "users",$comment["User"]["id"])); ?></small>
-          </blockquote>
-        </div>
-      <?php endforeach; ?>
-    </div>
-    <div class="span4">
-      <?php foreach ($lastLike as $like): ?>
-        <p><?php echo $this->Html->link($like["User"]["username"],array("action" => "view","controller" => "users",$like["User"]["id"])); ?> a aimé votre publication <?php echo $this->Html->link($like["Post"]["title"],array("action" => "view","controller" => "posts",$like["Post"]["id"])); ?></p>
-      <?php endforeach; ?>
-    </div>
-  </section>
+  <?php if(isset($this->request->params['named']['page']) == false): ?>
+    <section id="newActi" class="row">
+      <h1>Activités récentes</h1>
+      <div class="span8">
+        <?php foreach ($lastComm as $comment): ?>
+          <div class="comment">
+            <?php
+              $grav_email = $comment["User"]["mail"];
+              $grav_size = 50;
+              $grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $grav_email ) ) ) . "?s=" . $grav_size;
+              
+              echo $this->Html->image($grav_url, array("alt" => "Avatar de ".$comment["User"]["username"]));
+            ?>
+            <blockquote>
+              <p><?php echo $comment["Comment"]["content"] ?></p>
+              <small>par <?php echo $this->Html->link($comment["User"]["username"],array("action" => "view","controller" => "users",$comment["User"]["id"])); ?></small>
+            </blockquote>
+          </div>
+        <?php endforeach; ?>
+      </div>
+      <div class="span4">
+        <?php foreach ($lastLike as $like): ?>
+          <p><?php echo $this->Html->link($like["User"]["username"],array("action" => "view","controller" => "users",$like["User"]["id"])); ?> a aimé votre publication <?php echo $this->Html->link($like["Post"]["title"],array("action" => "view","controller" => "posts",$like["Post"]["id"])); ?></p>
+        <?php endforeach; ?>
+      </div>
+    </section>
+  <?php endif; ?>
 <?php endif; ?>

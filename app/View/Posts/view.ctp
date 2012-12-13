@@ -87,7 +87,7 @@ echo $this->Session->flash(); ?>
       <a href="mailto:?subject=<?php echo $post['Post']['title'] ?> sur StudArt&body=Viens jetter un oeil à mon post <?php echo $post['Post']['title'] ?> sur StudArt <?php echo $this->Html->url(array('action' => 'view','controller' => 'posts',$post['Post']['id']),true); ?>"><li><i class="icon-envelope-alt icon-large"></i> Mail</li></a>
       <?php if($post['Post']['user_id'] == AuthComponent::user("id")){ ?>
         <a href="<?php echo $this->Html->url(array('action' => 'edit', $post['Post']['id'])); ?>"><li><i class="icon-pencil icon-large"></i> Editer</li></a>
-        <a href="<?php echo $this->Html->url(array('action' => 'delete', $post['Post']['id'])); ?>"><li><i class="icon-remove icon-large"></i> Supprimer</li></a>
+        <a href="<?php echo $this->Html->url(array('action' => 'delete', $post['Post']['id'])); ?>" onclick="return confirm('Etes vous sûre de vouloir supprimer cet post ?');"><li><i class="icon-remove icon-large"></i> Supprimer</li></a>
       <?php } ?>
   </section>
   <section id="others" class="span2">
