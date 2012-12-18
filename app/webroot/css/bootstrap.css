@@ -5410,9 +5410,8 @@ body div.container div#post section#self img {
 body div.container div#post section#self div#navPro {
   margin-top: 20px;
 }
-body div.container div#post section#self div#navPro img {
-  width: 70px;
-  height: 52px;
+body div.container div#post section#self div#navPro img.dddNav {
+  height: 45px;
 }
 body div.container div#post section#self div#navPro div#prevPro div.span2 a,
 body div.container div#post section#self div#navPro div#nextPro div.span2 a,
@@ -5581,4 +5580,21 @@ body div#projectModal {
 }
 body div#projectModal p#whatPro {
   color: #999999;
+}
+@media (min-width: 1200px) {
+  div#navPro img.dddNav {
+    height: 52px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  div#navPro img.dddNav {
+    height: 31px !important;
+  }
+}
+@media (max-width: 767px) {
+  section#last > h1,
+  div#posts > h1,
+  section#popu > h1 {
+    margin-left: 0 !important;
+  }
 }

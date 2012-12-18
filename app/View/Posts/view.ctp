@@ -34,7 +34,7 @@ echo $this->Session->flash(); ?>
                 <?php if ($neighbors["prev"]["Post"]["image"] != "") { 
                   echo $this->Html->image("posts/thumb-".substr($neighbors["prev"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["prev"]["Post"]["title"],"class" => "img-polaroid"));
                 } elseif ($neighbors["prev"]["Post"]["model"] != "") { ?>
-                  <img src="https://sketchfab.com/urls/<?php echo $neighbors["prev"]["Post"]["model"] ?>/thumbnail_854.png" alt="<?php $neighbors["prev"]["Post"]["title"] ?>" class="img-polaroid">
+                  <img src="https://sketchfab.com/urls/<?php echo $neighbors["prev"]["Post"]["model"] ?>/thumbnail_854.png" alt="<?php $neighbors["prev"]["Post"]["title"] ?>" class="img-polaroid dddNav">
                 <?php } ?>
               </div>
               <div class="span2">
@@ -56,7 +56,7 @@ echo $this->Session->flash(); ?>
                 <?php if ($neighbors["next"]["Post"]["image"] != "") { 
                   echo $this->Html->image("posts/thumb-".substr($neighbors["next"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["next"]["Post"]["title"],"class" => "img-polaroid"));
                 } elseif ($neighbors["next"]["Post"]["model"] != "") { ?>
-                  <img src="https://sketchfab.com/urls/<?php echo $neighbors["next"]["Post"]["model"] ?>/thumbnail_854.png" alt="<?php $neighbors["next"]["Post"]["title"] ?>" class="img-polaroid">
+                  <img src="https://sketchfab.com/urls/<?php echo $neighbors["next"]["Post"]["model"] ?>/thumbnail_854.png" alt="<?php $neighbors["next"]["Post"]["title"] ?>" class="img-polaroid dddNav">
                 <?php } ?>
               </div>
             </div>

@@ -4,10 +4,12 @@ $("#projectModal").modal({
 $("#projectModal").modal("hide");
 
 $(window).load(function(){
-  $('#lastWrap').isotope({
-    itemSelector : '.post',
-    layoutMode : 'masonry'
-  });
+  if($(window).width() > 767){
+    $('#lastWrap').isotope({
+      itemSelector : '.post',
+      layoutMode : 'masonry'
+    });
+  }
 });
 
 $(function(){
