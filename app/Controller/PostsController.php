@@ -70,13 +70,7 @@ class PostsController extends AppController{
         $pathScript = IMAGES."posts".DS."sketchfab.sh";
         $filename = $d["Post"]["model"]["name"];
         $title = $d["Post"]["title"];
-        if(isset($_SERVER['SERVER_NAME'])){
-          switch($_SERVER['SERVER_NAME']){
-            case 'localhost':
-              $output = exec("./sketchfab.sh $path $filename $title");
-            break;
-          }
-        }
+        $output = exec("./sketchfab.sh $path $filename $title");
         unlink(IMAGES."posts".DS.$d["Post"]["model"]["name"]);
         $output = json_decode($output, true);
         if ($output["success"] == true) {
