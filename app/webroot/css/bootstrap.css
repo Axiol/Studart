@@ -5585,6 +5585,9 @@ body div.container div#profil-intro section#last section#lastPro div.row div.inf
   width: 100px;
   margin-bottom: 10px;
 }
+body div.container div#profil-intro section#last section#lastPro div.row div.infoPro a img.dddPro {
+  height: 75px;
+}
 body div.container form#PostAddForm div#visuForm img {
   width: 275px;
 }

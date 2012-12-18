@@ -60,7 +60,11 @@
               <p class="comment"><i class="icon-comment icon-white"></i></p>
             </div>
           </section>
-          <?php echo $this->Html->image("posts/thumb-".substr($post["image"],0,-4).".jpg", array("alt" => $post["title"])); ?>
+          <?php if ($post["image"] != "") { 
+            echo $this->Html->image("posts/thumb-".substr($post["image"],0,-4).".jpg", array("alt" => $post["title"]));
+          } elseif ($post["model"] != "") { ?>
+            <img src="https://sketchfab.com/urls/<?php echo $post["model"] ?>/thumbnail_854.png" alt="<?php echo $post["title"] ?>">
+          <?php } ?>
         </a>
       </article>
     <?php endforeach; ?>
@@ -75,11 +79,19 @@
           <p>
             <?php foreach ($project["Post"] as $post): ?>
               <?php 
-                echo $this->Html->link(
-                  $this->Html->image("posts/thumb-".substr($post["image"],0,-4).".jpg", array("alt" => $post["title"],"class" => "img-polaroid")),
-                  array("action" => "view", "controller" => "posts", $post["id"]),
-                  array("escape" => false)
-                );
+                if ($post["image"] != "") {
+                  echo $this->Html->link(
+                    $this->Html->image("posts/thumb-".substr($post["image"],0,-4).".jpg", array("alt" => $post["title"],"class" => "img-polaroid")),
+                    array("action" => "view", "controller" => "posts", $post["id"]),
+                    array("escape" => false)
+                  );
+                } elseif ($post["model"] != "") {
+                  echo $this->Html->link(
+                    $this->Html->image("https://sketchfab.com/urls/".$post["model"]."/thumbnail_854.png", array("alt" => $post["title"],"class" => "img-polaroid dddPro")),
+                    array("action" => "view", "controller" => "posts", $post["id"]),
+                    array("escape" => false)
+                  );
+                }
               ?>
             <?php endforeach; ?>
           </p>
