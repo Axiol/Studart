@@ -73,6 +73,8 @@ class PostsController extends AppController{
         $output = exec("./sketchfab.sh $path $filename $title");
         unlink(IMAGES."posts".DS.$d["Post"]["model"]["name"]);
         $output = json_decode($output, true);
+        debug($output);
+        die();
         if ($output["success"] == true) {
           if($this->Post->save($d,true,array("title","description","visuel","user_id", "project_id"))){
             $this->Post->saveField("model",$output["result"]["id"]);
