@@ -70,7 +70,9 @@ class PostsController extends AppController{
         $pathScript = IMAGES."posts".DS."sketchfab.sh";
         $filename = $d["Post"]["model"]["name"];
         $title = $d["Post"]["title"];
+        $output = "Toto";
         $output = exec("./sketchfab.sh $path $filename $title");
+        debug(realpath("./sketchfab.sh"));
         debug($output);
         die();
         unlink(IMAGES."posts".DS.$d["Post"]["model"]["name"]);
