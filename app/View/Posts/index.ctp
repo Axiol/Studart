@@ -31,7 +31,11 @@
               <p class="comment"><i class="icon-comment icon-white"></i></p>
             </div>
           </section>
-          <?php echo $this->Html->image("posts/thumb-".substr($post["Post"]["image"],0,-4).".jpg", array("alt" => $post["Post"]["title"])); ?>
+          <?php if ($post["Post"]["image"] != "") { 
+            echo $this->Html->image("posts/thumb-".substr($post["Post"]["image"],0,-4).".jpg", array("alt" => $post["Post"]["title"]));
+          } elseif ($post["Post"]["model"] != "") { ?>
+            <img src="https://sketchfab.com/urls/<?php echo $post["Post"]["model"] ?>/thumbnail_854.png" alt="<?php $post["Post"]["title"] ?>">
+          <?php } ?>
         </a>
       </article>
     <?php endforeach; ?>
@@ -74,7 +78,11 @@
               <p class="comment"><i class="icon-comment icon-white"></i></p>
             </div>
           </section>
-          <section><?php echo $this->Html->image("posts/thumb-".substr($post["Post"]["image"],0,-4).".jpg", array("alt" => $post["Post"]["title"])); ?></section>
+          <?php if ($post["Post"]["image"] != "") { 
+            echo $this->Html->image("posts/thumb-".substr($post["Post"]["image"],0,-4).".jpg", array("alt" => $post["Post"]["title"]));
+          } elseif ($post["Post"]["model"] != "") { ?>
+            <img src="https://sketchfab.com/urls/<?php echo $post["Post"]["model"] ?>/thumbnail_854.png" alt="<?php echo $post["Post"]["title"] ?>">
+          <?php } ?>
         </a>
       </article>
     <?php endforeach; ?>

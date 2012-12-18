@@ -11,7 +11,11 @@ echo $this->Session->flash(); ?>
 
 <div id="post" class="row">
   <section id="self" class="span6">
-    <?php echo $this->Html->image("posts/".$post["Post"]["image"], array("alt" => $post["Post"]["title"],"class" => "img-polaroid")); ?>
+    <?php if ($post["Post"]["image"] != "") { 
+      echo $this->Html->image("posts/".$post["Post"]["image"], array("alt" => $post["Post"]["title"],"class" => "img-polaroid"));
+    } elseif ($post["Post"]["model"] != "") { ?>
+      <iframe frameborder="0" height="500" width="580" allowFullScreen webkitallowfullscreen="true"  mozallowfullscreen="true" src="https://sketchfab.com/embed/<?php echo $post["Post"]["model"] ?>?autostart=1&transparent=0&autospin=0.2&controls=0&watermark=1" class="full-frame"></iframe>
+    <?php } ?>
 
     <?php 
       // echo $this->Html->link(
@@ -27,7 +31,11 @@ echo $this->Session->flash(); ?>
           <a href="<?php echo $this->Html->url(array("action" => "view", "controller" => "posts", $neighbors["prev"]["Post"]["id"])); ?>" title="Voir le post précédent du projet">
             <div class="row">
               <div class="span1">
-                <?php echo $this->Html->image("posts/thumb-".substr($neighbors["prev"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["prev"]["Post"]["title"],"class" => "img-polaroid"))?>
+                <?php if ($neighbors["prev"]["Post"]["image"] != "") { 
+                  echo $this->Html->image("posts/thumb-".substr($neighbors["prev"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["prev"]["Post"]["title"],"class" => "img-polaroid"));
+                } elseif ($neighbors["prev"]["Post"]["model"] != "") { ?>
+                  <img src="https://sketchfab.com/urls/<?php echo $neighbors["prev"]["Post"]["model"] ?>/thumbnail_854.png" alt="<?php $neighbors["prev"]["Post"]["title"] ?>" class="img-polaroid">
+                <?php } ?>
               </div>
               <div class="span2">
                 <p>Post précédent</p>
@@ -45,7 +53,11 @@ echo $this->Session->flash(); ?>
                 <p>Post suivant</p>
               </div>
               <div class="span1">
-                <?php echo $this->Html->image("posts/thumb-".substr($neighbors["next"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["next"]["Post"]["title"],"class" => "img-polaroid"))?>
+                <?php if ($neighbors["next"]["Post"]["image"] != "") { 
+                  echo $this->Html->image("posts/thumb-".substr($neighbors["next"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["next"]["Post"]["title"],"class" => "img-polaroid"));
+                } elseif ($neighbors["next"]["Post"]["model"] != "") { ?>
+                  <img src="https://sketchfab.com/urls/<?php echo $neighbors["next"]["Post"]["model"] ?>/thumbnail_854.png" alt="<?php $neighbors["next"]["Post"]["title"] ?>" class="img-polaroid">
+                <?php } ?>
               </div>
             </div>
           </a>

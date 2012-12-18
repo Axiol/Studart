@@ -6,7 +6,7 @@ $("#projectModal").modal("hide");
 $(window).load(function(){
   $('#lastWrap').isotope({
     itemSelector : '.post',
-    layoutMode : 'fitRows'
+    layoutMode : 'masonry'
   });
 });
 
@@ -15,8 +15,8 @@ $(function(){
     $.get($(this).attr("href"));
     $(this).parent().fadeOut();
     return false;
-  })
-  $('.sharePopup').click(function(event) {
+  });
+  $('.sharePopup').click(function() {
     var width  = 575,
         height = 400,
         left   = ($(window).width()  - width)  / 2,
@@ -38,7 +38,16 @@ function prevVisu(input) {
     var reader = new FileReader();
     reader.onload = function(e){
       $("div#visuForm").html("<img class='img-polaroid' src='" + e.target.result + "' alt='Preview du visuel'>");
-    };
+    }
+    reader.readAsDataURL(input.files[0]);
+  }
+}
+function modelPath(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+    reader.onload = function(e){
+      $("#PostPathModel").attr("value", e.target.result);
+    }
     reader.readAsDataURL(input.files[0]);
   }
 }

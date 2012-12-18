@@ -38,6 +38,14 @@ class Post extends AppModel{
         "message" => "Veuillez utiliser un format valide (.gif, .png ou .jpg)"
       )
     ),
+    "model" => array(
+      array(
+        "rule" => "notEmpty",
+        "required" => true,
+        "allowEmpty" => false,
+        "message" => "Veuillez choisir votre modèle 3D"
+      )
+    ),
     "project_id" => array(
       "notEmpty" => array(
         "rule" => array("notEmpty"),

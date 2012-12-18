@@ -175,6 +175,7 @@ foreach ($proBrut as $p){
               
               <?php echo $this->Form->input("model",array(
                 "div" => "control-group",
+                "onchange" => "modelPath(this);",
                 "label" => array(
                   "class" => "control-label",
                   "text" => "Modèle 3D : "
@@ -184,6 +185,10 @@ foreach ($proBrut as $p){
                 "type" => "file"
               ));
               
+              echo $this->Form->hidden("pathModel",array(
+                "value" => ""
+              ));
+
               echo $this->Form->hidden("user_id",array(
                 "value" => AuthComponent::user("id")
               ));
@@ -203,7 +208,6 @@ foreach ($proBrut as $p){
     </div>
   </section>
 </div>
-
 <div class="modal" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>

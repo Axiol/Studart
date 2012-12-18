@@ -32,7 +32,11 @@
             <p class="comment"><i class="icon-comment icon-white"></i></p>
           </div>
         </section>
-        <?php echo $this->Html->image("posts/thumb-".substr($post["image"],0,-4).".jpg", array("alt" => $post["title"])); ?>
+        <?php if ($post["image"] != "") { 
+          echo $this->Html->image("posts/thumb-".substr($post["image"],0,-4).".jpg", array("alt" => $post["title"]));
+        } elseif ($post["model"] != "") { ?>
+          <img src="https://sketchfab.com/urls/<?php echo $post["model"] ?>/thumbnail_854.png" alt="<?php echo $post["title"] ?>">
+        <?php } ?>
       </a>
     </article>
   <?php endforeach; ?>

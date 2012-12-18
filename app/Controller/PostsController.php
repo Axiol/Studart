@@ -51,17 +51,43 @@ class PostsController extends AppController{
     if ($this->request->is("post")) {
       $d = $this->request->data;
       $d["Post"]["id"] = null;
-      if($this->Post->save($d,true,array("title","description","visuel","user_id", "project_id"))){
-        require("../../lib/imgClass.php");
-        $id = $this->Post->id;
-        $filename = $id."-".substr(md5(uniqid()),0,8).substr($this->request->data["Post"]["visuel"]["name"],-4);
-        move_uploaded_file($this->request->data["Post"]["visuel"]["tmp_name"],IMAGES."posts".DS.$filename);
-        $this->Post->saveField("image",$filename);
-        Img::creerMin(IMAGES."posts".DS.$filename,IMAGES."posts","thumb-".$filename,270,202);
-        $this->Session->setFlash("Votre publication a bien été postée","notif",array("type" => "alert-success"));
-        $this->redirect(array('action' => 'view', $this->Post->id));
-      }else{
-        $this->Session->setFlash("Merci de corriger les erreurs","notif",array("type" => "alert-error"));
+      if (isset($d["Post"]["visuel"])) {
+        if($this->Post->save($d,true,array("title","description","visuel","user_id", "project_id"))){
+          require("../../lib/imgClass.php");
+          $id = $this->Post->id;
+          $filename = $id."-".substr(md5(uniqid()),0,8).substr($this->request->data["Post"]["visuel"]["name"],-4);
+          move_uploaded_file($this->request->data["Post"]["visuel"]["tmp_name"],IMAGES."posts".DS.$filename);
+          $this->Post->saveField("image",$filename);
+          Img::creerMin(IMAGES."posts".DS.$filename,IMAGES."posts","thumb-".$filename,270,202);
+          $this->Session->setFlash("Votre publication a bien été postée","notif",array("type" => "alert-success"));
+          $this->redirect(array('action' => 'view', $this->Post->id));
+        }else{
+          $this->Session->setFlash("Merci de corriger les erreurs","notif",array("type" => "alert-error"));
+        }
+      } elseif (isset($d["Post"]["model"])) {
+        move_uploaded_file($d["Post"]["model"]["tmp_name"],IMAGES."posts".DS.$d["Post"]["model"]["name"]);
+        $path = IMAGES."posts".DS;
+        $pathScript = IMAGES."posts".DS."sketchfab.sh";
+        $filename = $d["Post"]["model"]["name"];
+        $title = $d["Post"]["title"];
+        if(isset($_SERVER['SERVER_NAME'])){
+          switch($_SERVER['SERVER_NAME']){
+            case 'localhost':
+              $output = exec("./sketchfab.sh $path $filename $title");
+            break;
+          }
+        }
+        unlink(IMAGES."posts".DS.$d["Post"]["model"]["name"]);
+        $output = json_decode($output, true);
+        if ($output["success"] == true) {
+          if($this->Post->save($d,true,array("title","description","visuel","user_id", "project_id"))){
+            $this->Post->saveField("model",$output["result"]["id"]);
+            $this->Session->setFlash("Votre publication a bien été postée","notif",array("type" => "alert-success"));
+            $this->redirect(array('action' => 'view', $this->Post->id));
+          }else{
+            $this->Session->setFlash("Merci de corriger les erreurs","notif",array("type" => "alert-error"));
+          }
+        } 
       }
     }
   }

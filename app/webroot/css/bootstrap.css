@@ -5410,6 +5410,10 @@ body div.container div#post section#self img {
 body div.container div#post section#self div#navPro {
   margin-top: 20px;
 }
+body div.container div#post section#self div#navPro img {
+  width: 70px;
+  height: 52px;
+}
 body div.container div#post section#self div#navPro div#prevPro div.span2 a,
 body div.container div#post section#self div#navPro div#nextPro div.span2 a,
 body div.container div#post section#self div#navPro div#prevPro div.span2 p,
