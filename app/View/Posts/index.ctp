@@ -44,7 +44,7 @@
 
 <section id="last" class="row">
   <h1>Les derniers posts</h1>
-  <?php echo $this->Form->create("Post",array("action" => "search", "id" => "searchForm"));
+  <?php echo $this->Form->create("Post",array("action" => "search", "id" => "searchForm", "class" => "visible-desktop"));
   echo $this->Form->input("keyword",array(
     "label" => "",
     "type" => "search",

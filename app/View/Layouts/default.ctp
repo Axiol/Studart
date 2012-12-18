@@ -51,6 +51,15 @@
                 <li><?php echo $this->Html->link("S'inscrire",array("action" => "signup","controller" => "users")); ?></li>
                 <li><?php echo $this->Html->link("Se connecter",array("action" => "login","controller" => "users")); ?></li>
               <?php endif; ?>
+              <li class="hidden-desktop">
+                <?php echo $this->Form->create("Post",array("action" => "search"));
+                echo $this->Form->input("keyword",array(
+                  "label" => "",
+                  "type" => "search",
+                  "placeholder" => "Recherche..."
+                ));
+                echo $this->Form->end(); ?>
+              </li>
             </ul>
           </div>
         </div>
