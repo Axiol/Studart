@@ -31,13 +31,17 @@ echo $this->Session->flash(); ?>
           <a href="<?php echo $this->Html->url(array("action" => "view", "controller" => "posts", $neighbors["prev"]["Post"]["id"])); ?>" title="Voir le post précédent du projet">
             <div class="row">
               <div class="span1">
-                <?php if ($neighbors["prev"]["Post"]["image"] != "") { 
+                <?php echo $this->Html->image("prePro.png", array(
+                  "alt" => "Brownies",
+                  "class" => "arrow"
+                ));
+                if ($neighbors["prev"]["Post"]["image"] != "") { 
                   echo $this->Html->image("posts/thumb-".substr($neighbors["prev"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["prev"]["Post"]["title"],"class" => "img-polaroid"));
                 } elseif ($neighbors["prev"]["Post"]["model"] != "") { ?>
                   <img src="https://sketchfab.com/urls/<?php echo $neighbors["prev"]["Post"]["model"] ?>/thumbnail_854.png" alt="<?php $neighbors["prev"]["Post"]["title"] ?>" class="img-polaroid dddNav">
                 <?php } ?>
               </div>
-              <div class="span2">
+              <div class="span2 hidden-phone">
                 <p>Post précédent</p>
               </div>
             </div>
@@ -49,11 +53,15 @@ echo $this->Session->flash(); ?>
         <?php if(isset($neighbors["next"])){ ?>
           <a href="<?php echo $this->Html->url(array("action" => "view", "controller" => "posts", $neighbors["next"]["Post"]["id"])); ?>" title="Voir le post suivant du projet">
             <div class="row">
-              <div class="span2">
+              <div class="span2 hidden-phone">
                 <p>Post suivant</p>
               </div>
               <div class="span1">
-                <?php if ($neighbors["next"]["Post"]["image"] != "") { 
+                <?php echo $this->Html->image("nePro.png", array(
+                  "alt" => "Brownies",
+                  "class" => "arrow"
+                ));
+                if ($neighbors["next"]["Post"]["image"] != "") { 
                   echo $this->Html->image("posts/thumb-".substr($neighbors["next"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["next"]["Post"]["title"],"class" => "img-polaroid"));
                 } elseif ($neighbors["next"]["Post"]["model"] != "") { ?>
                   <img src="https://sketchfab.com/urls/<?php echo $neighbors["next"]["Post"]["model"] ?>/thumbnail_854.png" alt="<?php $neighbors["next"]["Post"]["title"] ?>" class="img-polaroid dddNav">
@@ -102,7 +110,7 @@ echo $this->Session->flash(); ?>
         <a href="<?php echo $this->Html->url(array('action' => 'delete', $post['Post']['id'])); ?>" onclick="return confirm('Etes vous sûre de vouloir supprimer cet post ?');"><li><i class="icon-remove icon-large"></i> Supprimer</li></a>
       <?php } ?>
   </section>
-  <section id="others" class="span2">
+  <section id="others" class="span2 hidden-phone">
     <h2>Autre post de <?php echo $post["User"]["username"] ?></h2>
     <div class="row">
       <?php for ($i = 0; $i <= 3; $i++) {

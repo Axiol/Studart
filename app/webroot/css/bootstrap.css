@@ -5417,7 +5417,8 @@ body div.container div.pagination {
 body div.container div#post {
   margin-top: 20px;
 }
-body div.container div#post section#self img {
+body div.container div#post section#self img,
+body div.container div#post section#self iframe {
   width: 100%;
 }
 body div.container div#post section#self div#navPro {
@@ -5612,5 +5613,27 @@ body div#projectModal p#whatPro {
   div#posts > h1,
   section#popu > h1 {
     margin-left: 0 !important;
+  }
+  div#navPro div#prevPro {
+    width: 20%;
+    float: left;
+    position: relative;
+  }
+  div#navPro div#prevPro img.arrow {
+    position: absolute;
+    width: 60% !important;
+    top: 20px;
+    left: 20px;
+  }
+  div#navPro div#nextPro {
+    width: 20%;
+    float: right;
+    position: relative;
+  }
+  div#navPro div#nextPro img.arrow {
+    position: absolute;
+    width: 60% !important;
+    top: 20px;
+    right: 8px;
   }
 }

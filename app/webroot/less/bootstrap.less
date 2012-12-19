@@ -280,7 +280,7 @@ body {
     div#post {
       margin-top: 20px;
       section#self {
-        img {
+        img, iframe {
           width: 100%;
         }
         div#navPro {
@@ -519,5 +519,29 @@ body {
     &>h1 {
       margin-left: 0 !important;
     }
-  } 
+  }
+  div#navPro {
+    div#prevPro {
+      width: 20%;
+      float: left;
+      position: relative;
+      img.arrow {
+        position: absolute;
+        width: 60% !important;
+        top: 20px;
+        left: 20px;
+      }
+    }
+    div#nextPro {
+      width: 20%;
+      float: right;
+      position: relative;
+      img.arrow {
+        position: absolute;
+        width: 60% !important;
+        top: 20px;
+        right: 8px;
+      }
+    }
+  }
 }
