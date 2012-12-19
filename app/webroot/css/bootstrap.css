@@ -5640,7 +5640,7 @@ body div#projectModal p#whatPro {
     width: 50%;
     margin-left: 25%;
   }
-  section#self section#lastPro div.infoPro {
+  section#lastPro div.row div.infoPro {
     margin-left: 0 !important;
   }
 }
