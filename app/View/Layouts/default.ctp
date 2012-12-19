@@ -77,7 +77,29 @@
     </div>
      
     <?php
-      echo $this->Html->script(array('jquery', 'jtruncate', 'isotope', 'bootstrap-transition', 'bootstrap-alert', 'bootstrap-modal', 'bootstrap-dropdown', 'bootstrap-scrollspy', 'bootstrap-tab', 'bootstrap-tooltip', 'bootstrap-popover', 'bootstrap-button', 'bootstrap-collapse', 'bootstrap-carousel', 'bootstrap-typeahead', 'scripts'));
+      echo $this->Html->script(array('jquery', 'jtruncate', 'isotope', 'jquery.autocomplete', 'bootstrap-transition', 'bootstrap-alert', 'bootstrap-modal', 'bootstrap-dropdown', 'bootstrap-scrollspy', 'bootstrap-tab', 'bootstrap-tooltip', 'bootstrap-popover', 'bootstrap-button', 'bootstrap-collapse', 'bootstrap-carousel', 'bootstrap-typeahead', 'scripts'));
+      if ($this->request->controller == "posts" && $this->request->action == "add") { ?>
+        <script type="text/javascript">
+          $(function(){
+            $("input#PostTags").autocomplete({
+              serviceUrl:'service/autocomplete.ashx',
+              minChars:2,
+              delimiter: ",",
+              maxHeight:400,
+              width:300,
+              zIndex: 9999,
+              deferRequestBy: 0,
+              params: { country:'Yes' },
+              noCache: false,
+              lookup: [
+                <?php foreach ($tagsSug as $tag):
+                  echo "'".$tag['Tag']["name"]."',";
+                endforeach; ?>
+              ]
+            });
+          });
+        </script>
+      <?php }
     ?>
     
     <?php echo $this->element('debug'); ?>

@@ -48,6 +48,9 @@ class PostsController extends AppController{
       $this->redirect("/");
       die();
     }
+    $this->loadModel("PostTag");
+    $tagsSug = $this->PostTag->Tag->find("all");
+    $this->set(compact("tagsSug"));
     if ($this->request->is("post")) {
       $d = $this->request->data;
       $d["Post"]["id"] = null;
