@@ -5622,7 +5622,7 @@ body div#projectModal p#whatPro {
   div#navPro div#prevPro img.arrow {
     position: absolute;
     width: 60% !important;
-    top: 10px;
+    top: 15px;
     left: 15px;
   }
   div#navPro div#nextPro {
@@ -5633,7 +5633,7 @@ body div#projectModal p#whatPro {
   div#navPro div#nextPro img.arrow {
     position: absolute;
     width: 60% !important;
-    top: 10px;
+    top: 15px;
     right: 3px;
   }
 }
