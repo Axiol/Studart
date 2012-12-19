@@ -33,7 +33,7 @@ echo $this->Session->flash(); ?>
               <div class="span1">
                 <?php echo $this->Html->image("prePro.png", array(
                   "alt" => "Brownies",
-                  "class" => "arrow"
+                  "class" => "arrow visible-phone"
                 ));
                 if ($neighbors["prev"]["Post"]["image"] != "") { 
                   echo $this->Html->image("posts/thumb-".substr($neighbors["prev"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["prev"]["Post"]["title"],"class" => "img-polaroid"));
@@ -59,7 +59,7 @@ echo $this->Session->flash(); ?>
               <div class="span1">
                 <?php echo $this->Html->image("nePro.png", array(
                   "alt" => "Brownies",
-                  "class" => "arrow"
+                  "class" => "arrow visible-phone"
                 ));
                 if ($neighbors["next"]["Post"]["image"] != "") { 
                   echo $this->Html->image("posts/thumb-".substr($neighbors["next"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["next"]["Post"]["title"],"class" => "img-polaroid"));
