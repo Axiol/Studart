@@ -114,6 +114,12 @@ class PostsController extends AppController{
       $this->redirect("/");
       die();
     }
+    $this->Post->Comment->deleteAll(array("Comment.post_id" => $id));
+    $this->Post->Like->deleteAll(array("Like.post_id" => $id));
+    $delTags = $this->Post->PostTag->find("all",array("conditions" => array("PostTag.post_id" => $id)));
+    foreach ($delTags as $tag) {
+      $this->Post->PostTag->delete($tag["PostTag"]["id"]);
+    }
     if($this->Post->delete($id)){
       $this->Session->setFlash("Votre post a bien été supprimé","notif",array("type" => "alert-success"));
       $this->redirect("/");
