@@ -33,8 +33,8 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="home <?php if($this->request->controller == "posts" && $this->request->action == "index"){ echo "active"; } ?>"><?php echo $this->Html->link("Accueil","/"); ?></li>
-              <li class="about"><a href="#about">À Propos</a></li>
-              <li class="contact"><a href="#contact">Contact</a></li>
+              <li class="about <?php if($this->request->controller == "pages" && $this->request->action == "display"){ echo "active"; } ?>"><a href="#about">À Propos</a></li>
+              <li class="contact <?php if($this->request->controller == "contact" && $this->request->action == "index"){ echo "active"; } ?>"><a href="#contact">Contact</a></li>
             </ul>
             <ul class="nav pull-right">
               <!-- <li><a href="#"><span class="alert-msg">2</span><span class="hidden-desktop">nouveaux messages</span></a></li> -->

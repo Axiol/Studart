@@ -5228,6 +5228,27 @@ body div.container section#popu h1 span.authPro {
   font-weight: lighter;
   font-size: 23px;
 }
+body div.container section#last h1#aboutH,
+body div.container div#posts h1#aboutH,
+body div.container section#popu h1#aboutH {
+  text-align: center;
+}
+body div.container section#last div.aboutC,
+body div.container div#posts div.aboutC,
+body div.container section#popu div.aboutC {
+  margin-top: 30px;
+}
+body div.container section#last div.aboutC img,
+body div.container div#posts div.aboutC img,
+body div.container section#popu div.aboutC img {
+  float: left;
+  margin-right: 30px;
+}
+body div.container section#last div.aboutC p,
+body div.container div#posts div.aboutC p,
+body div.container section#popu div.aboutC p {
+  margin-top: 10px;
+}
 body div.container section#last form#searchForm,
 body div.container div#posts form#searchForm,
 body div.container section#popu form#searchForm {
