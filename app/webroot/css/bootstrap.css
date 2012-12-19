@@ -5636,4 +5636,11 @@ body div#projectModal p#whatPro {
     top: 15px;
     right: 3px;
   }
+  section#self img.img-polaroid {
+    width: 50%;
+    margin-left: 25%;
+  }
+  section#self section#lastPro div.infoPro {
+    margin-left: 0 !important;
+  }
 }
