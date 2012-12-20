@@ -8,7 +8,7 @@
       $grav_email = $user["User"]["mail"];
       $grav_size = 170;
       $grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $grav_email ) ) ) . "?s=" . $grav_size;
-      echo $this->Html->image($grav_url, array("alt" => "Avatar de ".$user["User"]["username"],"class" => "img-polaroid"));
+      echo $this->Html->image($grav_url, array("alt" => "Avatar de ".$user["User"]["username"],"class" => "img-polaroid avatar"));
     ?>
     <h1><?php echo $user["User"]["username"]; ?></h1>
     <?php if($user["User"]["firstname"]): ?><h2><?php if($user["User"]["firstname"]): echo $user["User"]["firstname"]; endif; ?> <?php if($user["User"]["lastname"]): echo $user["User"]["lastname"]; endif; ?></h2><?php endif; ?>
