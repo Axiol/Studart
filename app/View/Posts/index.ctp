@@ -5,40 +5,9 @@
 <?php if(isset($this->request->params['named']['page']) == false) { ?>
   <section id="popu" class="row">
     <h1>Les populaires du mois</h1>
-    <?php foreach ($popu as $post): ?>
-      <article class="post span3">
-        <a class="commLink" href="#">&nbsp;</a>
-        <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['Post']['id']), true); ?>">
-          <section>
-            <h1><?php echo $post["Post"]["title"]; ?></h1>
-            <p><?php echo substr($post["Post"]["description"],0,75); ?>...</p>
-            <div class="btn-post">
-              <?php $likeNot = false;
-              if(AuthComponent::user("id")){
-                foreach($post["Like"] as $like):
-                  if ($like["user_id"] == AuthComponent::user("id")){
-                    $likeNot = true;
-                  }
-                endforeach;
-                if($likeNot == true) { ?>
-                  <p class="love loveOK"><?php echo $post["Post"]["like_count"]; ?></p>
-                <?php } else { ?>
-                  <p class="love"><?php echo $post["Post"]["like_count"]; ?></p>
-                <?php }
-              } else { ?>
-                <p class="love"><?php echo $post["Post"]["like_count"]; ?></p>
-              <?php } ?>
-              <p class="comment"><i class="icon-comment icon-white"></i></p>
-            </div>
-          </section>
-          <?php if ($post["Post"]["image"] != "") { 
-            echo $this->Html->image("posts/thumb-".substr($post["Post"]["image"],0,-4).".jpg", array("alt" => $post["Post"]["title"]));
-          } elseif ($post["Post"]["model"] != "") { ?>
-            <img src="https://sketchfab.com/urls/<?php echo $post["Post"]["model"] ?>/thumbnail_854.png" alt="<?php $post["Post"]["title"] ?>">
-          <?php } ?>
-        </a>
-      </article>
-    <?php endforeach; ?>
+    <?php foreach ($popu as $post):
+      echo $this->element("post", array("post" => $post["Post"], "likes" => $post["Like"]));
+    endforeach; ?>
   </section>
 <?php } ?>
 
@@ -52,40 +21,9 @@
   ));
   echo $this->Form->end(); ?>
   <div id="lastWrap">
-    <?php foreach ($posts as $post): ?>
-      <article class="post span3">
-        <a class="commLink" href="#">&nbsp;</a>
-        <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['Post']['id']), true); ?>">
-          <section>
-            <h1><?php echo $post["Post"]["title"]; ?></h1>
-            <p><?php echo substr($post["Post"]["description"],0,75); ?>...</p>
-            <div class="btn-post">
-              <?php $likeNot = false;
-              if(AuthComponent::user("id")){
-                foreach($post["Like"] as $like):
-                  if ($like["user_id"] == AuthComponent::user("id")){
-                    $likeNot = true;
-                  }
-                endforeach;
-                if($likeNot == true) { ?>
-                  <p class="love loveOK"><?php echo $post["Post"]["like_count"]; ?></p>
-                <?php } else { ?>
-                  <p class="love"><?php echo $post["Post"]["like_count"]; ?></p>
-                <?php }
-              } else { ?>
-                <p class="love"><?php echo $post["Post"]["like_count"]; ?></p>
-              <?php } ?>
-              <p class="comment"><i class="icon-comment icon-white"></i></p>
-            </div>
-          </section>
-          <?php if ($post["Post"]["image"] != "") { 
-            echo $this->Html->image("posts/thumb-".substr($post["Post"]["image"],0,-4).".jpg", array("alt" => $post["Post"]["title"]));
-          } elseif ($post["Post"]["model"] != "") { ?>
-            <img src="https://sketchfab.com/urls/<?php echo $post["Post"]["model"] ?>/thumbnail_854.png" alt="<?php echo $post["Post"]["title"] ?>">
-          <?php } ?>
-        </a>
-      </article>
-    <?php endforeach; ?>
+    <?php foreach ($posts as $post):
+      echo $this->element("post", array("post" => $post["Post"], "likes" => $post["Like"]));
+    endforeach; ?>
   </div>
   <?php $span = isset($span) ? $span : 8; ?>
   <?php $page = isset($this->request->params['named']['page']) ? $this->request->params['named']['page'] : 1; ?>

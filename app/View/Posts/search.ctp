@@ -6,36 +6,9 @@
   <h1>Recherche pour "<?php echo $keyword; ?>"</h1>
     <?php if(count($posts) != 0) { ?>
       <div id="lastWrap">
-        <?php foreach ($posts as $post): ?>
-          <article class="post span3">
-            <a class="commLink" href="#">&nbsp;</a>
-            <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['Post']['id']), true); ?>">
-              <section>
-                <h1><?php echo $post["Post"]["title"]; ?></h1>
-                <p><?php echo substr($post["Post"]["description"],0,75); ?>...</p>
-                <div class="btn-post">
-                  <?php $likeNot = false;
-                  if(AuthComponent::user("id")){
-                    foreach($post["Like"] as $like):
-                      if ($like["user_id"] == AuthComponent::user("id")){
-                        $likeNot = true;
-                      }
-                    endforeach;
-                    if($likeNot == true) { ?>
-                      <p class="love loveOK"><?php echo $post["Post"]["like_count"]; ?></p>
-                    <?php } else { ?>
-                      <p class="love"><?php echo $post["Post"]["like_count"]; ?></p>
-                    <?php }
-                  } else { ?>
-                    <p class="love"><?php echo $post["Post"]["like_count"]; ?></p>
-                  <?php } ?>
-                  <p class="comment"><i class="icon-comment icon-white"></i></p>
-                </div>
-              </section>
-              <section><?php echo $this->Html->image("posts/thumb-".substr($post["Post"]["image"],0,-4).".jpg", array("alt" => $post["Post"]["title"])); ?></section>
-            </a>
-          </article>
-        <?php endforeach; ?>
+        <?php foreach ($posts as $post):
+          echo $this->element("post", array("post" => $post["Post"], "likes" => $post["Like"]));
+        endforeach; ?>
       </div>
       <?php $span = isset($span) ? $span : 8; ?>
       <?php $page = isset($this->request->params['named']['page']) ? $this->request->params['named']['page'] : 1; ?>
