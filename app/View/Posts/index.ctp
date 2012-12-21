@@ -6,7 +6,7 @@
   <section id="popu" class="row">
     <h1>Les populaires du mois</h1>
     <?php foreach ($popu as $post):
-      echo $this->element("post", array("post" => $post["Post"], "likes" => $post["Like"]));
+      echo $this->element("post", array("post" => $post["Post"], "likes" => $post["Like"], "user" => $post["User"]));
     endforeach; ?>
   </section>
 <?php } ?>
@@ -22,7 +22,7 @@
   echo $this->Form->end(); ?>
   <div id="lastWrap">
     <?php foreach ($posts as $post):
-      echo $this->element("post", array("post" => $post["Post"], "likes" => $post["Like"]));
+      echo $this->element("post", array("post" => $post["Post"], "likes" => $post["Like"], "user" => $post["User"]));
     endforeach; ?>
   </div>
   <?php $span = isset($span) ? $span : 8;

@@ -3,7 +3,7 @@
   <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['id']), true); ?>">
     <section>
       <h1><?php echo $post["title"]; ?></h1>
-      <p><?php echo substr($post["description"],0,75); ?>...</p>
+      <p>Un post de <?php echo $user["username"]; ?></p>
       <div class="btn-post">
         <?php $likeNot = false;
         if(AuthComponent::user("id")){
@@ -23,10 +23,15 @@
         <p class="comment"><i class="icon-comment icon-white"></i></p>
       </div>
     </section>
-    <?php if ($post["image"] != "") { 
-      echo $this->Html->image("posts/thumb-".substr($post["image"],0,-4).".jpg", array("alt" => $post["title"]));
-    } elseif ($post["model"] != "") { ?>
-      <img src="https://sketchfab.com/urls/<?php echo $post["model"] ?>/thumbnail_854.png" alt="<?php $post["title"] ?>">
-    <?php } ?>
+    <div class="previsu">
+      <?php if ($post["image"] != "") { 
+        echo $this->Html->image("posts/thumb-".substr($post["image"],0,-4).".jpg", array("alt" => $post["title"]));
+      } elseif ($post["model"] != "") { ?>
+        <img src="https://sketchfab.com/urls/<?php echo $post["model"] ?>/thumbnail_854.png" alt="<?php $post["title"] ?>">
+      <?php } ?>
+      <div class="wrapTexte">
+        <p><?php echo $post["description"]; ?></p>
+      </div>
+    </div>
   </a>
 </article>

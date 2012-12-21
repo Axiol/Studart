@@ -5403,10 +5403,8 @@ body div.container section#popu article.post section h1 {
 body div.container section#last article.post section p,
 body div.container div#posts article.post section p,
 body div.container section#popu article.post section p {
-  margin-right: 60px;
-  margin-bottom: 5px;
-  margin-left: 10px;
-  font-size: 13px;
+  margin: 15px 60px 5px 10px;
+  font-size: 14px;
   line-height: 14px;
 }
 body div.container section#last article.post section p span.truncate_more,
@@ -5416,6 +5414,30 @@ body div.container section#last article.post section p div.clearboth,
 body div.container div#posts article.post section p div.clearboth,
 body div.container section#popu article.post section p div.clearboth {
   display: none;
+}
+body div.container section#last article.post div.previsu,
+body div.container div#posts article.post div.previsu,
+body div.container section#popu article.post div.previsu {
+  position: relative;
+}
+body div.container section#last article.post div.previsu div.wrapTexte,
+body div.container div#posts article.post div.previsu div.wrapTexte,
+body div.container section#popu article.post div.previsu div.wrapTexte {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body div.container section#last article.post div.previsu div.wrapTexte p,
+body div.container div#posts article.post div.previsu div.wrapTexte p,
+body div.container section#popu article.post div.previsu div.wrapTexte p {
+  color: #F0F0F0;
+  margin: 12px;
+  font-size: 14px;
 }
 body div.container section#last article.post img,
 body div.container div#posts article.post img,
@@ -5428,6 +5450,11 @@ body div.container section#popu article.post:hover {
   -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.5);
   box-shadow: 0 1px 7px rgba(0, 0, 0, 0.5);
+}
+body div.container section#last article.post:hover div.previsu div.wrapTexte,
+body div.container div#posts article.post:hover div.previsu div.wrapTexte,
+body div.container section#popu article.post:hover div.previsu div.wrapTexte {
+  visibility: visible;
 }
 body div.container div#last {
   margin-bottom: 50px;

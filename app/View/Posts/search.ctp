@@ -7,7 +7,7 @@
     <?php if(count($posts) != 0) { ?>
       <div id="lastWrap">
         <?php foreach ($posts as $post):
-          echo $this->element("post", array("post" => $post["Post"], "likes" => $post["Like"]));
+          echo $this->element("post", array("post" => $post["Post"], "likes" => $post["Like"], "user" => $post["User"]));
         endforeach; ?>
       </div>
       <?php $span = isset($span) ? $span : 8;

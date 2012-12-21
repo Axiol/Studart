@@ -34,9 +34,9 @@
   <section id="last" class="span9 offset1">
     <h1>Ses derniers posts</h1>
     <div id="lastWrap" class="row">
-    <?php foreach ($user["Post"] as $post):
-      echo $this->element("post", array("post" => $post, "likes" => $post["Like"]));
-    endforeach; ?>
+      <?php foreach ($user["Post"] as $post):
+        echo $this->element("post", array("post" => $post, "likes" => $post["Like"], "user" => $user["User"]));
+      endforeach; ?>
     </div>
     <section id="lastPro">
       <h1>Ses projets</h1>

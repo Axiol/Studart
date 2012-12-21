@@ -6,7 +6,7 @@
   <h1>Les posts taggés avec "<?php echo $posts[0]["Tag"]["name"] ?>"</h1>
   <div id="lastWrap">
     <?php foreach ($posts as $post):
-      echo $this->element("post", array("post" => $post["Post"], "likes" => $post["Post"]["Like"]));
+      echo $this->element("post", array("post" => $post["Post"], "likes" => $post["Post"]["Like"], "user" => $post["Post"]["User"]));
     endforeach; ?>
   </div>
   <?php $span = isset($span) ? $span : 8;

@@ -7,6 +7,6 @@
   <p id="descPro"><?php echo $project["Project"]["description"] ?> <?php if($project['Project']['user_id'] == AuthComponent::user("id")){ echo "(".$this->Html->link("Editer", array("action" => "edit", "controller" => "projects", $project["Project"]["id"])).")"; } ?></p>
 
   <?php foreach ($project["Post"] as $post):
-    echo $this->element("post", array("post" => $post, "likes" => $post["Like"]));
+    echo $this->element("post", array("post" => $post, "likes" => $post["Like"], "user" => $post["User"]));
   endforeach; ?>
 </section>
