@@ -156,5 +156,9 @@ class PostsController extends AppController{
       $this->set(compact("posts", "keyword"));
     }
   }
-  
+
+  function whoLike($id) {
+    $post = $this->Post->find("first", array("conditions" => array("Post.id" => $id), "contain" => array("Like", "Like.User")));
+    $this->set(compact("post"));
+  }
 }

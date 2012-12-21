@@ -5493,22 +5493,26 @@ body div.container div#post section#info h1 {
 body div.container div#post section#info p.whoPost {
   color: #999999;
 }
-body div.container div#post section#info ul a li {
+body div.container div#post section#info ul li {
   padding: 9px 0;
   border-bottom: 1px solid #eeeeee;
 }
-body div.container div#post section#info ul a li i {
+body div.container div#post section#info ul li i {
   margin-right: 15px;
   color: #999999;
+}
+body div.container div#post section#info ul li i.liked {
+  color: #E0584E;
+}
+body div.container div#post section#info ul li a:last-child {
+  float: right;
+  margin-right: 10px;
 }
 body div.container div#post section#info ul a:hover {
   text-decoration: none;
 }
 body div.container div#post section#info ul a:last-child li {
   border-bottom: none;
-}
-body div.container div#post section#info ul a.liked li i {
-  color: #E0584E;
 }
 body div.container div#post section#others img {
   width: 100%;

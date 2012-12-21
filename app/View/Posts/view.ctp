@@ -94,9 +94,9 @@ echo $this->Session->flash(); ?>
         ));
         echo $this->Form->end();
         if($likeNot == false) { ?>        
-          <a href="" onclick="event.preventDefault(); document.getElementById('LikeViewForm').submit();"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
+          <li><a href="" onclick="event.preventDefault(); document.getElementById('LikeViewForm').submit();"><i class="icon-heart icon-large"></i> Je like ?</a><a href="#"><?php echo "<i class='icon-group icon-large'></i><span> ".count($post["Like"])." </span>likes" ?></a></li>
         <?php } else { ?>
-          <a class="liked" href="<?php echo $this->Html->url(array('controller' => 'likes', 'action' => 'unlike', '?' => array('user_id' => AuthComponent::user("id"), 'post_id' => $post['Post']['id']))) ?>"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
+          <li><a href="<?php echo $this->Html->url(array('controller' => 'likes', 'action' => 'unlike', '?' => array('user_id' => AuthComponent::user("id"), 'post_id' => $post['Post']['id']))) ?>"><i class="icon-heart icon-large liked"></i> Je like !</a><a href="#"><?php echo "<i class='icon-group icon-large'></i><span> ".count($post["Like"])." </span>likes" ?></a></li>
         <?php } ?>
       <?php } else { ?>
         <a href="" onclick="event.preventDefault();"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>

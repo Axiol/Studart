@@ -347,28 +347,28 @@ body {
           color: @grayLight;
         }
         ul {
-          a {
-            li {
-              padding: 9px 0;
-              border-bottom: 1px solid @grayLighter;
-              i {
-                margin-right: 15px;
-                color: @grayLight;
+          li {
+            padding: 9px 0;
+            border-bottom: 1px solid @grayLighter;
+            i {
+              margin-right: 15px;
+              color: @grayLight;
+              &.liked {
+                color: #E0584E;
               }
             }
+            a:last-child {
+              float: right;
+              margin-right: 10px;
+            }
+          }
+          a {
             &:hover {
               text-decoration: none;
             }
             &:last-child {
               li {
                 border-bottom: none;
-              }
-            }
-            &.liked {
-              li {
-                i {
-                  color: #E0584E;
-                }
               }
             }
           }
