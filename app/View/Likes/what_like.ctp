@@ -9,5 +9,8 @@
       echo $this->element("post", array("post" => $like["Post"], "likes" => $like["Post"]["Like"], "user" => $like["Post"]["User"]));
     endforeach; ?>
   </div>
+  <?php $span = isset($span) ? $span : 8;
+  $page = isset($this->request->params['named']['page']) ? $this->request->params['named']['page'] : 1;
+  echo $this->element("navigation", array("span" => $span, "page" => $page)); ?>
 </section>
   

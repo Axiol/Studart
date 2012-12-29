@@ -5606,6 +5606,10 @@ body div.container section#comments div.comment img {
 body div.container section#comments div.comment blockquote {
   margin-left: 50px;
 }
+body div.container section#comments p.noComment {
+  text-align: center;
+  margin-top: 35px;
+}
 body div.container form#post-comment textarea {
   width: 99%;
 }

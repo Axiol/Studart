@@ -135,21 +135,25 @@ echo $this->Session->flash(); ?>
   <div class="span6">
     <section id="comments">
       <h1>Les commentaires</h1>
-      <?php foreach ($post["Comment"] as $comment): ?>
-        <div class="comment">
-          <?php
-            $grav_email = $comment["User"]["mail"];
-            $grav_size = 50;
-            $grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $grav_email ) ) ) . "?s=" . $grav_size;
-            
-            echo $this->Html->image($grav_url, array("alt" => "Avatar de ".$comment["User"]["username"]));
-          ?>
-          <blockquote>
-            <p><?php echo $comment["content"] ?></p>
-            <small>par <?php echo $this->Html->link($comment["User"]["username"],array("action" => "view","controller" => "users",$comment["User"]["id"])); ?></small>
-          </blockquote>
-        </div>
-      <?php endforeach; ?>
+      <?php if(count($post["Comment"])) {
+        foreach ($post["Comment"] as $comment): ?>
+          <div class="comment">
+            <?php
+              $grav_email = $comment["User"]["mail"];
+              $grav_size = 50;
+              $grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $grav_email ) ) ) . "?s=" . $grav_size;
+              
+              echo $this->Html->image($grav_url, array("alt" => "Avatar de ".$comment["User"]["username"]));
+            ?>
+            <blockquote>
+              <p><?php echo $comment["content"] ?></p>
+              <small>par <?php echo $this->Html->link($comment["User"]["username"],array("action" => "view","controller" => "users",$comment["User"]["id"])); ?></small>
+            </blockquote>
+          </div>
+        <?php endforeach;
+      } else { ?>
+        <p class="noComment">Il n'y a aucun commentaire pour le moment.</p>
+      <?php } ?>
     </section>
     
     <?php if(AuthComponent::user("id")): ?>
