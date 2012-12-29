@@ -9,7 +9,7 @@
         <?php $likeNot = false;
         if(AuthComponent::user("id")){
           foreach($likes as $like):
-            if ($like["user_id"] == AuthComponent::user("id")){
+            if ($like['user_id'] == AuthComponent::user("id")){
               $likeNot = true;
             }
           endforeach;

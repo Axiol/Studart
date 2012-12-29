@@ -34,8 +34,8 @@
   <section id="last" class="span9 offset1">
     <h1>Ses derniers posts</h1>
     <div id="lastWrap" class="row">
-      <?php foreach ($user["Post"] as $post):
-        echo $this->element("post", array("post" => $post, "likes" => $post["Like"], "user" => $user["User"]));
+      <?php foreach ($posts as $post):
+        echo $this->element("post", array("post" => $post["Post"], "likes" => $post["Like"], "user" => $user["User"]));
       endforeach; ?>
     </div>
   </section>
@@ -67,6 +67,14 @@
         </p>
       </section>
     <?php endforeach; ?>
+    </div>
+  </section>
+  <section id="last" class="span9 offset3">
+    <h1 id="likesTitle">Ses likes <span>(<?php echo $this->Html->link("les voir tous", array("controller" => "likes", "action" => "whatLike", $user["User"]["id"])); ?>)</span></h1>
+    <div id="lastWrap" class="row">
+      <?php for ($i=0; $i < 3; $i++) { 
+        echo $this->element("post", array("post" => $likes[$i]["Post"], "likes" => $likes[$i]["Post"]["Like"], "user" => $likes[$i]["Post"]["User"]));
+      } ?>
     </div>
   </section>
 </div>

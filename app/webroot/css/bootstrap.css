@@ -5224,6 +5224,11 @@ body div.container section#last > h1#projectTile,
 body div.container section#popu > h1#projectTile {
   margin-bottom: 5px;
 }
+body div.container section#last > h1#likesTitle span,
+body div.container section#popu > h1#likesTitle span {
+  font-weight: lighter;
+  font-size: 23px;
+}
 body div.container section#last h1,
 body div.container div#posts h1,
 body div.container section#popu h1 {
@@ -5677,6 +5682,7 @@ body div.container div#profil-intro section#last > h1 {
 }
 body div.container div#profil-intro section#lastPro {
   margin-top: 25px;
+  margin-bottom: 30px;
 }
 body div.container div#profil-intro section#lastPro > h1 {
   margin-left: 0;

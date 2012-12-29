@@ -102,7 +102,10 @@ class UsersController extends AppController{
   
   function view($id = null) {
     $this->User->id = $id;
-    $this->set("user", $this->User->find("first", array("conditions" => array("User.id" => $id), "contain" => array("Post", "Post.Like", "Project", "Project.Post"))));
+    $user = $this->User->find("first", array("conditions" => array("User.id" => $id), "contain" => array("Project", "Project.Post")));
+    $posts = $this->User->Post->find("all", array("conditions" => array("user_id" => $id), "order" => array("created" => "desc"), "contain" => array("Like")));
+    $likes = $this->User->Post->Like->find("all", array("conditions" => array("Like.user_id" => $id), "order" => array("Like.created" => "desc"), "contain" => array("Post", "Post.User", "Post.Like")));
+    $this->set(compact("user", "posts", "likes"));
   }
   
   function edit(){
