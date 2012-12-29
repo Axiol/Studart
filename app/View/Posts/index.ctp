@@ -47,7 +47,7 @@ echo $this->Session->flash(); ?>
             ?>
             <blockquote>
               <p><?php echo $comment["Comment"]["content"] ?></p>
-              <small>par <?php echo $this->Html->link($comment["User"]["username"],array("action" => "view","controller" => "users",$comment["User"]["id"])); ?></small>
+              <small>par <?php echo $this->Html->link($comment["User"]["username"],array("action" => "view","controller" => "users",$comment["User"]["id"])); ?> sur <?php echo $this->Html->link($comment["Post"]["title"],array("action" => "view","controller" => "posts",$comment["Post"]["id"])); ?></small>
             </blockquote>
           </div>
         <?php endforeach; ?>
