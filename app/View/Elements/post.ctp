@@ -1,6 +1,7 @@
 <article class="post span3">
-  <a class="commLink" href="#">&nbsp;</a>
-  <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['id']), true); ?>">
+  <a class="commLink" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['id'], "#" => "comments"), true); ?>" title="Voir les commentaires de ce post">&nbsp;</a>
+  <a class="likeLink" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'whoLike', $post['id']), true); ?>" title="Voir les membres qui like ce post">&nbsp;</a>
+  <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['id']), true); ?>" title="Voir le post">
     <section>
       <h1><?php echo $post["title"]; ?></h1>
       <p>Un post de <?php echo $user["username"]; ?></p>

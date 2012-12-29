@@ -94,12 +94,12 @@ echo $this->Session->flash(); ?>
         ));
         echo $this->Form->end();
         if($likeNot == false) { ?>        
-          <li><a href="" onclick="event.preventDefault(); document.getElementById('LikeViewForm').submit();"><i class="icon-heart icon-large"></i> Je like ?</a><a href="#"><?php echo "<i class='icon-group icon-large'></i><span> ".count($post["Like"])." </span>likes" ?></a></li>
+          <li><a href="" onclick="event.preventDefault(); document.getElementById('LikeViewForm').submit();" title="Liker ce post"><i class="icon-heart icon-large"></i> Je like ?</a><a href="<?php echo $this->Html->url(array("controller" => "posts", "action" => "whoLike", $post["Post"]["id"])); ?>" title="Voir les membres qui like ce post"><?php echo "<i class='icon-group icon-large'></i><span> ".count($post["Like"])." </span>likes" ?></a></li>
         <?php } else { ?>
-          <li><a href="<?php echo $this->Html->url(array('controller' => 'likes', 'action' => 'unlike', '?' => array('user_id' => AuthComponent::user("id"), 'post_id' => $post['Post']['id']))) ?>"><i class="icon-heart icon-large liked"></i> Je like !</a><a href="#"><?php echo "<i class='icon-group icon-large'></i><span> ".count($post["Like"])." </span>likes" ?></a></li>
+          <li><a href="<?php echo $this->Html->url(array('controller' => 'likes', 'action' => 'unlike', '?' => array('user_id' => AuthComponent::user("id"), 'post_id' => $post['Post']['id']))) ?>" title="Disliker ce post"><i class="icon-heart icon-large liked"></i> Je like !</a><a href="<?php echo $this->Html->url(array("controller" => "posts", "action" => "whoLike", $post["Post"]["id"])); ?>" title="Voir les membres qui like ce post"><?php echo "<i class='icon-group icon-large'></i><span> ".count($post["Like"])." </span>likes" ?></a></li>
         <?php } ?>
       <?php } else { ?>
-        <a href="" onclick="event.preventDefault();"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
+        <a href="<?php echo $this->Html->url(array("controller" => "posts", "action" => "whoLike", $post["Post"]["id"])); ?>" title="Voir les membres qui like ce post"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
       <?php } ?>
       <a class="sharePopup" href="https://twitter.com/intent/tweet?url=<?php echo $this->Html->url(array('action' => 'view','controller' => 'posts',$post['Post']['id']),true); ?>&text=<?php echo $post['Post']['title'] ?>&via=StudartNews"><li><i class="icon-twitter icon-large"></i> Twitter</li></a>   
       <a class="sharePopup" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $this->Html->url(array('action' => 'view','controller' => 'posts',$post['Post']['id']),true); ?>"><li><i class="icon-facebook icon-large"></i> Facebook</li></a>

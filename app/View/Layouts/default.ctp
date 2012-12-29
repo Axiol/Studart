@@ -72,6 +72,7 @@
   
       <footer>
         <p>&copy; StudArt 2012</p>
+        <p>par <?php echo $this->Html->link("A•rnaud", "http://a.rnaud.be"); ?></p>
       </footer>
       
     </div>
@@ -102,7 +103,7 @@
       <?php }
     ?>
     
-    <?php echo $this->element('debug'); ?>
+    <?php // echo $this->element('debug'); ?>
     
   </body>
 </html>

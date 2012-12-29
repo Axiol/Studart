@@ -1,6 +1,6 @@
-<?php $this->set("title_for_layout", "Accueil"); ?>
+<?php $this->set("title_for_layout", "Accueil");
 
-<?php echo $this->Session->flash(); ?>
+echo $this->Session->flash(); ?>
 
 <?php if(isset($this->request->params['named']['page']) == false) { ?>
   <section id="popu" class="row">

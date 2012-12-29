@@ -35,6 +35,7 @@
   Router::connect('/post/*', array('controller' => 'posts', 'action' => 'view'));
   Router::connect('/add', array('controller' => 'posts', 'action' => 'add'));
   Router::connect('/edit/*', array('controller' => 'posts', 'action' => 'edit'));
+  Router::connect('/wholike/*', array('controller' => 'posts', 'action' => 'whoLike'));
   Router::connect('/user/*', array('controller' => 'users', 'action' => 'view'));
   Router::connect('/signup', array('controller' => 'users', 'action' => 'signup'));
   Router::connect('/login', array('controller' => 'users', 'action' => 'login'));

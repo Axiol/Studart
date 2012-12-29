@@ -160,6 +160,35 @@ body {
         &#aboutH {
           text-align: center;
         }
+        &#listLike {
+          margin-bottom: 30px;
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+      section.userLike {
+        a {
+          text-decoration: none;
+        }
+        img.avatar {
+          float: left;
+          margin-right: 10px;
+        }
+        h1 {
+          margin-top: 0;
+        }
+        h2 {
+          color: @grayLight;
+          font-size: 24px;
+        }
+        div.whatUser {
+          text-align: right;
+          img {
+            height: 80px;
+            margin-left: 10px;
+          }
+        }
       }
       div.aboutC {
         margin-top: 30px;
@@ -208,7 +237,7 @@ body {
       article.post {
         margin-top: 30px;
         position: relative;
-        a.commLink {
+        a.commLink, a.likeLink {
           position: absolute;
           z-index: 10;
           top: 45px;
@@ -216,6 +245,9 @@ body {
           display: block;
           width: 45px;
           height: 45px;
+        }
+        a.likeLink {
+          top: 0;
         }
         section {
           position: relative;
@@ -593,6 +625,15 @@ body {
     div.row
       div.infoPro {
         margin-left: 0 !important;
+      }
+    }
+  }
+  section.userLike {
+    div.whatUser {
+      text-align: left !important;
+      img {
+        margin-left: 0 !important;
+        margin-right: 10px !important;
       }
     }
   }
