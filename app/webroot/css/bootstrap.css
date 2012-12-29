@@ -5498,6 +5498,7 @@ body div.container section#last article.post img,
 body div.container div#posts article.post img,
 body div.container section#popu article.post img {
   width: 100%;
+  height: 165px;
 }
 body div.container section#last article.post:hover,
 body div.container div#posts article.post:hover,
@@ -5742,11 +5743,17 @@ body div#projectModal p#whatPro {
   color: #999999;
 }
 @media (min-width: 1200px) {
+  article.post div.previsu img {
+    height: 202px !important;
+  }
   div#navPro img.dddNav {
     height: 52px !important;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
+  article.post div.previsu img {
+    height: 124px !important;
+  }
   div#navPro img.dddNav {
     height: 31px !important;
   }
@@ -5756,6 +5763,9 @@ body div#projectModal p#whatPro {
   div#posts > h1,
   section#popu > h1 {
     margin-left: 0 !important;
+  }
+  article.post div.previsu img {
+    height: auto !important;
   }
   div#navPro div#prevPro {
     width: 20%;
