@@ -5216,6 +5216,10 @@ body div.container section#newActi div.comment blockquote {
 body div.container section#popu {
   margin-bottom: 30px;
 }
+body div.container section#last > h1,
+body div.container section#popu > h1 {
+  margin-bottom: -10px;
+}
 body div.container section#last h1,
 body div.container div#posts h1,
 body div.container section#popu h1 {
@@ -5296,7 +5300,7 @@ body div.container section#last form#searchForm,
 body div.container div#posts form#searchForm,
 body div.container section#popu form#searchForm {
   float: right;
-  margin-top: -47px;
+  margin-top: -30px;
 }
 body div.container section#last form#searchForm input,
 body div.container div#posts form#searchForm input,
