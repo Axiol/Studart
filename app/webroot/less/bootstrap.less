@@ -152,6 +152,9 @@ body {
     section#last, section#popu {
       &>h1 {
         margin-bottom: -10px;
+        &#projectTile {
+          margin-bottom: 5px;
+        }
       }
     }
     section#last, div#posts, section#popu {
@@ -254,7 +257,7 @@ body {
         a.likeLink {
           top: 0;
         }
-        section {
+        div {
           position: relative;
           overflow-x: hidden;
           overflow-y: auto; 
@@ -530,29 +533,31 @@ body {
         &>h1 {
           margin-left: 0;
         }
-        section#lastPro {
-          margin-top: 60px;
-          &>h1 {
-            margin-left: 0;
-          }
-          div.row {
-            div.infoPro {
-              margin-left: 30px;
-              padding: 0 0 1px 10px;
-              background: @grayLighter;
-              &>h1 {
-                margin-left: 0;
-                font-size: 24px;
-              }
-              a {
-                margin-right: 10px;
-                color: #444;
-                img {
-                  width: 100px;
-                  margin-bottom: 10px;
-                  &.dddPro {
-                    height: 75px;
-                  }
+      }
+      section#lastPro {
+        margin-top: 25px;
+        &>h1 {
+          margin-left: 0;
+          margin-bottom: 0;
+          font-size: 28px;
+        }
+        div.row {
+          section.infoPro {
+            margin-left: 30px;
+            padding: 0 0 1px 10px;
+            background: @grayLighter;
+            &>h1 {
+              margin-left: 0;
+              font-size: 24px;
+            }
+            a {
+              margin-right: 10px;
+              color: #444;
+              img {
+                width: 100px;
+                margin-bottom: 10px;
+                &.dddPro {
+                  height: 75px;
                 }
               }
             }
@@ -650,7 +655,7 @@ body {
   }
   section#lastPro {
     div.row
-      div.infoPro {
+      section.infoPro {
         margin-left: 0 !important;
       }
     }

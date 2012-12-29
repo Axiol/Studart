@@ -11,6 +11,7 @@ echo $this->Session->flash(); ?>
 
 <div id="post" class="row">
   <section id="self" class="span6">
+    <h1 class="hide">Visuel de <?php echo $post["Post"]["title"] ?></h1>
     <?php if ($post["Post"]["image"] != "") { 
       echo $this->Html->image("posts/".$post["Post"]["image"], array("alt" => $post["Post"]["title"],"class" => "img-polaroid"));
     } elseif ($post["Post"]["model"] != "") { ?>

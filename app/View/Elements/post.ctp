@@ -2,7 +2,7 @@
   <a class="commLink" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['id'], "#" => "comments"), true); ?>" title="Voir les commentaires de ce post">&nbsp;</a>
   <a class="likeLink" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'whoLike', $post['id']), true); ?>" title="Voir les membres qui like ce post">&nbsp;</a>
   <a class="linkWrap" href="<?php echo $this->Html->url(array('controller' => 'posts', 'action' => 'view', $post['id']), true); ?>" title="Voir le post">
-    <section>
+    <div>
       <h1><?php echo $post["title"]; ?></h1>
       <p>Un post de <?php echo $user["username"]; ?></p>
       <div class="btn-post">
@@ -23,7 +23,7 @@
         <?php } ?>
         <p class="comment"><i class="icon-comment icon-white"></i></p>
       </div>
-    </section>
+    </div>
     <div class="previsu">
       <?php if ($post["image"] != "") { 
         echo $this->Html->image("posts/thumb-".substr($post["image"],0,-4).".jpg", array("alt" => $post["title"]));

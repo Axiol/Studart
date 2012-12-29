@@ -21,6 +21,7 @@
   </head>
 
   <body><!-- <?php echo $this->request->controller; echo $this->request->action; ?> -->
+    <h1 class="hide">StudArt</h1>
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">

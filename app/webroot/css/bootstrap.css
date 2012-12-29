@@ -5220,6 +5220,10 @@ body div.container section#last > h1,
 body div.container section#popu > h1 {
   margin-bottom: -10px;
 }
+body div.container section#last > h1#projectTile,
+body div.container section#popu > h1#projectTile {
+  margin-bottom: 5px;
+}
 body div.container section#last h1,
 body div.container div#posts h1,
 body div.container section#popu h1 {
@@ -5378,18 +5382,18 @@ body div.container div#posts article.post a.likeLink,
 body div.container section#popu article.post a.likeLink {
   top: 0;
 }
-body div.container section#last article.post section,
-body div.container div#posts article.post section,
-body div.container section#popu article.post section {
+body div.container section#last article.post div,
+body div.container div#posts article.post div,
+body div.container section#popu article.post div {
   position: relative;
   overflow-x: hidden;
   overflow-y: auto;
   min-height: 90px;
   background: #ffffff;
 }
-body div.container section#last article.post section div.btn-post,
-body div.container div#posts article.post section div.btn-post,
-body div.container section#popu article.post section div.btn-post {
+body div.container section#last article.post div div.btn-post,
+body div.container div#posts article.post div div.btn-post,
+body div.container section#popu article.post div div.btn-post {
   position: absolute;
   top: 0;
   right: 0;
@@ -5397,23 +5401,23 @@ body div.container section#popu article.post section div.btn-post {
   height: 100%;
   background: #555555;
 }
-body div.container section#last article.post section div.btn-post p.love,
-body div.container div#posts article.post section div.btn-post p.love,
-body div.container section#popu article.post section div.btn-post p.love {
+body div.container section#last article.post div div.btn-post p.love,
+body div.container div#posts article.post div div.btn-post p.love,
+body div.container section#popu article.post div div.btn-post p.love {
   text-align: center;
   padding: 14px 0;
 }
-body div.container section#last article.post section div.btn-post p.comment,
-body div.container div#posts article.post section div.btn-post p.comment,
-body div.container section#popu article.post section div.btn-post p.comment {
+body div.container section#last article.post div div.btn-post p.comment,
+body div.container div#posts article.post div div.btn-post p.comment,
+body div.container section#popu article.post div div.btn-post p.comment {
   padding-top: 6px;
 }
-body div.container section#last article.post section div.btn-post p.love,
-body div.container div#posts article.post section div.btn-post p.love,
-body div.container section#popu article.post section div.btn-post p.love,
-body div.container section#last article.post section div.btn-post p.comment,
-body div.container div#posts article.post section div.btn-post p.comment,
-body div.container section#popu article.post section div.btn-post p.comment {
+body div.container section#last article.post div div.btn-post p.love,
+body div.container div#posts article.post div div.btn-post p.love,
+body div.container section#popu article.post div div.btn-post p.love,
+body div.container section#last article.post div div.btn-post p.comment,
+body div.container div#posts article.post div div.btn-post p.comment,
+body div.container section#popu article.post div div.btn-post p.comment {
   margin: 0;
   font-size: 18px;
   display: inline-block;
@@ -5421,53 +5425,53 @@ body div.container section#popu article.post section div.btn-post p.comment {
   background: #555555;
   color: #ffffff;
 }
-body div.container section#last article.post section div.btn-post p.love i,
-body div.container div#posts article.post section div.btn-post p.love i,
-body div.container section#popu article.post section div.btn-post p.love i,
-body div.container section#last article.post section div.btn-post p.comment i,
-body div.container div#posts article.post section div.btn-post p.comment i,
-body div.container section#popu article.post section div.btn-post p.comment i {
+body div.container section#last article.post div div.btn-post p.love i,
+body div.container div#posts article.post div div.btn-post p.love i,
+body div.container section#popu article.post div div.btn-post p.love i,
+body div.container section#last article.post div div.btn-post p.comment i,
+body div.container div#posts article.post div div.btn-post p.comment i,
+body div.container section#popu article.post div div.btn-post p.comment i {
   margin: 12px 16px;
 }
-body div.container section#last article.post section div.btn-post p.love:hover,
-body div.container div#posts article.post section div.btn-post p.love:hover,
-body div.container section#popu article.post section div.btn-post p.love:hover,
-body div.container section#last article.post section div.btn-post p.comment:hover,
-body div.container div#posts article.post section div.btn-post p.comment:hover,
-body div.container section#popu article.post section div.btn-post p.comment:hover {
+body div.container section#last article.post div div.btn-post p.love:hover,
+body div.container div#posts article.post div div.btn-post p.love:hover,
+body div.container section#popu article.post div div.btn-post p.love:hover,
+body div.container section#last article.post div div.btn-post p.comment:hover,
+body div.container div#posts article.post div div.btn-post p.comment:hover,
+body div.container section#popu article.post div div.btn-post p.comment:hover {
   text-decoration: none;
 }
-body div.container section#last article.post section div.btn-post p.loveOK,
-body div.container div#posts article.post section div.btn-post p.loveOK,
-body div.container section#popu article.post section div.btn-post p.loveOK {
+body div.container section#last article.post div div.btn-post p.loveOK,
+body div.container div#posts article.post div div.btn-post p.loveOK,
+body div.container section#popu article.post div div.btn-post p.loveOK {
   background: #E0584E;
 }
-body div.container section#last article.post section div.btn-post form,
-body div.container div#posts article.post section div.btn-post form,
-body div.container section#popu article.post section div.btn-post form {
+body div.container section#last article.post div div.btn-post form,
+body div.container div#posts article.post div div.btn-post form,
+body div.container section#popu article.post div div.btn-post form {
   display: none;
 }
-body div.container section#last article.post section h1,
-body div.container div#posts article.post section h1,
-body div.container section#popu article.post section h1 {
+body div.container section#last article.post div h1,
+body div.container div#posts article.post div h1,
+body div.container section#popu article.post div h1 {
   margin-right: 60px;
   margin-left: 10px;
   font-size: 18px;
   line-height: 20px;
 }
-body div.container section#last article.post section p,
-body div.container div#posts article.post section p,
-body div.container section#popu article.post section p {
+body div.container section#last article.post div p,
+body div.container div#posts article.post div p,
+body div.container section#popu article.post div p {
   margin: 15px 60px 5px 10px;
   font-size: 14px;
   line-height: 14px;
 }
-body div.container section#last article.post section p span.truncate_more,
-body div.container div#posts article.post section p span.truncate_more,
-body div.container section#popu article.post section p span.truncate_more,
-body div.container section#last article.post section p div.clearboth,
-body div.container div#posts article.post section p div.clearboth,
-body div.container section#popu article.post section p div.clearboth {
+body div.container section#last article.post div p span.truncate_more,
+body div.container div#posts article.post div p span.truncate_more,
+body div.container section#popu article.post div p span.truncate_more,
+body div.container section#last article.post div p div.clearboth,
+body div.container div#posts article.post div p div.clearboth,
+body div.container section#popu article.post div p div.clearboth {
   display: none;
 }
 body div.container section#last article.post div.previsu,
@@ -5671,30 +5675,32 @@ body div.container div#profil-intro section#self a.btn {
 body div.container div#profil-intro section#last > h1 {
   margin-left: 0;
 }
-body div.container div#profil-intro section#last section#lastPro {
-  margin-top: 60px;
+body div.container div#profil-intro section#lastPro {
+  margin-top: 25px;
 }
-body div.container div#profil-intro section#last section#lastPro > h1 {
+body div.container div#profil-intro section#lastPro > h1 {
   margin-left: 0;
+  margin-bottom: 0;
+  font-size: 28px;
 }
-body div.container div#profil-intro section#last section#lastPro div.row div.infoPro {
+body div.container div#profil-intro section#lastPro div.row section.infoPro {
   margin-left: 30px;
   padding: 0 0 1px 10px;
   background: #eeeeee;
 }
-body div.container div#profil-intro section#last section#lastPro div.row div.infoPro > h1 {
+body div.container div#profil-intro section#lastPro div.row section.infoPro > h1 {
   margin-left: 0;
   font-size: 24px;
 }
-body div.container div#profil-intro section#last section#lastPro div.row div.infoPro a {
+body div.container div#profil-intro section#lastPro div.row section.infoPro a {
   margin-right: 10px;
   color: #444;
 }
-body div.container div#profil-intro section#last section#lastPro div.row div.infoPro a img {
+body div.container div#profil-intro section#lastPro div.row section.infoPro a img {
   width: 100px;
   margin-bottom: 10px;
 }
-body div.container div#profil-intro section#last section#lastPro div.row div.infoPro a img.dddPro {
+body div.container div#profil-intro section#lastPro div.row section.infoPro a img.dddPro {
   height: 75px;
 }
 body div.container form#PostAddForm div#visuForm img {
@@ -5793,7 +5799,7 @@ body div#projectModal p#whatPro {
     width: 50%;
     margin-left: 25%;
   }
-  section#lastPro div.row div.infoPro {
+  section#lastPro div.row section.infoPro {
     margin-left: 0 !important;
   }
 }

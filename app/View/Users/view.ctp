@@ -38,35 +38,35 @@
         echo $this->element("post", array("post" => $post, "likes" => $post["Like"], "user" => $user["User"]));
       endforeach; ?>
     </div>
-    <section id="lastPro">
-      <h1>Ses projets</h1>
-      <div class="row">
-      <?php foreach ($user["Project"] as $project): ?>
-        <div class="infoPro">
-          <h1><?php echo $this->Html->link($project["title"],array("action" => "view","controller" => "projects",$project["id"])); ?></h1>
-          <p><?php echo $project["description"] ?></p>
-          <p>
-            <?php foreach ($project["Post"] as $post): ?>
-              <?php 
-                if ($post["image"] != "") {
-                  echo $this->Html->link(
-                    $this->Html->image("posts/thumb-".substr($post["image"],0,-4).".jpg", array("alt" => $post["title"],"class" => "img-polaroid")),
-                    array("action" => "view", "controller" => "posts", $post["id"]),
-                    array("escape" => false)
-                  );
-                } elseif ($post["model"] != "") {
-                  echo $this->Html->link(
-                    $this->Html->image("https://sketchfab.com/urls/".$post["model"]."/thumbnail_854.png", array("alt" => $post["title"],"class" => "img-polaroid dddPro")),
-                    array("action" => "view", "controller" => "posts", $post["id"]),
-                    array("escape" => false)
-                  );
-                }
-              ?>
-            <?php endforeach; ?>
-          </p>
-        </div>
-      <?php endforeach; ?>
-      </div>
-    </section>
+  </section>
+  <section id="lastPro" class="span9 offset3">
+    <h1>Ses projets</h1>
+    <div class="row">
+    <?php foreach ($user["Project"] as $project): ?>
+      <section class="infoPro">
+        <h1><?php echo $this->Html->link($project["title"],array("action" => "view","controller" => "projects",$project["id"])); ?></h1>
+        <p><?php echo $project["description"] ?></p>
+        <p>
+          <?php foreach ($project["Post"] as $post): ?>
+            <?php 
+              if ($post["image"] != "") {
+                echo $this->Html->link(
+                  $this->Html->image("posts/thumb-".substr($post["image"],0,-4).".jpg", array("alt" => $post["title"],"class" => "img-polaroid")),
+                  array("action" => "view", "controller" => "posts", $post["id"]),
+                  array("escape" => false)
+                );
+              } elseif ($post["model"] != "") {
+                echo $this->Html->link(
+                  $this->Html->image("https://sketchfab.com/urls/".$post["model"]."/thumbnail_854.png", array("alt" => $post["title"],"class" => "img-polaroid dddPro")),
+                  array("action" => "view", "controller" => "posts", $post["id"]),
+                  array("escape" => false)
+                );
+              }
+            ?>
+          <?php endforeach; ?>
+        </p>
+      </section>
+    <?php endforeach; ?>
+    </div>
   </section>
 </div>
