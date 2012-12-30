@@ -104,7 +104,7 @@
       <?php }
     ?>
     
-    <?php // echo $this->element('debug'); ?>
+    <?php echo $this->element('debug'); ?>
     
   </body>
 </html>
