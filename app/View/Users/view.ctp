@@ -20,6 +20,7 @@
         <?php if($user["User"]["gplus"]): ?><a href="https://plus.google.com/<?php echo $user["User"]["gplus"] ?>/posts"><li><i class="icon-google-plus icon-large"></i> Google+</li></a><?php endif; ?>
         <?php if($user["User"]["github"]): ?><a href="https://github.com/<?php echo $user["User"]["github"] ?>"><li><i class="icon-github icon-large"></i> Github</li></a><?php endif; ?>
         <?php if($user["User"]["website"]): ?><a href="<?php echo $user["User"]["website"] ?>" itemprop="url"><li><i class="icon-link icon-large"></i> Website</li></a><?php endif; ?>
+        <a href="mailto:<?php echo $user['User']['mail'] ?>"><li><i class="icon-envelope-alt icon-large"></i> Mail</li></a>
       </ul>
       <?php if($user["User"]["local"]): ?>
         <?php echo $this->Html->Link(
