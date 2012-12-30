@@ -2,6 +2,11 @@
 class UsersController extends AppController{
   
   function signup(){
+    $user_id = $this->Auth->user("id");
+    if($user_id){
+      $this->redirect("/");
+      die();
+    }
     if($this->request->is("post")){
       $d = $this->request->data;
       $d["User"]["id"] = null;

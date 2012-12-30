@@ -9,6 +9,7 @@
         echo $this->Form->input("username",array(
           "div" => "control-group",
           "class" => "input-xlarge",
+          "autofocus" => "autofocus",
           "label" => array(
             "class" => "control-label",
             "text" => "Login : "
