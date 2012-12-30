@@ -114,6 +114,10 @@ class PostsController extends AppController{
       $this->redirect("/");
       die();
     }
+    $post = $this->Post->find("first", array("conditions" => array("Post.id" => $id)));
+    if ($post["Post"]["image"] != "") {
+      unlink(IMAGES."posts".DS.$post["Post"]["image"]);
+    }
     $this->Post->Comment->deleteAll(array("Comment.post_id" => $id));
     $this->Post->Like->deleteAll(array("Like.post_id" => $id));
     $delTags = $this->Post->PostTag->find("all",array("conditions" => array("PostTag.post_id" => $id)));
