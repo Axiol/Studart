@@ -75,42 +75,48 @@ echo $this->Session->flash(); ?>
       </div>
     </div>
   </section>
-  <section id="info" class="span4">
-    <h1><?php echo $post['Post']['title'] ?></h1>
-    <p class="whoPost">par <?php echo $this->Html->link($post["User"]["username"],array("action" => "view","controller" => "users",$post["User"]["id"])); ?></p>
-    <p><?php echo $post['Post']['description'] ?></p>
-    <p id="tags">
-      <?php foreach ($post["Tag"] as $tag): ?>
-        <a class="tagsWrap" href="<?php echo $this->Html->url(array('action' => 'tag', $tag['name'])) ?>" title="Voir les autres posts ayant ce tag"><span class="tags"><?php echo $tag["name"]; ?></span></a>
-      <?php endforeach; ?>
-    </p>
-    <ul class="unstyled">
-      <?php if(AuthComponent::user("id")) {
-        echo $this->Form->create("Like", array("url" => array("controller" => "likes", "action" => "like")));
-        echo $this->Form->hidden("user_id",array(
-          "value" => AuthComponent::user("id")
-        ));
-        echo $this->Form->hidden("post_id",array(
-          "value" => $post["Post"]["id"]
-        ));
-        echo $this->Form->end();
-        if($likeNot == false) { ?>        
-          <li><a href="" onclick="event.preventDefault(); document.getElementById('LikeViewForm').submit();" title="Liker ce post"><i class="icon-heart icon-large"></i> Je like ?</a><a href="<?php echo $this->Html->url(array("controller" => "posts", "action" => "whoLike", $post["Post"]["id"])); ?>" title="Voir les membres qui like ce post"><?php echo "<i class='icon-group icon-large'></i><span> ".count($post["Like"])." </span>likes" ?></a></li>
+  <div itemscope itemtype="http://schema.org/Article">
+    <section id="info" class="span4">
+      <h1><span itemprop="name"><?php echo $post['Post']['title'] ?></span></h1>
+      <p class="whoPost">par <span itemprop="creator"><?php echo $this->Html->link($post["User"]["username"],array("action" => "view","controller" => "users",$post["User"]["id"])); ?></span></p>
+      <p><span itemprop="text"><?php echo $post['Post']['description'] ?></span></p>
+      <p id="tags">
+        <?php foreach ($post["Tag"] as $tag): ?>
+          <a class="tagsWrap" href="<?php echo $this->Html->url(array('action' => 'tag', $tag['name'])) ?>" title="Voir les autres posts ayant ce tag"><span class="tags"><?php echo $tag["name"]; ?></span></a>
+        <?php endforeach; ?>
+      </p>
+      <ul class="unstyled">
+        <?php if(AuthComponent::user("id")) {
+          echo $this->Form->create("Like", array("url" => array("controller" => "likes", "action" => "like")));
+          echo $this->Form->hidden("user_id",array(
+            "value" => AuthComponent::user("id")
+          ));
+          echo $this->Form->hidden("post_id",array(
+            "value" => $post["Post"]["id"]
+          ));
+          echo $this->Form->end();
+          if($likeNot == false) { ?>        
+            <li><a href="" onclick="event.preventDefault(); document.getElementById('LikeViewForm').submit();" title="Liker ce post"><i class="icon-heart icon-large"></i> Je like ?</a><a href="<?php echo $this->Html->url(array("controller" => "posts", "action" => "whoLike", $post["Post"]["id"])); ?>" title="Voir les membres qui like ce post"><?php echo "<i class='icon-group icon-large'></i><span> ".count($post["Like"])." </span>likes" ?></a></li>
+          <?php } else { ?>
+            <li><a href="<?php echo $this->Html->url(array('controller' => 'likes', 'action' => 'unlike', '?' => array('user_id' => AuthComponent::user("id"), 'post_id' => $post['Post']['id']))) ?>" title="Disliker ce post"><i class="icon-heart icon-large liked"></i> Je like !</a><a href="<?php echo $this->Html->url(array("controller" => "posts", "action" => "whoLike", $post["Post"]["id"])); ?>" title="Voir les membres qui like ce post"><?php echo "<i class='icon-group icon-large'></i><span> ".count($post["Like"])." </span>likes" ?></a></li>
+          <?php } ?>
         <?php } else { ?>
-          <li><a href="<?php echo $this->Html->url(array('controller' => 'likes', 'action' => 'unlike', '?' => array('user_id' => AuthComponent::user("id"), 'post_id' => $post['Post']['id']))) ?>" title="Disliker ce post"><i class="icon-heart icon-large liked"></i> Je like !</a><a href="<?php echo $this->Html->url(array("controller" => "posts", "action" => "whoLike", $post["Post"]["id"])); ?>" title="Voir les membres qui like ce post"><?php echo "<i class='icon-group icon-large'></i><span> ".count($post["Like"])." </span>likes" ?></a></li>
+          <a href="<?php echo $this->Html->url(array("controller" => "posts", "action" => "whoLike", $post["Post"]["id"])); ?>" title="Voir les membres qui like ce post"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
         <?php } ?>
-      <?php } else { ?>
-        <a href="<?php echo $this->Html->url(array("controller" => "posts", "action" => "whoLike", $post["Post"]["id"])); ?>" title="Voir les membres qui like ce post"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
-      <?php } ?>
-      <a class="sharePopup" href="https://twitter.com/intent/tweet?url=<?php echo $this->Html->url(array('action' => 'view','controller' => 'posts',$post['Post']['id']),true); ?>&text=<?php echo $post['Post']['title'] ?>&via=StudartNews"><li><i class="icon-twitter icon-large"></i> Twitter</li></a>   
-      <a class="sharePopup" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $this->Html->url(array('action' => 'view','controller' => 'posts',$post['Post']['id']),true); ?>"><li><i class="icon-facebook icon-large"></i> Facebook</li></a>
-      <a class="sharePopup" href="https://plus.google.com/share?url=<?php echo $this->Html->url(array('action' => 'view','controller' => 'posts',$post['Post']['id']),true); ?>"><li><i class="icon-google-plus icon-large"></i> Google+</li></a>
-      <a href="mailto:?subject=<?php echo $post['Post']['title'] ?> sur StudArt&body=Viens jetter un oeil à mon post <?php echo $post['Post']['title'] ?> sur StudArt <?php echo $this->Html->url(array('action' => 'view','controller' => 'posts',$post['Post']['id']),true); ?>"><li><i class="icon-envelope-alt icon-large"></i> Mail</li></a>
-      <?php if($post['Post']['user_id'] == AuthComponent::user("id")){ ?>
-        <a href="<?php echo $this->Html->url(array('action' => 'edit', $post['Post']['id'])); ?>"><li><i class="icon-pencil icon-large"></i> Editer</li></a>
-        <a href="<?php echo $this->Html->url(array('action' => 'delete', $post['Post']['id'])); ?>" onclick="return confirm('Etes vous sûre de vouloir supprimer cet post ?');"><li><i class="icon-remove icon-large"></i> Supprimer</li></a>
-      <?php } ?>
-  </section>
+        <a class="sharePopup" href="https://twitter.com/intent/tweet?url=<?php echo $this->Html->url(array('action' => 'view','controller' => 'posts',$post['Post']['id']),true); ?>&text=<?php echo $post['Post']['title'] ?>&via=StudartNews"><li><i class="icon-twitter icon-large"></i> Twitter</li></a>   
+        <a class="sharePopup" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $this->Html->url(array('action' => 'view','controller' => 'posts',$post['Post']['id']),true); ?>"><li><i class="icon-facebook icon-large"></i> Facebook</li></a>
+        <a class="sharePopup" href="https://plus.google.com/share?url=<?php echo $this->Html->url(array('action' => 'view','controller' => 'posts',$post['Post']['id']),true); ?>"><li><i class="icon-google-plus icon-large"></i> Google+</li></a>
+        <a href="mailto:?subject=<?php echo $post['Post']['title'] ?> sur StudArt&body=Viens jetter un oeil à mon post <?php echo $post['Post']['title'] ?> sur StudArt <?php echo $this->Html->url(array('action' => 'view','controller' => 'posts',$post['Post']['id']),true); ?>"><li><i class="icon-envelope-alt icon-large"></i> Mail</li></a>
+        <?php if($post['Post']['user_id'] == AuthComponent::user("id")){ ?>
+          <a href="<?php echo $this->Html->url(array('action' => 'edit', $post['Post']['id'])); ?>"><li><i class="icon-pencil icon-large"></i> Editer</li></a>
+          <a href="<?php echo $this->Html->url(array('action' => 'delete', $post['Post']['id'])); ?>" onclick="return confirm('Etes vous sûre de vouloir supprimer cet post ?');"><li><i class="icon-remove icon-large"></i> Supprimer</li></a>
+        <?php } ?>
+      </ul>
+      <?php if ($neighbors["prev"]["Post"]["image"] != "") { 
+        echo $this->Html->image("posts/thumb-".substr($neighbors["prev"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["prev"]["Post"]["title"],"class" => "img-polaroid hide", "itemprop" => "image"));
+      } ?>
+    </section>
+  </div>
   <section id="others" class="span2 hidden-phone">
     <h2>Autre post de <?php echo $post["User"]["username"] ?></h2>
     <div class="row">
