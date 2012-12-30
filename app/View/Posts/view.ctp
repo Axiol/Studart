@@ -135,7 +135,7 @@ echo $this->Session->flash(); ?>
   <div class="span6">
     <section id="comments">
       <h1>Les commentaires</h1>
-      <?php if(count($post["Comment"])) {
+      <?php if(count($post["Comment"]) > 0) {
         foreach ($post["Comment"] as $comment): ?>
           <div class="comment">
             <?php

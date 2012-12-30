@@ -34,47 +34,59 @@
   <section id="last" class="span9 offset1">
     <h1>Ses derniers posts</h1>
     <div id="lastWrap" class="row">
-      <?php foreach ($posts as $post):
-        echo $this->element("post", array("post" => $post["Post"], "likes" => $post["Like"], "user" => $user["User"]));
-      endforeach; ?>
+      <?php if (count($posts) > 0) {
+        foreach ($posts as $post):
+          echo $this->element("post", array("post" => $post["Post"], "likes" => $post["Like"], "user" => $user["User"]));
+        endforeach;
+      } else { ?>
+        <p>Cet utilisateur n'a encore rien posté.</p>
+      <?php } ?>
     </div>
   </section>
   <section id="lastPro" class="span9 offset3">
     <h1>Ses projets</h1>
     <div class="row">
-    <?php foreach ($user["Project"] as $project): ?>
-      <section class="infoPro">
-        <h1><?php echo $this->Html->link($project["title"],array("action" => "view","controller" => "projects",$project["id"])); ?></h1>
-        <p><?php echo $project["description"] ?></p>
-        <p>
-          <?php foreach ($project["Post"] as $post): ?>
-            <?php 
-              if ($post["image"] != "") {
-                echo $this->Html->link(
-                  $this->Html->image("posts/thumb-".substr($post["image"],0,-4).".jpg", array("alt" => $post["title"],"class" => "img-polaroid")),
-                  array("action" => "view", "controller" => "posts", $post["id"]),
-                  array("escape" => false)
-                );
-              } elseif ($post["model"] != "") {
-                echo $this->Html->link(
-                  $this->Html->image("https://sketchfab.com/urls/".$post["model"]."/thumbnail_854.png", array("alt" => $post["title"],"class" => "img-polaroid dddPro")),
-                  array("action" => "view", "controller" => "posts", $post["id"]),
-                  array("escape" => false)
-                );
-              }
-            ?>
-          <?php endforeach; ?>
-        </p>
-      </section>
-    <?php endforeach; ?>
+    <?php if (count($user["Project"] >0)) {
+      foreach ($user["Project"] as $project): ?>
+        <section class="infoPro">
+          <h1><?php echo $this->Html->link($project["title"],array("action" => "view","controller" => "projects",$project["id"])); ?></h1>
+          <p><?php echo $project["description"] ?></p>
+          <p>
+            <?php foreach ($project["Post"] as $post): ?>
+              <?php 
+                if ($post["image"] != "") {
+                  echo $this->Html->link(
+                    $this->Html->image("posts/thumb-".substr($post["image"],0,-4).".jpg", array("alt" => $post["title"],"class" => "img-polaroid")),
+                    array("action" => "view", "controller" => "posts", $post["id"]),
+                    array("escape" => false)
+                  );
+                } elseif ($post["model"] != "") {
+                  echo $this->Html->link(
+                    $this->Html->image("https://sketchfab.com/urls/".$post["model"]."/thumbnail_854.png", array("alt" => $post["title"],"class" => "img-polaroid dddPro")),
+                    array("action" => "view", "controller" => "posts", $post["id"]),
+                    array("escape" => false)
+                  );
+                }
+              ?>
+            <?php endforeach; ?>
+          </p>
+        </section>
+      <?php endforeach;
+    } else { ?>
+      <p>Cet utilisateur n'as pas encore de projets.</p>
+    <?php } ?>
     </div>
   </section>
   <section id="last" class="span9 offset3">
     <h1 id="likesTitle">Ses likes <span>(<?php echo $this->Html->link("les voir tous", array("controller" => "likes", "action" => "whatLike", $user["User"]["id"])); ?>)</span></h1>
     <div id="lastWrap" class="row">
-      <?php for ($i=0; $i < 3; $i++) { 
-        echo $this->element("post", array("post" => $likes[$i]["Post"], "likes" => $likes[$i]["Post"]["Like"], "user" => $likes[$i]["Post"]["User"]));
-      } ?>
+      <?php if (count($likes)) {
+        for ($i=0; $i < 3; $i++) { 
+          echo $this->element("post", array("post" => $likes[$i]["Post"], "likes" => $likes[$i]["Post"]["Like"], "user" => $likes[$i]["Post"]["User"]));
+        }
+      } else { ?>
+        <p>Cet utilisateur n'a encore liké aucun post.</p>
+      <?php } ?>
     </div>
   </section>
 </div>
