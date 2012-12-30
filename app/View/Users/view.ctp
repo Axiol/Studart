@@ -15,12 +15,12 @@
       <?php if($user["User"]["firstname"]): ?><h2><span itemprop="name"><?php if($user["User"]["firstname"]): echo $user["User"]["firstname"]; endif; ?> <?php if($user["User"]["lastname"]): echo $user["User"]["lastname"]; endif; ?></span></h2><?php endif; ?>
       <?php if($user["User"]["description"]): ?><p><span itemprop="description"><?php echo $user["User"]["description"] ?></span></p><?php endif; ?>
       <ul class="unstyled">
-        <?php if($user["User"]["twitter"]): ?><a href="https://twitter.com/<?php echo $user["User"]["twitter"] ?>"><li><i class="icon-twitter icon-large"></i> Twitter</li></a><?php endif; ?>
-        <?php if($user["User"]["facebook"]): ?><a href="https://www.facebook.com/<?php echo $user["User"]["facebook"] ?>"><li><i class="icon-facebook icon-large"></i> Facebook</li></a><?php endif; ?>
-        <?php if($user["User"]["gplus"]): ?><a href="https://plus.google.com/<?php echo $user["User"]["gplus"] ?>/posts"><li><i class="icon-google-plus icon-large"></i> Google+</li></a><?php endif; ?>
-        <?php if($user["User"]["github"]): ?><a href="https://github.com/<?php echo $user["User"]["github"] ?>"><li><i class="icon-github icon-large"></i> Github</li></a><?php endif; ?>
-        <?php if($user["User"]["website"]): ?><a href="<?php echo $user["User"]["website"] ?>" itemprop="url"><li><i class="icon-link icon-large"></i> Website</li></a><?php endif; ?>
-        <a href="mailto:<?php echo $user['User']['mail'] ?>"><li><i class="icon-envelope-alt icon-large"></i> Mail</li></a>
+        <?php if($user["User"]["twitter"]): ?><a title="Voir son compte Twitter" href="https://twitter.com/<?php echo $user["User"]["twitter"] ?>"><li><i class="icon-twitter icon-large"></i> Twitter</li></a><?php endif; ?>
+        <?php if($user["User"]["facebook"]): ?><a title="Voir son compte Facebook" href="https://www.facebook.com/<?php echo $user["User"]["facebook"] ?>"><li><i class="icon-facebook icon-large"></i> Facebook</li></a><?php endif; ?>
+        <?php if($user["User"]["gplus"]): ?><a title="Voir son compte Google+" href="https://plus.google.com/<?php echo $user["User"]["gplus"] ?>/posts"><li><i class="icon-google-plus icon-large"></i> Google+</li></a><?php endif; ?>
+        <?php if($user["User"]["github"]): ?><a title="Voir son compte GitHub" href="https://github.com/<?php echo $user["User"]["github"] ?>"><li><i class="icon-github icon-large"></i> Github</li></a><?php endif; ?>
+        <?php if($user["User"]["website"]): ?><a title="Voir son site Web" href="<?php echo $user["User"]["website"] ?>" itemprop="url"><li><i class="icon-link icon-large"></i> Website</li></a><?php endif; ?>
+        <a title="Lui envoyer un mail" href="mailto:<?php echo $user['User']['mail'] ?>"><li><i class="icon-envelope-alt icon-large"></i> Mail</li></a>
       </ul>
       <?php if($user["User"]["local"]): ?>
         <?php echo $this->Html->Link(
