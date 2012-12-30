@@ -86,7 +86,7 @@ echo $this->Session->flash(); ?>
         <?php endforeach; ?>
       </p>
       <ul class="unstyled">
-        <?php if(AuthComponent::user("id")) {
+        <?php if(AuthComponent::user("id") && AuthComponent::user("id") != $post['Post']["user_id"]) {
           echo $this->Form->create("Like", array("url" => array("controller" => "likes", "action" => "like")));
           echo $this->Form->hidden("user_id",array(
             "value" => AuthComponent::user("id")
