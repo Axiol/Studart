@@ -220,6 +220,8 @@ foreach ($proBrut as $p){
       echo $this->Form->input("title",array(
         "div" => "control-group",
         "class" => "input-xlarge",
+        "id" => "modalTitle",
+        "required" => "required",
         "label" => array(
           "class" => "control-label",
           "text" => "Titre : "
@@ -231,6 +233,8 @@ foreach ($proBrut as $p){
       echo $this->Form->input("description",array(
         "div" => "control-group",
         "class" => "input-xlarge",
+        "id" => "modalDesc",
+        "required" => "required",
         "label" => array(
           "class" => "control-label",
           "text" => "Description : "
@@ -249,6 +253,6 @@ foreach ($proBrut as $p){
     <p id="whatPro">Chaqu'une de vos publications doit être rangée dans un projet. Un peu comme pour organiser vos images par dossier.</p>
   </div>
   <div class="modal-footer">
-    <button onclick="document.getElementById('ProjectAddForm').submit();" class="btn btn-primary">Créer</button>
+    <button onclick="if(document.getElementById('modalTitle').value != '' && document.getElementById('modalDesc').value != ''){document.getElementById('ProjectAddForm').submit();}" class="btn btn-primary">Créer</button>
   </div>
 </div>
