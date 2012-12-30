@@ -85,7 +85,7 @@
     <div id="lastWrap" class="row">
       <?php if (count($likes)) {
         for ($i=0; $i < 3; $i++) { 
-          echo $this->element("post", array("post" => $likes[$i]["Post"], "likes" => $likes[$i]["Post"]["Like"], "user" => $likes[$i]["Post"]["User"]));
+          if($likes[$i]) { echo $this->element("post", array("post" => $likes[$i]["Post"], "likes" => $likes[$i]["Post"]["Like"], "user" => $likes[$i]["Post"]["User"])); }
         }
       } else { ?>
         <p>Cet utilisateur n'a encore liké aucun post.</p>
