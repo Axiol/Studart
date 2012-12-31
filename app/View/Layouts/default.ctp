@@ -79,7 +79,7 @@
     </div>
      
     <?php
-      echo $this->Html->script(array('jquery', 'jtruncate', 'isotope', 'jquery.autocomplete', 'bootstrap-transition', 'bootstrap-alert', 'bootstrap-modal', 'bootstrap-dropdown', 'bootstrap-scrollspy', 'bootstrap-tab', 'bootstrap-tooltip', 'bootstrap-popover', 'bootstrap-button', 'bootstrap-collapse', 'bootstrap-carousel', 'bootstrap-typeahead', 'scripts'));
+      echo $this->Html->script(array('jquery-ck', 'isotope-ck', 'jquery.autocomplete-ck', 'bootstrap-modal-ck', 'bootstrap-dropdown-ck', 'bootstrap-tab-ck', 'bootstrap-button-ck', 'bootstrap-collapse-ck', 'bootstrap-typeahead-ck', 'scripts-ck'));
       if ($this->request->controller == "posts" && $this->request->action == "add") { ?>
         <script type="text/javascript">
           $(function(){
