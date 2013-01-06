@@ -15,7 +15,10 @@ echo $this->Session->flash(); ?>
   <h1>Les derniers posts</h1>
   <?php echo $this->Form->create("Post",array("action" => "search", "id" => "searchForm", "class" => "visible-desktop"));
   echo $this->Form->input("keyword",array(
-    "label" => "",
+    "label" => array(
+      "class" => "hide",
+      "text" => "Recherche : "
+    ),
     "type" => "search",
     "placeholder" => "Recherche..."
   ));
