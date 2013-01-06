@@ -30,29 +30,28 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <?php echo $this->Html->link("StudArt","/",array('class' => 'brand')); ?>
+          <?php echo $this->Html->link("StudArt","/",array('class' => 'brand', 'title' => 'StudArt')); ?>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="home <?php if($this->request->controller == "posts" && $this->request->action == "index"){ echo "active"; } ?>"><?php echo $this->Html->link("Accueil","/"); ?></li>
-              <li class="about <?php if($this->request->controller == "pages" && $this->request->action == "about"){ echo "active"; } ?>"><?php echo $this->Html->link("À Propos",array("controller" => "pages", "action" => "about")); ?></li>
-              <li class="contact <?php if($this->request->controller == "contact" && $this->request->action == "index"){ echo "active"; } ?>"><?php echo $this->Html->link("Contact",array("controller" => "contact", "action" => "index")); ?></li>
+              <li class="home <?php if($this->request->controller == "posts" && $this->request->action == "index"){ echo "active"; } ?>"><?php echo $this->Html->link("Accueil","/",array("title" => "Retour à la page d'accueil")); ?></li>
+              <li class="about <?php if($this->request->controller == "pages" && $this->request->action == "about"){ echo "active"; } ?>"><?php echo $this->Html->link("À Propos",array("controller" => "pages", "action" => "about"),array("title" => "Savoir ce qu'est ce site")); ?></li>
+              <li class="contact <?php if($this->request->controller == "contact" && $this->request->action == "index"){ echo "active"; } ?>"><?php echo $this->Html->link("Contact",array("controller" => "contact", "action" => "index"),array("title" => "Entrer en contact avec l'équipe")); ?></li>
             </ul>
             <ul class="nav pull-right">
-              <!-- <li><a href="#"><span class="alert-msg">2</span><span class="hidden-desktop">nouveaux messages</span></a></li> -->
               <?php if(AuthComponent::user("id")): ?>
                 <?php
                   $grav_email = AuthComponent::user("mail");
                   $grav_size = 25;
                   $grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $grav_email ) ) ) . "?s=" . $grav_size;
                 ?>
-                <li><a href="<?php echo $this->Html->url(array("action" => "view","controller" => "users",AuthComponent::user("id"))); ?>"><img src="<?php echo $grav_url ?>" width="25"> <?php echo AuthComponent::user("username") ?></a></li>
-                <li><?php echo $this->Html->link("Ajouter",array("action" => "add","controller" => "posts")); ?></li>
-                <li><?php echo $this->Html->link("Se déconnecter",array("action" => "logout","controller" => "users")); ?></li>
+                <li><a title="Voir son profil" href="<?php echo $this->Html->url(array("action" => "view","controller" => "users",AuthComponent::user("id"))); ?>"><img src="<?php echo $grav_url ?>" width="25"> <?php echo AuthComponent::user("username") ?></a></li>
+                <li><?php echo $this->Html->link("Ajouter",array("action" => "add","controller" => "posts"),array("title" => "Publier quelque chose")); ?></li>
+                <li><?php echo $this->Html->link("Se déconnecter",array("action" => "logout","controller" => "users"),array("title" => "Se déconnecter")); ?></li>
               <?php else: ?>
-                <li><?php echo $this->Html->link("S'inscrire",array("action" => "signup","controller" => "users")); ?></li>
-                <li><?php echo $this->Html->link("Se connecter",array("action" => "login","controller" => "users")); ?></li>
+                <li><?php echo $this->Html->link("S'inscrire",array("action" => "signup","controller" => "users"),array("title" => "S'inscrire sur StudArt")); ?></li>
+                <li><?php echo $this->Html->link("Se connecter",array("action" => "login","controller" => "users"),array("title" => "Se connecter")); ?></li>
               <?php endif; ?>
-              <li class="visible-desktop"><a href="#searchModal" role="button" data-toggle="modal"><i class="icon-search icon-large"></i></a></li>
+              <li class="visible-desktop"><a title="Lancer une recherche" href="#searchModal" role="button" data-toggle="modal"><i class="icon-search icon-large"></i></a></li>
               <li class="hidden-desktop">
                 <?php echo $this->Form->create("Post",array("action" => "search"));
                 echo $this->Form->input("keyword",array(
