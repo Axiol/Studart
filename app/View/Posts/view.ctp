@@ -18,14 +18,6 @@ echo $this->Session->flash(); ?>
       <iframe frameborder="0" height="500" width="580" allowFullScreen webkitallowfullscreen="true"  mozallowfullscreen="true" src="https://sketchfab.com/embed/<?php echo $post["Post"]["model"] ?>?autostart=1&transparent=0&autospin=0.2&controls=0&watermark=1" class="full-frame"></iframe>
     <?php } ?>
 
-    <?php 
-      // echo $this->Html->link(
-      //   $this->Html->image("posts/thumb-".substr($neighbors["prev"]["Post"]["image"],0,-4).".jpg", array("alt" => $neighbors["prev"]["Post"]["title"],"class" => "img-polaroid")),
-      //   array("action" => "view", "controller" => "posts", $neighbors["prev"]["Post"]["id"]),
-      //   array("escape" => false)
-      // );
-    ?>
-
     <div id="navPro" class="row">
       <div id="prevPro" class="span3">
         <?php if(isset($neighbors["prev"])){ ?>
