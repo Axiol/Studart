@@ -19,6 +19,7 @@
         <?php if($user["User"]["facebook"]): ?><a title="Voir son compte Facebook" href="https://www.facebook.com/<?php echo $user["User"]["facebook"] ?>"><li><i class="icon-facebook icon-large"></i> Facebook</li></a><?php endif; ?>
         <?php if($user["User"]["gplus"]): ?><a title="Voir son compte Google+" href="https://plus.google.com/<?php echo $user["User"]["gplus"] ?>/posts"><li><i class="icon-google-plus icon-large"></i> Google+</li></a><?php endif; ?>
         <?php if($user["User"]["github"]): ?><a title="Voir son compte GitHub" href="https://github.com/<?php echo $user["User"]["github"] ?>"><li><i class="icon-github icon-large"></i> Github</li></a><?php endif; ?>
+        <?php if($user["User"]["linkedin"]): ?><a title="Voir son compte LinkedIn" href="http://www.linkedin.com/profile/view?id=<?php echo $user["User"]["linkedin"] ?>"><li><i class="icon-linkedin icon-large"></i> LinkedIn</li></a><?php endif; ?>
         <?php if($user["User"]["website"]): ?><a title="Voir son site Web" href="<?php echo $user["User"]["website"] ?>" itemprop="url"><li><i class="icon-link icon-large"></i> Website</li></a><?php endif; ?>
         <a title="Lui envoyer un mail" href="mailto:<?php echo $user['User']['mail'] ?>"><li><i class="icon-envelope-alt icon-large"></i> Mail</li></a>
       </ul>

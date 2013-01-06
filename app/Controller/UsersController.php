@@ -131,8 +131,9 @@ class UsersController extends AppController{
           $passError = true;
         }
       }
-      if($this->User->save($d,true,array("firstname","lastname","password","description","local","twitter","facebook","gplus","website","github"))){
+      if($this->User->save($d,true,array("firstname","lastname","password","description","local","twitter","facebook","gplus","website","github","linkedin"))){
         $this->Session->setFlash("Votre compte a bien été édité","notif",array("type" => "alert-success"));
+        $this->redirect(array("controller" => "users", "action" => "view", $user_id));
       }else{
         $this->Session->setFlash("Impossible de sauvegarder votre compte","notif",array("type" => "alert-error"));
       }

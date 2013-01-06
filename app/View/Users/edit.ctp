@@ -98,6 +98,16 @@
           "between" => "<div class='controls'>",
           "after" => "</div>"
         ));
+        echo $this->Form->input("linkedin",array(
+          "div" => "control-group",
+          "class" => "input-xlarge",
+          "label" => array(
+            "class" => "control-label",
+            "text" => "LinkedIn : "
+          ),
+          "between" => "<div class='controls'>",
+          "after" => "</div>"
+        ));
         echo $this->Form->input("website",array(
           "div" => "control-group",
           "class" => "input-xlarge",
