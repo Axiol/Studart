@@ -52,6 +52,7 @@
                 <li><?php echo $this->Html->link("S'inscrire",array("action" => "signup","controller" => "users")); ?></li>
                 <li><?php echo $this->Html->link("Se connecter",array("action" => "login","controller" => "users")); ?></li>
               <?php endif; ?>
+              <li class="visible-desktop"><a href="#searchModal" role="button" data-toggle="modal"><i class="icon-search icon-large"></i></a></li>
               <li class="hidden-desktop">
                 <?php echo $this->Form->create("Post",array("action" => "search"));
                 echo $this->Form->input("keyword",array(
@@ -70,6 +71,43 @@
     <div class="container">
     
       <?php echo $this->fetch('content'); ?>
+
+      <div class="modal" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h3 id="myModalLabel">Faire une recherche</h3>
+        </div>
+        <div class="modal-body">
+          <?php
+            echo $this->Form->create("Post", array("url" => array("action" => "search", "id" => "searchForm")));
+
+            echo $this->Form->input("keyword",array(
+              "div" => "control-group",
+              "class" => "input-xlarge",
+              "id" => "modalKey",
+              "required" => "required",
+              "label" => array(
+                "class" => "control-label",
+                "text" => "Qu'elle est votre recherche : "
+              ),
+              "between" => "<div class='controls'>",
+              "after" => "</div>"
+            ));
+
+            echo $this->Form->end();
+          ?>
+          <p id="whatPro">Ou vous souhaitez peut-être faire une recherche pas tag ?</p>
+          <section>
+            <h1 class="hide">Faire une recherche par tag</h1>
+            <?php foreach ($Alltags as $tag): ?>
+              <a class="tagsWrap" href="<?php echo $this->Html->url(array('action' => 'tag', $tag['Tag']['name'])) ?>" title="Voir les autres posts ayant ce tag"><span class="tags"><?php echo $tag['Tag']["name"]." (".$tag['Tag']["count"].")"; ?></span></a>
+            <?php endforeach; ?>
+          </section>
+        </div>
+        <div class="modal-footer">
+          <button onclick="document.getElementById('PostIndexForm').submit();" class="btn btn-primary">Rechercher</button>
+        </div>
+      </div>
   
       <footer>
         <p>&copy; StudArt 2012</p>

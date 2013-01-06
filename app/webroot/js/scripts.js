@@ -2,6 +2,8 @@ $("#projectModal").modal({
   backdrop: false
 });
 $("#projectModal").modal("hide");
+$("#searchModal").modal();
+$("#searchModal").modal("hide");
 
 $(window).load(function(){
   if($(window).width() > 767){

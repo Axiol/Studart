@@ -47,5 +47,9 @@ class AppController extends Controller {
     if(!isset($this->request->params["prefix"])){
       $this->Auth->allow();
     }
+
+    $this->loadModel("PostTag");
+    $Alltags = $this->PostTag->Tag->find("all");
+    $this->set(compact("Alltags"));
   }
 }

@@ -13,16 +13,16 @@ echo $this->Session->flash(); ?>
 
 <section id="last" class="row">
   <h1>Les derniers posts</h1>
-  <?php echo $this->Form->create("Post",array("action" => "search", "id" => "searchForm", "class" => "visible-desktop"));
-  echo $this->Form->input("keyword",array(
-    "label" => array(
-      "class" => "hide",
-      "text" => "Recherche : "
-    ),
-    "type" => "search",
-    "placeholder" => "Recherche..."
-  ));
-  echo $this->Form->end(); ?>
+  <?php // echo $this->Form->create("Post",array("action" => "search", "id" => "searchForm", "class" => "visible-desktop"));
+  // echo $this->Form->input("keyword",array(
+  //   "label" => array(
+  //     "class" => "hide",
+  //     "text" => "Recherche : "
+  //   ),
+  //   "type" => "search",
+  //   "placeholder" => "Recherche..."
+  // ));
+  // echo $this->Form->end(); ?>
   <div id="lastWrap">
     <?php foreach ($posts as $post):
       echo $this->element("post", array("post" => $post["Post"], "likes" => $post["Like"], "user" => $post["User"]));

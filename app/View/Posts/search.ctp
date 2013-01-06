@@ -18,7 +18,7 @@
         <p>Il n'y a aucun résultats pour votre recherche.</p>
         <div>
           <p>Recherchez peut-être parmis les tags</p>
-          <?php foreach ($tags as $tag): ?>
+          <?php foreach ($Alltags as $tag): ?>
             <a class="tagsWrap" href="<?php echo $this->Html->url(array('action' => 'tag', $tag['Tag']['name'])) ?>" title="Voir les autres posts ayant ce tag"><span class="tags"><?php echo $tag['Tag']["name"]." (".$tag['Tag']["count"].")"; ?></span></a>
           <?php endforeach; ?>
         </div>
