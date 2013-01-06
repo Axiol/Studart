@@ -116,7 +116,7 @@
     </div>
      
     <?php
-      echo $this->Html->script(array('jquery-ck', 'isotope-ck', 'jquery.autocomplete-ck', 'bootstrap-modal-ck', 'bootstrap-dropdown-ck', 'bootstrap-tab-ck', 'bootstrap-button-ck', 'bootstrap-collapse-ck', 'bootstrap-typeahead-ck', 'scripts-ck'));
+      echo $this->Html->script(array('jquery-ck', 'isotope-ck', 'jquery.autocomplete-ck', 'bootstrap-alert-ck', 'bootstrap-modal-ck', 'bootstrap-dropdown-ck', 'bootstrap-tab-ck', 'bootstrap-button-ck', 'bootstrap-collapse-ck', 'bootstrap-typeahead-ck', 'scripts-ck'));
       if ($this->request->controller == "posts" && $this->request->action == "add") { ?>
         <script type="text/javascript">
           $(function(){
