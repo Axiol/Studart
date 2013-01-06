@@ -133,6 +133,7 @@ class PostsController extends AppController{
   function delTag($id) {
     $this->autoRender = false;
     $this->Post->PostTag->delete($id);
+    $this->redirect($this->referer());
   }
 
   function tag($name) {
