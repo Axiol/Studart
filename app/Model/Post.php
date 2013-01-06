@@ -63,7 +63,15 @@ class Post extends AppModel{
         if(!empty($tag)){
           $d = ($this->Tag->findByName($tag));
           if ($d != false) {
-            $this->Tag->id = $d["Tag"]["id"];
+            $pt = ($this->PostTag->find("first", array("conditions" => array(
+              "post_id" => $this->id,
+              "tag_id" => $d["Tag"]["id"]
+            ))));
+            if ($pt != false) {
+              continue;
+            } else {
+              $this->Tag->id = $d["Tag"]["id"];
+            }
           } else {
             $this->Tag->create();
             $this->Tag->save(array(
