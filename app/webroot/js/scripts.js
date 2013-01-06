@@ -13,9 +13,26 @@ $(window).load(function(){
 });
 
 $(function(){
-  $("span.delAja a").click(function(){
+  $("span.delAja a").click(function(e){
+    e.preventDefault();
     $.get($(this).attr("href"));
     $(this).parent().fadeOut();
+    return false;
+  });
+  $("li.liUnlike a.likeCTRL").click(function(e){
+    e.preventDefault();
+    $.get($(this).attr("href"));
+    $("li.liUnlike").addClass("hide");
+    $("li.liLike").removeClass("hide");
+    $("a.likeCount span").text(Number($("li.liUnlike a.likeCount span").text()) - 1);
+    return false;
+  });
+  $("li.liLike a.likeCTRL").click(function(e){
+    e.preventDefault();
+    $.get($(this).attr("href"));
+    $("li.liLike").addClass("hide");
+    $("li.liUnlike").removeClass("hide");
+    $("a.likeCount span").text(Number($("li.liLike a.likeCount span").text()) + 1);
     return false;
   });
   $('.sharePopup').click(function() {

@@ -79,18 +79,12 @@ echo $this->Session->flash(); ?>
       </p>
       <ul class="unstyled">
         <?php if(AuthComponent::user("id") && AuthComponent::user("id") != $post['Post']["user_id"]) {
-          echo $this->Form->create("Like", array("url" => array("controller" => "likes", "action" => "like")));
-          echo $this->Form->hidden("user_id",array(
-            "value" => AuthComponent::user("id")
-          ));
-          echo $this->Form->hidden("post_id",array(
-            "value" => $post["Post"]["id"]
-          ));
-          echo $this->Form->end();
           if($likeNot == false) { ?>        
-            <li><a href="" onclick="event.preventDefault(); document.getElementById('LikeViewForm').submit();" title="Liker ce post"><i class="icon-heart icon-large"></i> Je like ?</a><a href="<?php echo $this->Html->url(array("controller" => "posts", "action" => "whoLike", $post["Post"]["id"])); ?>" title="Voir les membres qui like ce post"><?php echo "<i class='icon-group icon-large'></i><span> ".count($post["Like"])." </span>likes" ?></a></li>
+            <li class="liLike"><a class="likeCTRL" href="<?php echo $this->Html->url(array('controller' => 'likes', 'action' => 'like', $post['Post']['id'])) ?>" title="Liker ce post"><i class="icon-heart icon-large"></i> Je like ?</a><a class="likeCount" href="<?php echo $this->Html->url(array("controller" => "posts", "action" => "whoLike", $post["Post"]["id"])); ?>" title="Voir les membres qui like ce post"><?php echo "<i class='icon-group icon-large'></i> <span>".count($post["Like"])."</span> likes" ?></a></li>
+            <li class="liUnlike hide"><a class="likeCTRL" href="<?php echo $this->Html->url(array('controller' => 'likes', 'action' => 'unlike', $post['Post']['id'])) ?>" title="Disliker ce post"><i class="icon-heart icon-large liked"></i> Je like !</a><a class="likeCount" href="<?php echo $this->Html->url(array("controller" => "posts", "action" => "whoLike", $post["Post"]["id"])); ?>" title="Voir les membres qui like ce post"><?php echo "<i class='icon-group icon-large'></i> <span>".count($post["Like"])."</span> likes" ?></a></li>
           <?php } else { ?>
-            <li><a href="<?php echo $this->Html->url(array('controller' => 'likes', 'action' => 'unlike', '?' => array('user_id' => AuthComponent::user("id"), 'post_id' => $post['Post']['id']))) ?>" title="Disliker ce post"><i class="icon-heart icon-large liked"></i> Je like !</a><a href="<?php echo $this->Html->url(array("controller" => "posts", "action" => "whoLike", $post["Post"]["id"])); ?>" title="Voir les membres qui like ce post"><?php echo "<i class='icon-group icon-large'></i><span> ".count($post["Like"])." </span>likes" ?></a></li>
+            <li class="liUnlike"><a class="likeCTRL" href="<?php echo $this->Html->url(array('controller' => 'likes', 'action' => 'unlike', $post['Post']['id'])) ?>" title="Disliker ce post"><i class="icon-heart icon-large liked"></i> Je like !</a><a class="likeCount" href="<?php echo $this->Html->url(array("controller" => "posts", "action" => "whoLike", $post["Post"]["id"])); ?>" title="Voir les membres qui like ce post"><?php echo "<i class='icon-group icon-large'></i> <span>".count($post["Like"])."</span> likes" ?></a></li>
+            <li class="liLike hide"><a class="likeCTRL" href="<?php echo $this->Html->url(array('controller' => 'likes', 'action' => 'like', $post['Post']['id'])) ?>" title="Liker ce post"><i class="icon-heart icon-large"></i> Je like ?</a><a class="likeCount" href="<?php echo $this->Html->url(array("controller" => "posts", "action" => "whoLike", $post["Post"]["id"])); ?>" title="Voir les membres qui like ce post"><?php echo "<i class='icon-group icon-large'></i> <span>".count($post["Like"])."</span> likes" ?></a></li>            
           <?php } ?>
         <?php } else { ?>
           <a href="<?php echo $this->Html->url(array("controller" => "posts", "action" => "whoLike", $post["Post"]["id"])); ?>" title="Voir les membres qui like ce post"><li><i class="icon-heart icon-large"></i> <?php echo count($post["Like"]) ?> likes</li></a>
