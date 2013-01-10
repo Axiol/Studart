@@ -877,6 +877,7 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 .invisible{visibility:hidden;}
 .affix{position:fixed;}
 div.alert p:last-child{margin-bottom:0;}
+div.alert-info a{color:#333;}
 body{padding-top:75px;background:url("../img/bg.png");background-attachment:fixed;}body div.navbar a.brand{padding-left:65px;background:url("../img/logo.png") no-repeat transparent;background-position:20px 12px;}
 body div.navbar ul.pull-right img{margin-top:-7px;margin-right:5px;border:1px solid;}
 body div.navbar ul.pull-right span.alert-msg{padding:5px 9px;border:1px solid #ff0101;background:#f20000;color:#ffffff;text-shadow:none;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}

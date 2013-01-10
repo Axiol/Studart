@@ -68,6 +68,13 @@
     </div>
     
     <div class="container">
+      
+      <?php if(!AuthComponent::user("id")): ?>
+        <div class="alert alert-info">
+          <button type="button" class="close" data-dismiss="alert">×</button>
+          <p>StudArt est une communaté pour graphistes amateurs. N'hésitez pas à venir vous <?php echo $this->Html->link("inscrire", array('controller' => 'users', 'action' => 'signup')); ?></p>
+        </div>
+      <?php endif; ?>
     
       <?php echo $this->fetch('content'); ?>
 
