@@ -118,7 +118,7 @@ echo $this->Session->flash(); ?>
                 );
               } elseif ($post["User"]["Post"][$i]["model"] != "") {
                 echo $this->Html->link(
-                  $this->Html->image("https://sketchfab.com/urls/".$post['Post'][$i]['model']."/thumbnail_854.png", array("alt" => $post["User"]["Post"][$i]["title"],"class" => "img-polaroid")),
+                  $this->Html->image("https://sketchfab.com/urls/".$post['User']['Post'][$i]['model']."/thumbnail_854.png", array("alt" => $post["User"]["Post"][$i]["title"],"class" => "img-polaroid")),
                   array("action" => "view", "controller" => "posts", $post["User"]["Post"][$i]["id"]),
                   array("escape" => false)
                 );
