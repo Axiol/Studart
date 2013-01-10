@@ -963,10 +963,10 @@ body div.container div#profil-intro section#lastPro{margin-top:25px;margin-botto
 body div.container div#profil-intro section#lastPro div.row section.infoPro{margin-left:30px;padding:0 0 1px 10px;background:#eeeeee;}body div.container div#profil-intro section#lastPro div.row section.infoPro>h1{margin-left:0;font-size:24px;}
 body div.container div#profil-intro section#lastPro div.row section.infoPro a{margin-right:10px;color:#444;}body div.container div#profil-intro section#lastPro div.row section.infoPro a img{width:100px;margin-bottom:10px;}body div.container div#profil-intro section#lastPro div.row section.infoPro a img.dddPro{height:75px;}
 body div.container form#PostAddForm div#visuForm img{width:275px;}
-body div.container div.autocomplete-w1{background:url(img/shadow.png) no-repeat bottom right;position:absolute;top:0px;left:0px;margin:6px 0 0 6px;_background:none;_margin:1px 0 0 0;}
-body div.container div.autocomplete{border:1px solid #999;background:#FFF;width:282px !important;cursor:default;text-align:left;max-height:350px;overflow:auto;margin:-2px 6px 6px 0;_height:350px;_margin:0;_overflow-x:hidden;}
-body div.container div.autocomplete .selected{background:#F0F0F0;}
-body div.container div.autocomplete div{padding:2px 5px;white-space:nowrap;overflow:hidden;}
-body div.container div.autocomplete strong{font-weight:normal;color:#9FD71C;}
+body div.autocomplete-w1{background:url(img/shadow.png) no-repeat bottom right;position:absolute;top:0px;left:0px;margin:6px 0 0 6px;_background:none;_margin:1px 0 0 0;}
+body div.autocomplete{border:1px solid #999;background:#FFF;width:282px !important;cursor:default;text-align:left;max-height:350px;overflow:auto;margin:-2px 6px 6px 0;_height:350px;_margin:0;_overflow-x:hidden;}
+body div.autocomplete .selected{background:#F0F0F0;}
+body div.autocomplete div{padding:2px 5px;white-space:nowrap;overflow:hidden;}
+body div.autocomplete strong{font-weight:normal;color:#9FD71C;}
 body div#projectModal{outline:none;}body div#projectModal p#whatPro{color:#999999;}
 @media (min-width:1200px){article.post div.previsu img{height:202px !important;} div#navPro img.dddNav{height:52px !important;}}@media (min-width:768px) and (max-width:979px){article.post div.previsu img{height:124px !important;} div#navPro img.dddNav{height:31px !important;}}@media (max-width:767px){section#last>h1,div#posts>h1,section#popu>h1{margin-left:0 !important;} article.post div.previsu img{height:auto !important;} div#navPro div#prevPro{width:20%;float:left;position:relative;}div#navPro div#prevPro img.arrow{position:absolute;width:60% !important;top:15px;left:15px;} div#navPro div#nextPro{width:20%;float:right;position:relative;}div#navPro div#nextPro img.arrow{position:absolute;width:60% !important;top:15px;right:3px;} section#self img.avatar{width:50%;margin-left:25%;} section#lastPro div.row section.infoPro{margin-left:0 !important;}}section.userLike div.whatUser{text-align:left !important;}section.userLike div.whatUser img{margin-left:0 !important;margin-right:10px !important;}
