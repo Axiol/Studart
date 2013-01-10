@@ -110,11 +110,19 @@ echo $this->Session->flash(); ?>
         if(isset($post["User"]["Post"][$i])){ ?>
           <div class="span1">
             <?php 
-              echo $this->Html->link(
-                $this->Html->image("posts/thumb-".substr($post["User"]["Post"][$i]["image"],0,-4).".jpg", array("alt" => $post["User"]["Post"][$i]["title"],"class" => "img-polaroid")),
-                array("action" => "view", "controller" => "posts", $post["User"]["Post"][$i]["id"]),
-                array("escape" => false)
-              );
+              if ($post["User"]["Post"][$i]["image"] != "") {
+                echo $this->Html->link(
+                  $this->Html->image("posts/thumb-".substr($post["User"]["Post"][$i]["image"],0,-4).".jpg", array("alt" => $post["User"]["Post"][$i]["title"],"class" => "img-polaroid")),
+                  array("action" => "view", "controller" => "posts", $post["User"]["Post"][$i]["id"]),
+                  array("escape" => false)
+                );
+              } elseif ($post["User"]["Post"][$i]["model"] != "") {
+                echo $this->Html->link(
+                  $this->Html->image("https://sketchfab.com/urls/".$post['Post'][$i]['model']."/thumbnail_854.png", array("alt" => $post["User"]["Post"][$i]["title"],"class" => "img-polaroid")),
+                  array("action" => "view", "controller" => "posts", $post["User"]["Post"][$i]["id"]),
+                  array("escape" => false)
+                );
+              }
             ?>
           </div>
         <?php }
